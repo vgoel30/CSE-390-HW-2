@@ -1,18 +1,30 @@
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStream;
 import java.io.PrintWriter;
+import java.io.StringWriter;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
 
+import javax.json.Json;
 import javax.json.JsonArray;
+import javax.json.JsonArrayBuilder;
 import javax.json.JsonNumber;
+import javax.json.JsonObject;
 import javax.json.JsonString;
+import javax.json.JsonWriter;
+import javax.json.JsonWriterFactory;
+import javax.json.stream.JsonGenerator;
 
 public class FrequencyTagger {
 
 
 	public static void main(String[] args) throws IOException {
+		//the word and tag pair obtained after parsing the JSON file
 		TreeMap<String,String> wordAndTagMap = new TreeMap<String,String>();
 
 		//PARSING TEST FILE
@@ -57,7 +69,7 @@ public class FrequencyTagger {
 		String toWrite = "";
 
 		//keep track of the tags that we have a;ready assigned. Useful for lower-case and upper-case tag assigning
-		TreeMap<String, String> wordsAndPredictedTags = new TreeMap<String, String>();
+		HashMap<String, String> wordsAndPredictedTags = new HashMap<String, String>();
 
 		String previousTag = "";
 		for(int i = 0; i < totalWords; i++){
@@ -86,13 +98,13 @@ public class FrequencyTagger {
 			if(tagAndWordProbability.isEmpty()){
 				String tag = TaggerMethods.handleNewWord(currentWord,previousTag,wordAndTagMap,wordsAndPredictedTags);
 				wordsAndPredictedTags.put(currentWord, tag);
-				toWrite += tag + ":	" + currentWord + "\n";
+				//toWrite += tag + ":	" + currentWord + "\n";
 			}
 			else{
 				String couple = tagAndWordProbability.get(tagAndWordProbability.lastKey());
 				String tag = couple.split("[+]")[0];
 				String word = couple.split("[+]")[1];
-				toWrite += couple + "\n";
+				//toWrite += couple + "\n";
 				//put the word and it's predicted tag into the map
 				wordsAndPredictedTags.put(word.toLowerCase(), tag);
 				//assign tag to previous tag
@@ -100,9 +112,36 @@ public class FrequencyTagger {
 			}
 
 		}
-		myScanner.print(toWrite);
-		myScanner.close();
+//		myScanner.print(toWrite);
+//		myScanner.close();
 
+		StringWriter sw = new StringWriter();
+
+		Map<String, Object> properties = new HashMap<>(1);
+		properties.put(JsonGenerator.PRETTY_PRINTING, true);
+		JsonWriterFactory writerFactory = Json.createWriterFactory(properties);
+		JsonWriter jsonWriter = writerFactory.createWriter(sw);
+
+		JsonArrayBuilder arrayBuilder = Json.createArrayBuilder();
+		JSONMethods.generateWordTagJsonArray(wordsAndPredictedTags, arrayBuilder);
+		JsonArray predictedTags = arrayBuilder.build();
+
+		// THEN PUT IT ALL TOGETHER IN A JsonObject
+		JsonObject dataManagerJSO = Json.createObjectBuilder()
+				.add("Predicted Tags", predictedTags)
+				.build();
+
+		// AND NOW OUTPUT IT TO A JSON FILE WITH PRETTY PRINTING
+		jsonWriter.writeObject(dataManagerJSO);
+		jsonWriter.close();
+		// INIT THE WRITER
+		OutputStream os = new FileOutputStream("predicted-tags.json");
+		JsonWriter jsonFileWriter = Json.createWriter(os);
+		jsonFileWriter.writeObject(dataManagerJSO);
+		String prettyPrinted = sw.toString();
+		PrintWriter pw = new PrintWriter("predicted-tags.json");
+		pw.write(prettyPrinted);
+		pw.close();
 
 	}
 

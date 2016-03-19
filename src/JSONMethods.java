@@ -2,6 +2,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
+import java.util.TreeMap;
 
 import javax.json.Json;
 import javax.json.JsonArrayBuilder;
@@ -10,18 +11,18 @@ import javax.json.JsonReader;
 
 
 public class JSONMethods {
-	
+
 	//loads the contents of a JSON file
 	public static JsonObject loadJSONFile(String jsonFilePath) throws IOException {
-        InputStream is = new FileInputStream(jsonFilePath);
-        JsonReader jsonReader = Json.createReader(is);
-        JsonObject json = jsonReader.readObject();
-        jsonReader.close();
-        is.close();
-        //System.out.println(json);
-        return json;
-    }
-	
+		InputStream is = new FileInputStream(jsonFilePath);
+		JsonReader jsonReader = Json.createReader(is);
+		JsonObject json = jsonReader.readObject();
+		jsonReader.close();
+		is.close();
+		//System.out.println(json);
+		return json;
+	}
+
 	//make a json array for word and tag 
 	public static void generateWordTagJsonArray(HashMap<String, String> map, JsonArrayBuilder arrayBuilder){
 		for(String key: map.keySet()){
@@ -29,7 +30,7 @@ public class JSONMethods {
 			arrayBuilder.add(toAdd);
 		}
 	}
-	
+
 	public static JsonObject makeWordTagObject(HashMap<String, String> map, String key){
 		JsonObject jso = Json.createObjectBuilder().add(key,map.get(key)).build();
 		return jso;
@@ -86,7 +87,7 @@ public class JSONMethods {
 		JsonObject jso = Json.createObjectBuilder().add(key, Estimations.emissionLaplace(key, tagFrequency, tagWordCouple)).build();
 		return jso;
 	}
-	
+
 	//make a json array for the unigram laplace probability of a tag
 	public static void generateUnigramLaplaceArray(HashMap<String, Double> map,JsonArrayBuilder arrayBuilder,int totalSize){
 		for(String tag: map.keySet()){
@@ -94,7 +95,7 @@ public class JSONMethods {
 			arrayBuilder.add(toAdd);
 		}
 	}
-	
+
 	public static JsonObject makeUnigramLaplaceObject(String tag, HashMap<String, Double> map, int totalSize){
 		JsonObject jso = Json.createObjectBuilder().add(tag, Estimations.tagUnigramLaplace(tag, map,totalSize)).build();
 		return jso;
