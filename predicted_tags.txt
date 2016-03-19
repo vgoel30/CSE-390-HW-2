@@ -1,0 +1,5251 @@
+"RB":	Soon
+,+,
+NNPS:	T-shirts
+-NONE-+*ICH*-1
+VBD+appeared
+IN+in
+DT+the
+NNS:	corridors
+WDT+that
+-NONE-+*T*-2
+VBN+carried
+DT+the
+NN+school
+POS+'s
+JJ:	familiar
+VB:	red-and-white
+NNP:	GHS
+<unk>:	logo
+RP+on
+DT+the
+NN+front
+.+.
+IN+On
+DT+the
+VB+back
+,+,
+DT+the
+NNS:	shirts
+VBP+read
+,+,
+``+``
+PRP+We
+VBP+have
+PDT+all
+DT+the
+NNS+answers
+.+.
+''+''
+JJ+Many
+NNS+colleagues
+VBP+are
+RB:	angry
+IN+at
+NNP+Mrs.
+NNP+Yeargin
+.+.
+``+``
+PRP+She
+VBD+did
+DT+a
+NN+lot
+IN+of
+<unk>:	harm
+,+,
+''+''
+VBZ+says
+-NONE-+*T*-1
+NNP+Cathryn
+NNP+Rice
+,+,
+WP+who
+-NONE-:	*T*-100
+VBD+had
+VBN+discovered
+DT+the
+JJ+crib
+NNS+notes
+.+.
+``+``
+PRP+We
+VB+work
+RB:	damn
+RB+hard
+IN+at
+WP+what
+PRP+we
+VBP+do
+-NONE-:	*T*-101
+IN+for
+RB:	damn
+JJ+little
+VB+pay
+,+,
+CC+and
+WP+what
+PRP+she
+VBD+did
+-NONE-+*T*-1
+VBN+cast
+JJ+unfair
+NNS:	aspersions
+RP+on
+PDT+all
+IN+of
+PRP+us
+.+.
+''+''
+CC+But
+JJ+several
+NNS+teachers
+RB+also
+VBP+say
+-NONE-+0
+DT+the
+<unk>:	incident
+VBZ+casts
+RB:	doubt
+RP+on
+DT+the
+<unk>:	wisdom
+IN+of
+-NONE-+*
+VBG:	evaluating
+NNS+teachers
+CC+or
+NNS+schools
+IN+by
+-NONE-+*
+VBG+using
+JJ+standardized
+NN+test
+NNS+scores
+.+.
+VBZ+Says
+-NONE-+*ICH*-1
+NNP:	Gayle
+"NN":	Key
+,+,
+DT+a
+NNS:	mathematics
+NN+teacher
+,+,
+``+``
+DT+The
+NN+incentive
+VB+pay
+NN+thing
+VBZ+has
+VBD+opened
+RP+up
+DT+a
+MD+can
+IN+of
+NNS:	worms
+.+.
+EX+There
+MD+may
+VB+be
+NNS+others
+VBG+doing
+WP+what
+PRP+she
+VBD+did
+-NONE-+*T*-1
+.+.
+''+''
+NNP+Mrs.
+NNP+Yeargin
+VBZ+says
+-NONE-+0
+PRP+she
+VBD+pleaded
+JJ+guilty
+IN+because
+PRP+she
+VBN:	realized
+-NONE-+0
+PRP+it
+-NONE-+*EXP*-2
+MD+would
+DT+no
+RBR+longer
+VB+be
+JJ+possible
+-NONE-+*-1
+TO+to
+VB+win
+RB:	reinstatement
+,+,
+CC+and
+IN+because
+PRP+she
+VBD+was
+RB:	afraid
+IN+of
+RBR+further
+NNS+charges
+.+.
+NNP+Mrs.
+NNP+Ward
+,+,
+IN+for
+CD+one
+,+,
+VBD+was
+JJ:	relieved
+.+.
+IN+Despite
+DT+the
+JJ+strong
+NN+evidence
+IN+against
+NNP+Mrs.
+NNP+Yeargin
+,+,
+JJ+popular
+VB:	sentiment
+-NONE-+*ICH*-1
+VBD+was
+RB+so
+JJ+strong
+-NONE-+*ICH*-3
+IN+in
+PRP$+her
+VB:	favor
+,+,
+NNP+Mrs.
+NNP+Ward
+VBZ+says
+-NONE-+0
+-NONE-+*T*-2
+,+,
+WDT+that
+``+``
+PRP+I
+VBP+'m
+RB:	afraid
+-NONE-+0
+DT+a
+<unk>:	jury
+MD+would
+RB+n't
+VBP+have
+VBN+convicted
+PRP$+her
+.+.
+IN+Since
+<unk>:	chalk
+JJ+first
+VBN:	touched
+VB:	slate
+,+,
+<unk>:	schoolchildren
+VBP+have
+VBD+wanted
+-NONE-+*-1
+TO+to
+VBP+know
+:+:
+WP+What
+POS+'s
+-NONE-+*T*-2
+RP+on
+DT+the
+NN+test
+.+?
+DT+These
+NNS+days
+,+,
+NNS+students
+MD+can
+RB+often
+VBP+find
+DT+the
+<unk>:	answer
+IN+in
+JJ+test-coaching
+NNS:	workbooks
+CC+and
+NNS:	worksheets
+-NONE-+0
+PRP$+their
+NNS+teachers
+VBP+give
+PRP+them
+-NONE-+*T*-1
+IN+in
+DT+the
+NNS+weeks
+"RB":	prior
+TO+to
+-NONE-+*
+VBG+taking
+JJ+standardized
+NN+achievement
+NNS+tests
+.+.
+DT+The
+NNS:	mathematics
+NN+section
+IN+of
+DT+the
+RB:	widely
+VBN+used
+NNP+California
+"NN":	Achievement
+NNP+Test
+VBZ+asks
+JJ+fifth
+NNS+graders
+:+:
+``+``
+WP+What
+VBZ+is
+-NONE-+*T*-1
+DT+another
+VB+name
+IN+for
+DT+the
+NNP:	Roman
+<unk>:	numeral
+NNP:	IX
+.+?
+''+''
+PRP+It
+RB+also
+VBZ+asks
+PRP+them
+-NONE-+*-1
+TO+to
+VB:	add
+NNS:	two-sevenths
+CC+and
+NNS:	three-sevenths
+.+.
+NNPS:	Worksheets
+IN+in
+DT+a
+<unk>:	test-practice
+<unk>:	kit
+VBN+called
+-NONE-+*
+NNP+Learning
+NNPS+Materials
+,+,
+VBN+sold
+-NONE-+*
+TO+to
+NNS+schools
+RP+across
+DT+the
+NN+country
+IN+by
+McGraw-Hill+Macmillan\
+NNP+School
+NNP+Publishing
+NNP+Co.
+,+,
+VB+contain
+DT+the
+JJ+same
+NNS+questions
+.+.
+IN+In
+JJ+many
+JJ+other
+NNS:	instances
+,+,
+EX+there
+VBZ+is
+RB+almost
+DT+no
+NN+difference
+IN+between
+DT+the
+JJ+real
+NN+test
+CC+and
+NNP+Learning
+NNPS+Materials
+.+.
+WP+What
+-NONE-:	*T*-102
+POS+'s
+RBR+more
+,+,
+DT+the
+NN+test
+CC+and
+NNP+Learning
+NNPS+Materials
+VBP+are
+DT+both
+VBN+produced
+-NONE-+*-1
+IN+by
+DT+the
+JJ+same
+NN+company
+,+,
+McGraw-Hill+Macmillan\
+,+,
+DT+a
+JJ+joint
+NN+venture
+IN+of
+NNP+McGraw-Hill
+NNP+Inc.
+CC+and
+NNP+Macmillan
+POS+'s
+<unk>:	parent
+,+,
+NNP:	Britain
+POS+'s
+NNP+Maxwell
+NNP:	Communication
+NNP+Corp
+.+.
+"VB":	Close
+NNS:	parallels
+IN+between
+NNS+tests
+CC+and
+NN+practice
+NNS+tests
+VBP+are
+JJ+common
+,+,
+DT+some
+NNS+educators
+CC+and
+NNS+researchers
+VBP+say
+-NONE-+0
+-NONE-+*T*-1
+.+.
+NNP:	Test-preparation
+NNS+booklets
+,+,
+NN+software
+CC+and
+NNS:	worksheets
+VBP+are
+DT+a
+VBG+booming
+VBG+publishing
+RB:	subindustry
+.+.
+CC+But
+DT+some
+NN+practice
+NNS+products
+VBP+are
+RB+so
+JJ+similar
+TO+to
+DT+the
+NNS+tests
+PRP+themselves
+WDT+that
+"NNS":	critics
+VBP+say
+-NONE-+0
+PRP+they
+VBP+represent
+DT+a
+NN+form
+IN+of
+VBN:	school-sponsored
+NN+cheating
+.+.
+``+``
+IN+If
+PRP+I
+VBD+took
+-LRB-+-LCB-
+DT+these
+NN+preparation
+NNS+booklets
+-RRB-+-RCB-
+IN+into
+PRP$+my
+NN+classroom
+,+,
+PRP+I
+MD+'d
+VBP+have
+DT+a
+RB+hard
+NN+time
+-NONE-+*-1
+VBG:	justifying
+TO+to
+PRP$+my
+NNS+students
+CC+and
+NNS+parents
+WDT+that
+PRP+it
+VBD+was
+RB+n't
+NN+cheating
+,+,
+''+''
+VBZ+says
+-NONE-+*T*-2
+NNP+John
+NNP:	Kaminski
+,+,
+DT+a
+NNP:	Traverse
+NNP+City
+,+,
+NNP:	Mich.
+,+,
+NN+teacher
+WP+who
+-NONE-:	*T*-103
+VBZ+has
+VBN+studied
+NN+test
+VBG:	coaching
+.+.
+PRP+He
+CC+and
+JJ+other
+"NNS":	critics
+VBP+say
+-NONE-+0
+JJ+such
+VBG:	coaching
+"NNP":	aids
+MD+can
+NN+defeat
+DT+the
+NN+purpose
+IN+of
+JJ+standardized
+NNS+tests
+,+,
+WDT+which
+-NONE-:	*T*-104
+VBZ+is
+-NONE-+*
+TO+to
+VB:	gauge
+NNP:	learning
+NN+progress
+.+.
+``+``
+PRP+It
+POS+'s
+IN+as
+IN+if
+NNP+France
+VBD+decided
+-NONE-+*-1
+TO+to
+VBP+give
+RB+only
+JJ+French
+NN+history
+NNS+questions
+TO+to
+NNS+students
+IN+in
+DT+a
+JJ+European
+NN+history
+NN+class
+,+,
+CC+and
+WRB+when
+"NN":	everybody
+NNS:	aces
+DT+the
+NN+test
+-NONE-+*T*-3
+,+,
+PRP+they
+VBP+say
+-NONE-+0
+PRP$+their
+NNS+kids
+VBP+are
+JJ+good
+IN+in
+JJ+European
+NN+history
+,+,
+''+''
+VBZ+says
+-NONE-+*T*-2
+NNP+John
+NNP+Cannell
+,+,
+DT+an
+NNP+Albuquerque
+,+,
+NNP+N.M.
+,+,
+<unk>:	psychiatrist
+CC+and
+NN+founder
+IN+of
+DT+an
+JJ+educational
+NN+research
+NN+organization
+,+,
+NNPS+Friends
+IN+for
+NNP+Education
+,+,
+WDT+which
+-NONE-:	*T*-105
+VBZ+has
+VBN+studied
+JJ+standardized
+NN+testing
+.+.
+"JJ":	Standardized
+NN+achievement
+NNS+tests
+VBP+are
+VBN+given
+-NONE-+*-1
+IN+about
+CD+10
+CD+million
+NNS+times
+DT+a
+NN+year
+RP+across
+DT+the
+NN+country
+TO+to
+NNS+students
+RB+generally
+IN+from
+<unk>:	kindergarten
+IN+through
+JJ:	eighth
+<unk>:	grade
+.+.
+DT+The
+RBS+most
+RB:	widely
+VBN+used
+IN+of
+DT+these
+NNS+tests
+VBP+are
+McGraw-Hill+Macmillan\
+POS+'s
+NNP:	CAT
+CC+and
+JJ+Comprehensive
+NNP+Test
+IN+of
+JJ+Basic
+NNS+Skills
+:+;
+DT+the
+NNP:	Iowa
+NNP+Test
+IN+of
+JJ+Basic
+NNS+Skills
+,+,
+IN+by
+NNP:	Houghton
+NNP:	Mifflin
+NNP+Co.
+:+;
+CC+and
+NNP:	Harcourt
+NNP:	Brace
+NNP:	Jovanovich
+NNP+Inc.
+POS+'s
+NNP:	Metropolitan
+"NN":	Achievement
+NNP+Test
+CC+and
+NNP+Stanford
+"NN":	Achievement
+NNP+Test
+.+.
+NNS+Sales
+NNS+figures
+IN+of
+DT+the
+<unk>:	test-prep
+NNS+materials
+VBP+are
+RB+n't
+VBN+known
+-NONE-+*-1
+,+,
+CC+but
+PRP$+their
+VB+reach
+IN+into
+NNS+schools
+VBZ+is
+JJ+significant
+.+.
+IN+In
+NNP:	Arizona
+,+,
+NNP+California
+,+,
+NNP:	Florida
+,+,
+NNP:	Louisiana
+,+,
+NNP:	Maryland
+,+,
+NNP+New
+NNP+Jersey
+,+,
+NNP+South
+NNP+Carolina
+CC+and
+NNP+Texas
+,+,
+NNS+educators
+VBP+say
+-NONE-+0
+PRP+they
+VBP+are
+JJ+common
+NN+classroom
+NNS:	tools
+.+.
+McGraw-Hill+Macmillan\
+VBZ+says
+-NONE-+0
+``+``
+RB+well
+RP+over
+CD+10
+CD+million
+''+''
+IN+of
+PRP$+its
+NNP+Scoring
+NNP+High
+<unk>:	test-preparation
+NNS+books
+VBP+have
+VBN+been
+VBN+sold
+-NONE-+*-1
+IN+since
+PRP$+their
+NN+introduction
+CD+10
+NNS+years
+RB+ago
+,+,
+IN+with
+RBS+most
+NNS+sales
+IN+in
+DT+the
+JJ+last
+CD+five
+NNS+years
+.+.
+IN+About
+CD+20,000
+VBZ+sets
+IN+of
+NNP+Learning
+NNPS+Materials
+NNS+teachers
+POS+'
+NNS:	binders
+VBP+have
+RB+also
+VBN+been
+VBN+sold
+-NONE-+*-1
+IN+in
+DT+the
+JJ+past
+CD+four
+NNS+years
+.+.
+DT+The
+NNS+materials
+IN+in
+DT+each
+VBN+set
+VB+reach
+IN+about
+CD+90
+NNS+students
+.+.
+NNP+Scoring
+NNP+High
+CC+and
+NNP+Learning
+NNPS+Materials
+VBP+are
+DT+the
+VBG:	best-selling
+NN+preparation
+NNS+tests
+.+.
+NNP+Michael
+NNP:	Kean
+,+,
+NN+director
+IN+of
+VBG+marketing
+IN+for
+NNP:	CTB
+McGraw-Hill+Macmillan\
+,+,
+DT+the
+McGraw-Hill+Macmillan\
+NN+division
+WDT+that
+-NONE-:	*T*-106
+NNS:	publishes
+NNP+Learning
+NNPS+Materials
+,+,
+VBZ+says
+-NONE-+0
+PRP+it
+VBZ+is
+RB+n't
+VBN:	aimed
+-NONE-+*-1
+IN+at
+-NONE-+*
+VBG:	improving
+NN+test
+NNS+scores
+.+.
+PRP+He
+RB+also
+VBD+asserted
+WDT+that
+JJ+exact
+NNS+questions
+VBD+were
+RB+n't
+VBN:	replicated
+-NONE-+*-1
+.+.
+WRB+When
+-NONE-+*
+VBN:	referred
+-NONE-+*-2
+TO+to
+DT+the
+NNS+questions
+WDT+that
+-NONE-:	*T*-107
+VBD+matched
+-NONE-+*T*-1
+,+,
+PRP+he
+VBD+said
+-NONE-+0
+PRP+it
+VBD+was
+RB:	coincidental
+.+.
+NNP+Mr.
+NNP:	Kaminski
+,+,
+DT+the
+<unk>:	schoolteacher
+,+,
+CC+and
+NNP+William
+NNPS:	Mehrens
+,+,
+DT+a
+NNP:	Michigan
+NNP+State
+NNP+University
+NN+education
+NN+professor
+,+,
+VBD+concluded
+IN+in
+DT+a
+VBP+study
+JJ+last
+NNP+June
+WDT+that
+NNP:	CAT
+NN+test
+NNS+versions
+IN+of
+NNP+Scoring
+NNP+High
+CC+and
+NNP+Learning
+NNPS+Materials
+MD+should
+RB+n't
+VB+be
+VBN+used
+-NONE-+*-2
+IN+in
+DT+the
+NN+classroom
+IN+because
+IN+of
+PRP$+their
+<unk>:	similarity
+TO+to
+DT+the
+JJ+actual
+NN+test
+.+.
+PRP+They
+VBN:	devised
+DT+a
+JJ:	69-point
+<unk>:	scale
+:+--
+-NONE-+*-1
+VBG:	awarding
+CD+one
+NN+point
+IN+for
+DT+each
+<unk>:	subskill
+VBN:	measured
+-NONE-+*
+RP+on
+DT+the
+NNP:	CAT
+NN+test
+:+--
+-NONE-+*-1
+TO+to
+NN+rate
+DT+the
+NNS:	closeness
+IN+of
+NN+test
+NNS:	preparatives
+TO+to
+DT+the
+<unk>:	fifth-grade
+NNP:	CAT
+.+.
+IN+Because
+JJ+many
+IN+of
+DT+these
+NNS:	subskills
+:+--
+DT+the
+<unk>:	symmetry
+IN+of
+<unk>:	geometrical
+NNS+figures
+,+,
+<unk>:	metric
+<unk>:	measurement
+IN+of
+<unk>:	volume
+,+,
+CC+or
+<unk>:	pie
+CC+and
+<unk>:	bar
+NNS:	graphs
+,+,
+IN+for
+NN+example
+:+--
+VBP+are
+RB+only
+DT+a
+JJ+small
+NN+part
+IN+of
+DT+the
+VBP+total
+<unk>:	fifth-grade
+NN+curriculum
+,+,
+NNP+Mr.
+NNP:	Kaminski
+VBZ+says
+-NONE-+0
+-NONE-+*T*-1
+,+,
+DT+the
+NN+preparation
+NNS:	kits
+MD+would
+RB+n't
+VB:	replicate
+RB+too
+JJ+many
+,+,
+IN+if
+PRP$+their
+JJ+real
+<unk>:	intent
+VBD+was
+JJ+general
+NN+instruction
+CC+or
+RB+even
+JJ+general
+<unk>:	familiarization
+IN+with
+NN+test
+NNS+procedures
+.+.
+CC+But
+NNP+Learning
+NNPS+Materials
+VBD+matched
+RP+on
+CD:	66.5
+IN+of
+CD:	69
+NNS:	subskills
+.+.
+NNP+Scoring
+NNP+High
+VBD+matched
+RP+on
+CD:	64.5
+.+.
+IN+In
+NNP:	CAT
+NNS+sections
+WRB+where
+NNS+students
+POS+'
+<unk>:	knowledge
+IN+of
+<unk>:	two-letter
+<unk>:	consonant
+NNS:	sounds
+VBZ+is
+VBN+tested
+-NONE-+*-1
+-NONE-+*T*-2
+,+,
+DT+the
+NNS+authors
+VBD+noted
+WDT+that
+NNP+Scoring
+NNP+High
+VBD+concentrated
+RP+on
+DT+the
+JJ+same
+NNS:	sounds
+WDT+that
+DT+the
+NN+test
+VBZ+does
+-NONE-+*?*
+-NONE-+*T*-4
+:+--
+TO+to
+DT+the
+<unk>:	exclusion
+IN+of
+JJ+other
+NNS:	sounds
+WDT+that
+JJ+fifth
+NNS+graders
+MD+should
+VBP+know
+-NONE-+*T*-3
+.+.
+NNP+Learning
+NNPS+Materials
+IN+for
+DT+the
+<unk>:	fifth-grade
+NNS:	contains
+IN+at
+JJS+least
+DT+a
+NN+dozen
+NNS:	examples
+IN+of
+JJ+exact
+NNS:	matches
+CC+or
+VB+close
+NNS:	parallels
+TO+to
+NN+test
+"NNS":	items
+.+.
+NNP:	Rick
+NNP:	Brownell
+,+,
+JJ+senior
+NN+editor
+IN+of
+NNP+Scoring
+NNP+High
+,+,
+VBZ+says
+WDT+that
+NNP+Messrs.
+NNP:	Kaminski
+CC+and
+NNPS:	Mehrens
+VBP+are
+VBG:	ignoring
+``+``
+DT+the
+VBN:	need
+-NONE-+0
+NNS+students
+VBP+have
+-NONE-+*T*-1
+IN+for
+-NONE-+*
+VBG+becoming
+JJ:	familiar
+IN+with
+NNS+tests
+CC+and
+NN+testing
+<unk>:	format
+.+.
+''+''
+PRP+He
+VBD+said
+-NONE-+0
+NNS+authors
+IN+of
+NNP+Scoring
+NNP+High
+``+``
+RB:	scrupulously
+VB+avoid
+''+''
+-NONE-+*-1
+VBG:	replicating
+JJ+exact
+NNS+questions
+,+,
+CC+but
+PRP+he
+VBZ+does
+RB+n't
+<unk>:	deny
+WDT+that
+DT+some
+"NNS":	items
+VBP+are
+JJ+similar
+.+.
+WRB+When
+NNP+Scoring
+NNP+High
+JJ+first
+VBD+came
+RP+out
+IN+in
+CD+1979
+-NONE-+*T*-1
+,+,
+PRP+it
+VBD+was
+DT+a
+<unk>:	publication
+IN+of
+NNP:	Random
+NNP+House
+.+.
+NNP+McGraw-Hill
+VBD+was
+JJ:	outraged
+.+.
+IN+In
+DT+a
+CD+1985
+<unk>:	advisory
+TO+to
+NNS+educators
+,+,
+NNP+McGraw-Hill
+VBD+said
+-NONE-+0
+NNP+Scoring
+NNP+High
+MD+should
+RB+n't
+VB+be
+VBN+used
+-NONE-+*-1
+IN+because
+PRP+it
+VBN:	represented
+DT+a
+``+``
+VB+parallel
+NN+form
+''+''
+IN+of
+DT+the
+NNP:	CAT
+CC+and
+NNP:	CTBS
+NNS+tests
+.+.
+CC+But
+IN+in
+CD+1988
+,+,
+NNP+McGraw-Hill
+VBD+purchased
+DT+the
+NNP:	Random
+NNP+House
+NN+unit
+WDT+that
+-NONE-:	*T*-108
+NNS:	publishes
+NNP+Scoring
+NNP+High
+,+,
+WDT+which
+-NONE-:	*T*-109
+RBR+later
+VBD+became
+NN+part
+IN+of
+McGraw-Hill+Macmillan\
+.+.
+NNP+Messrs.
+NNP:	Brownell
+CC+and
+NNP:	Kean
+VBP+say
+-NONE-+0
+PRP+they
+VBP+are
+RB:	unaware
+IN+of
+DT+any
+NNS+efforts
+-NONE-+*ICH*-1
+IN+by
+NNP+McGraw-Hill
+-NONE-+*
+TO+to
+VB+modify
+CC+or
+VB:	discontinue
+NNP+Scoring
+NNP+High
+.+.
+NNP:	Alleghany
+NNP+Corp.
+VBD+said
+-NONE-+0
+PRP+it
+VBN+completed
+DT+the
+NN+acquisition
+IN+of
+NNP:	Sacramento
+"NNS":	Savings
+CC+&
+NNP:	Loan
+NNP+Association
+IN+from
+DT+the
+NNP:	H.N.
+CC+&
+NNPS:	Frances
+NNP:	C.
+NNP:	Berger
+"NN":	Foundation
+IN+for
+$+$
+CD+150
+CD+million
+-NONE-+*U*
+.+.
+DT+The
+NNP:	Sacramento-based
+NNP:	S&L
+,+,
+WDT+which
+-NONE-:	*T*-110
+VBZ+has
+CD:	44
+NN+branch
+NNS:	offices
+IN+in
+JJ:	north
+"NNP":	central
+NNP+California
+,+,
+VBD+had
+NNS+assets
+IN+of
+$+$
+CD+2.4
+CD+billion
+-NONE-+*U*
+IN+at
+DT+the
+NN+end
+IN+of
+NNP+September
+.+.
+NNP+New
+JJ+York-based
+NNP:	Alleghany
+VBZ+is
+DT+an
+NN+insurance
+CC+and
+JJ+financial
+NNS:	services
+NN+concern
+.+.
+DT+The
+NN+purchase
+NN+price
+VBZ+includes
+CD+two
+<unk>:	ancillary
+NNS+companies
+.+.
+DT+The
+NNP+Department
+IN+of
+NNP+Health
+CC+and
+"JJ":	Human
+NNPS:	Services
+NNS+plans
+-NONE-+*-1
+TO+to
+VB+extend
+PRP$+its
+<unk>:	moratorium
+RP+on
+JJ+federal
+NN+funding
+IN+of
+NN+research
+VBG+involving
+RB:	fetal-tissue
+NNS:	transplants
+.+.
+"JJ":	Medical
+NNS+researchers
+VBP+believe
+-NONE-+0
+DT+the
+VB:	transplantation
+IN+of
+JJ+small
+NNS+amounts
+IN+of
+<unk>:	fetal
+<unk>:	tissue
+IN+into
+NNS:	humans
+MD+could
+VB+help
+-NONE-+*
+VB+treat
+RB:	juvenile
+NNS:	diabetes
+CC+and
+JJ+such
+<unk>:	degenerative
+NNS+diseases
+IN+as
+NNP:	Alzheimer
+POS+'s
+,+,
+NNP:	Parkinson
+POS+'s
+CC+and
+NNP:	Huntington
+POS+'s
+.+.
+CC+But
+NNS:	anti-abortionists
+VB:	oppose
+JJ+such
+NN+research
+IN+because
+PRP+they
+VBP+worry
+WDT+that
+DT+the
+NN+development
+IN+of
+NNS:	therapies
+VBG+using
+RB:	fetal-tissue
+NNS:	transplants
+MD+could
+VB+lead
+TO+to
+DT+an
+VB+increase
+IN+in
+NNS:	abortions
+.+.
+NNP+James
+NNP:	Mason
+,+,
+JJ+assistant
+"NNP":	secretary
+IN+for
+NNP:	health
+,+,
+VBD+said
+-NONE-+0
+DT+the
+VB+ban
+RP+on
+JJ+federal
+NN+funding
+IN+of
+RB:	fetal-tissue
+VB:	transplant
+NN+research
+``+``
+MD+should
+VB+be
+VBD+continued
+-NONE-+*-1
+RB:	indefinitely
+.+.
+''+''
+PRP+He
+VBD+said
+-NONE-+0
+DT+the
+VB+ban
+RB:	wo
+RB+n't
+VB:	stop
+RB:	privately
+VBN:	funded
+VB:	tissue-transplant
+NN+research
+CC+or
+RB:	federally
+VBN:	funded
+RB:	fetal-tissue
+NN+research
+WDT+that
+-NONE-:	*T*-111
+VBZ+does
+RB+n't
+VB:	involve
+NNS:	transplants
+.+.
+NNP+Department
+NNS+officials
+VBP+say
+WDT+that
+NNP:	HHS
+NNP+Secretary
+NNPS:	Louis
+NNP:	Sullivan
+MD+will
+VB+support
+NNP+Dr.
+NNP:	Mason
+POS+'s
+NN+ruling
+,+,
+WDT+which
+-NONE-:	*T*-112
+MD+will
+VB+be
+VBN+issued
+-NONE-+*-1
+RB+soon
+IN+in
+DT+the
+NN+form
+IN+of
+DT+a
+<unk>:	letter
+TO+to
+DT+the
+VBG:	acting
+NN+director
+IN+of
+DT+the
+NNP+National
+NNPS:	Institutes
+IN+of
+NNP+Health
+.+.
+DT+Both
+NNP+Dr.
+NNP:	Mason
+CC+and
+NNP+Dr.
+NNP:	Sullivan
+VB:	oppose
+JJ+federal
+NN+funding
+IN+for
+NN+abortion
+,+,
+IN+as
+VBZ+does
+NNP+President
+NNP+Bush
+-NONE-+*?*
+,+,
+IN+except
+IN+in
+NNS+cases
+WRB+where
+DT+a
+NN+woman
+POS+'s
+NN+life
+VBZ+is
+JJ:	threatened
+-NONE-+*-2
+-NONE-+*T*-1
+.+.
+DT+The
+<unk>:	controversy
+VBD+began
+IN+in
+CD+1987
+WRB+when
+DT+the
+NNP+National
+NNPS:	Institutes
+IN+of
+NNP+Health
+,+,
+JJ+aware
+IN+of
+DT+the
+NN+policy
+NNS:	implications
+IN+of
+PRP$+its
+NN+research
+,+,
+VBN+asked
+IN+for
+DT+an
+NNP:	HHS
+NN+review
+IN+of
+PRP$+its
+NN+plan
+-NONE-+*
+TO+to
+VB:	implant
+<unk>:	fetal
+<unk>:	tissue
+IN+into
+DT+the
+<unk>:	brain
+IN+of
+DT+a
+<unk>:	patient
+VBG:	suffering
+IN+from
+NNP:	Parkinson
+POS+'s
+NN+disease
+-NONE-+*T*-1
+.+.
+DT+The
+NN+department
+VBN+placed
+DT+a
+<unk>:	moratorium
+RP+on
+DT+the
+NN+research
+,+,
+-NONE-+*
+VBG+pending
+DT+a
+NN+review
+IN+of
+<unk>:	scientific
+,+,
+JJ+legal
+CC+and
+<unk>:	ethical
+NNS+issues
+.+.
+DT+A
+<unk>:	majority
+IN+of
+DT+an
+NNP:	NIH-appointed
+<unk>:	panel
+VBN:	recommended
+RB+late
+JJ+last
+NN+year
+WDT+that
+DT+the
+NN+research
+VB+continue
+IN+under
+RB:	carefully
+VBN:	controlled
+NNS+conditions
+,+,
+CC+but
+DT+the
+VB+issue
+VBD+became
+JJ:	embroiled
+-NONE-+*-2
+IN+in
+NNS+politics
+IN+as
+<unk>:	anti-abortion
+NNS+groups
+VBD+continued
+-NONE-+*-3
+TO+to
+VB:	oppose
+JJ+federal
+NN+funding
+.+.
+DT+The
+VB:	dispute
+VBZ+has
+JJ:	hampered
+DT+the
+<unk>:	administration
+POS+'s
+NNS+efforts
+-NONE-+*
+TO+to
+VB:	recruit
+VB:	prominent
+NNS:	doctors
+-NONE-+0
+-NONE-+*T*-1
+TO+to
+VB:	fill
+NNS:	prestigious
+VBZ+posts
+IN+at
+DT+the
+<unk>:	helm
+IN+of
+DT+the
+NNP:	NIH
+CC+and
+DT+the
+"NNS":	Centers
+IN+for
+"NN":	Disease
+"NN":	Control
+.+.
+"JJ":	Several
+NNS+candidates
+VBP+have
+RB:	withdrawn
+PRP$+their
+NNS:	names
+IN+from
+<unk>:	consideration
+IN+after
+<unk>:	administration
+NNS+officials
+VBN+asked
+PRP+them
+IN+for
+PRP$+their
+NNS:	views
+RP+on
+NN+abortion
+CC+and
+RB:	fetal-tissue
+NNS:	transplants
+.+.
+NNP:	Antonio
+NNP:	Novello
+,+,
+WP+whom
+NNP+Mr.
+NNP+Bush
+VBN:	nominated
+-NONE-:	*T*-113
+TO+to
+VB:	serve
+IN+as
+<unk>:	surgeon
+JJ+general
+,+,
+RB:	reportedly
+VBZ+has
+JJ:	assured
+DT+the
+<unk>:	administration
+WDT+that
+PRP+she
+NNS:	opposes
+NN+abortion
+.+.
+NNP+Dr.
+NNP:	Novello
+VBZ+is
+NN+deputy
+NN+director
+IN+of
+DT+the
+NNP+National
+NNP+Institute
+IN+of
+"NN":	Child
+NNP+Health
+CC+and
+"JJ":	Human
+"NN":	Development
+.+.
+DT+Some
+NNS+researchers
+VBP+have
+JJ:	charged
+WDT+that
+DT+the
+<unk>:	administration
+VBZ+is
+VBG:	imposing
+JJ+new
+<unk>:	ideological
+NNS+tests
+IN+for
+JJ+top
+<unk>:	scientific
+VBZ+posts
+.+.
+JJR+Earlier
+DT+this
+NN+week
+,+,
+NNP+Dr.
+NNP:	Sullivan
+VBN+tried
+-NONE-+*-1
+TO+to
+VB:	defuse
+DT+these
+NNS+charges
+IN+by
+-NONE-+*-4
+VBG+stressing
+WDT+that
+NNS+candidates
+-NONE-+0
+-NONE-+*T*-2
+TO+to
+NN+head
+DT+the
+NNP:	NIH
+CC+and
+DT+the
+NNP:	CDC
+MD+will
+VB+be
+JJ:	judged
+-NONE-+*-3
+IN+by
+``+``
+NNS+standards
+IN+of
+<unk>:	scientific
+CC+and
+JJ+administrative
+<unk>:	excellence
+,+,
+''+''
+RB+not
+NNS+politics
+.+.
+CC+But
+DT+the
+<unk>:	administration
+POS+'s
+NN+handling
+IN+of
+DT+the
+RB:	fetal-tissue
+VB:	transplant
+VB+issue
+NNS:	disturbs
+JJ+many
+NNS+scientists
+.+.
+``+``
+WRB+When
+<unk>:	scientific
+NN+progress
+NNS:	moves
+IN+into
+VBN:	uncharted
+NN+ground
+-NONE-+*T*-1
+,+,
+EX+there
+VBZ+has
+-NONE-+*-3
+TO+to
+VB+be
+DT+a
+NN+role
+-NONE-:	*ICH*-4
+IN+for
+NN+society
+-NONE-+*
+TO+to
+VB+make
+NNS:	judgments
+IN+about
+PRP$+its
+NNS:	applications
+,+,
+''+''
+VBZ+says
+-NONE-+*T*-2
+NNP:	Myron
+NNP:	Genel
+,+,
+VB:	associate
+<unk>:	dean
+IN+of
+DT+the
+NNP:	Yale
+"JJ":	Medical
+NNP+School
+.+.
+``+``
+DT+The
+JJ+disturbing
+NN+thing
+IN+about
+DT+this
+NN+abortion
+VB+issue
+VBZ+is
+WDT+that
+DT+the
+VB:	debate
+VBZ+has
+VBN+become
+JJ:	polarized
+-NONE-+*-1
+,+,
+RB+so
+WDT+that
+DT+no
+<unk>:	mechanism
+-NONE-+*ICH*-2
+NNS:	exists
+''+''
+IN+for
+-NONE-+*
+NN+finding
+DT+a
+<unk>:	middle
+NN+ground
+.+.
+NNP:	Yale
+VBZ+is
+CD+one
+IN+of
+DT+the
+JJ+few
+JJ+medical
+NNS+institutions
+VBG:	conducting
+RB:	privately
+VBN:	funded
+NN+research
+RP+on
+RB:	fetal-tissue
+NNS:	transplants
+.+.
+CC+But
+NNP+Dr.
+NNP:	Genel
+NNS:	warns
+WDT+that
+NNP+Dr.
+NNP:	Mason
+POS+'s
+NN+ruling
+MD+may
+VB:	discourage
+JJ+private
+NN+funding
+.+.
+``+``
+DT+The
+<unk>:	unavailability
+IN+of
+JJ+federal
+NNS+funds
+,+,
+CC+and
+DT+the
+VB:	climate
+IN+in
+WDT+which
+DT+the
+NN+decision
+VBD+was
+VBN+made
+-NONE-+*-2
+-NONE-+*T*-1
+,+,
+RB+certainly
+VBP+do
+RB+n't
+VBP+provide
+DT+any
+NN+incentive
+IN+for
+CD+one
+IN+of
+DT+the
+RBR+more
+<unk>:	visible
+NNS:	foundations
+TO+to
+VBP+provide
+VB+support
+,+,
+''+''
+PRP+he
+VBD+said
+-NONE-+*T*-3
+.+.
+IN+Despite
+DT+the
+<unk>:	flap
+RP+over
+NNS:	transplants
+,+,
+JJ+federal
+NN+funding
+IN+of
+NN+research
+VBG+involving
+<unk>:	fetal
+NNS:	tissues
+MD+will
+VB+continue
+RP+on
+DT+a
+NN+number
+IN+of
+NNS:	fronts
+.+.
+``+``
+JJ+Such
+NN+research
+MD+may
+RB+ultimately
+NN+result
+IN+in
+DT+the
+NN+ability
+-NONE-+*
+TO+to
+VB:	regenerate
+VBN:	damaged
+NNS:	tissues
+CC+or
+-NONE-+*
+TO+to
+VB+turn
+RP+off
+NNS:	genes
+WDT+that
+-NONE-:	*T*-114
+VB:	cause
+NN+cancer
+''+''
+CC+or
+-NONE-+*
+TO+to
+VB+regulate
+NNS:	genes
+WDT+that
+-NONE-:	*T*-115
+VB:	cause
+"RB":	Down
+POS+'s
+<unk>:	syndrome
+,+,
+DT+the
+VBG+leading
+VB:	cause
+IN+of
+<unk>:	mental
+<unk>:	retardation
+,+,
+VBG+according
+TO+to
+DT+an
+NNP:	NIH
+<unk>:	summary
+.+.
+DT+The
+NNP:	NIH
+RB+currently
+VBZ+spends
+IN+about
+$+$
+CD+8
+CD+million
+-NONE-+*U*
+-NONE-+*ICH*-2
+RB+annually
+RP+on
+RB:	fetal-tissue
+NN+research
+RP+out
+IN+of
+DT+a
+VBP+total
+NN+research
+NN+budget
+IN+of
+$+$
+CD+8
+CD+billion
+-NONE-+*U*
+.+.
+NNP:	Rekindled
+VBP+hope
+WDT+that
+CD+two
+NNP+New
+NNP+England
+NNS+states
+MD+will
+VBP+allow
+JJR+broader
+VB:	interstate
+"NNP":	banking
+VBN+boosted
+NNP+Nasdaq
+POS+'s
+NN+bank
+NNS+stocks
+,+,
+CC+but
+DT+the
+<unk>:	over-the-counter
+NN+market
+VBD+was
+RP+up
+RB+only
+RB:	slightly
+IN+in
+<unk>:	lackluster
+VBG+trading
+.+.
+DT+The
+NNP+Nasdaq
+JJ+composite
+NN+index
+VBD+added
+CD:	1.01
+TO+to
+CD:	456.64
+RP+on
+<unk>:	paltry
+<unk>:	volume
+IN+of
+CD:	118.6
+CD+million
+NNS+shares
+.+.
+IN+In
+NNS+terms
+IN+of
+<unk>:	volume
+,+,
+PRP+it
+VBD+was
+DT+an
+NNS:	inauspicious
+VBG+beginning
+IN+for
+NNP+November
+.+.
+"NN":	Yesterday
+POS+'s
+VB+share
+RB:	turnover
+VBD+was
+RB+well
+IN+below
+DT+the
+NN+year
+POS+'s
+"NNP":	daily
+JJ+average
+IN+of
+CD:	133.8
+CD+million
+.+.
+IN+In
+NNP+October
+,+,
+DT+the
+<unk>:	busiest
+NN+month
+IN+of
+DT+the
+NN+year
+RB+so
+RB+far
+,+,
+"NNP":	daily
+<unk>:	volume
+VBN:	averaged
+RB:	roughly
+CD:	145
+CD+million
+NNS+shares
+.+.
+DT+The
+NNP+Nasdaq
+CD+100
+NN+index
+IN+of
+DT+the
+<unk>:	biggest
+<unk>:	nonfinancial
+NNS+stocks
+VBN:	gained
+CD:	1.39
+TO+to
+CD:	446.62
+.+.
+DT+The
+NN+index
+IN+of
+DT+the
+CD+100
+JJS+largest
+NNP+Nasdaq
+JJ+financial
+NNS+stocks
+VBD+rose
+RB:	modestly
+IN+as
+RB+well
+,+,
+-NONE-+*-1
+VBG+gaining
+CD:	1.28
+TO+to
+CD:	449.04
+.+.
+CC+But
+DT+the
+JJR+broader
+NNP+Nasdaq
+NN+bank
+NN+index
+,+,
+WDT+which
+-NONE-:	*T*-116
+NNS:	tracks
+NN+thrift
+NNS+issues
+,+,
+VBN+jumped
+CD:	3.23
+TO+to
+CD:	436.01
+.+.
+DT+The
+NN+bank
+NNS+stocks
+VBN+got
+DT+a
+VB+boost
+WRB+when
+NNP:	Connecticut
+NNP+Bank
+CC+&
+NNP:	Trust
+CC+and
+NNP+Bank
+IN+of
+NNP+New
+NNP+England
+VBD+said
+-NONE-+0
+PRP+they
+DT+no
+RBR+longer
+VB:	oppose
+VBG+pending
+NN+legislation
+WDT+that
+-NONE-+*T*-1
+MD+would
+VBP+permit
+NNS+banks
+IN+from
+JJ+other
+NNS:	regions
+TO+to
+VB:	merge
+IN+with
+NNP:	Connecticut
+CC+and
+NNP:	Massachusetts
+NNS+banks
+-NONE-+*T*-2
+.+.
+DT+The
+CD+two
+NNS+banks
+VBN:	merged
+IN+in
+CD+1985
+.+.
+NNP+Bank
+IN+of
+NNP+New
+NNP+England
+POS+'s
+NNS+shares
+VBP+are
+VBN+traded
+-NONE-+*-1
+RP+on
+DT+the
+NNP+New
+NNP+York
+NNP+Stock
+NNP+Exchange
+.+.
+DT+The
+NNS+stocks
+IN+of
+"NNP":	banking
+NNS+concerns
+VBN+based
+-NONE-+*
+IN+in
+NNP:	Massachusetts
+VBD+were
+RB+n't
+VBN+helped
+-NONE-+*-1
+RB+much
+IN+by
+DT+the
+NN+announcement
+,+,
+NNS:	traders
+VBD+said
+-NONE-+0
+-NONE-+*T*-2
+,+,
+IN+because
+JJ+many
+IN+of
+DT+those
+NNS+concerns
+VBP+have
+JJ+financial
+NNS+problems
+VBN+tied
+-NONE-+*
+TO+to
+PRP$+their
+VB:	real-estate
+<unk>:	loan
+NNS+portfolios
+,+,
+-NONE-+*
+VBG+making
+PRP+them
+<unk>:	unattractive
+<unk>:	takeover
+NNS:	targets
+.+.
+CC+But
+NNS:	speculators
+,+,
+-NONE-+*-1
+VBG:	anticipating
+WDT+that
+NNP:	Connecticut
+MD+will
+VB:	approve
+DT+a
+NN+law
+VBG:	permitting
+JJ+such
+VB:	interstate
+"NNP":	banking
+RB+soon
+,+,
+RB:	immediately
+NN+bid
+RP+up
+NNS+shares
+IN+of
+NNP:	Connecticut
+NNS+banks
+RP+on
+DT+the
+NN+news
+.+.
+``+``
+DT+A
+NN+lot
+IN+of
+DT+the
+NNS+stocks
+WDT+that
+-NONE-:	*T*-117
+VBP+have
+VBN+been
+IN+under
+<unk>:	water
+RB+finally
+VB:	saw
+DT+a
+NN+reason
+-NONE-+0
+-NONE-+*
+TO+to
+VB:	uptick
+-NONE-+*T*-1
+,+,
+''+''
+VBD+said
+-NONE-+*T*-2
+NNP+George
+NNP:	Jennison
+,+,
+NN+head
+<unk>:	trader
+IN+of
+"NNP":	banking
+NNS+issues
+IN+in
+NNP+Shearson
+NNP+Lehman
+NNP+Hutton
+POS+'s
+NNP:	OTC
+NN+department
+.+.
+DT+The
+<unk>:	biggest
+<unk>:	beneficiary
+VBD+was
+NNP+Northeast
+NNP:	Bancorp
+,+,
+WDT+which
+-NONE-:	*T*-118
+VBN+surged
+CD+7
+JJ:	3\
+TO+to
+CD:	69
+.+.
+DT+The
+NNP+Stamford
+,+,
+NNP+Conn.
+,+,
+NN+concern
+VBZ+has
+VBD+agreed
+TO+to
+DT+a
+JJ+buy-out
+IN+by
+NNP+Bank
+IN+of
+NNP+New
+NNP+York
+IN+in
+DT+a
+NN+transaction
+IN+with
+DT+an
+VBD+indicated
+NN+value
+IN+of
+IN+about
+$+$
+CD+100
+-NONE-+*U*
+DT+a
+VB+share
+WDT+that
+-NONE-:	*T*-119
+NNS:	expires
+JJ+next
+NNP+August
+.+.
+NNP:	Ed
+NNP:	Macheski
+,+,
+DT+a
+NNP:	Wilton
+,+,
+NNP+Conn.
+,+,
+NN+money
+NN+manager
+WP+who
+-NONE-:	*T*-120
+VBZ+follows
+NN+bank
+NNS+stocks
+,+,
+VBD+said
+-NONE-+0
+DT+the
+NN+announcement
+RB+effectively
+VBZ+gives
+DT+the
+NN+deal
+``+``
+DT+the
+"NNP":	green
+NN+light
+.+.
+''+''
+NNP+Mr.
+NNP:	Jennison
+VBD+said
+-NONE-+0
+NNP+Northeast
+NNP:	Bancorp
+RB+also
+VBN:	fared
+RB+well
+IN+because
+<unk>:	takeover
+NNS+stocks
+VBP+have
+VBD+returned
+TO+to
+VB:	favor
+IN+among
+NNS+investors
+.+.
+DT+Another
+NNP:	OTC
+NN+bank
+NN+stock
+VBN+involved
+-NONE-+*
+IN+in
+DT+a
+JJ+buy-out
+NN+deal
+,+,
+JJ+First
+NNP:	Constitution
+JJ+Financial
+,+,
+VBD+was
+JJR+higher
+.+.
+PRP+It
+VBD+rose
+JJ:	7\
+TO+to
+CD+18
+2+1\
+.+.
+JJ+First
+NNP:	Constitution
+VBZ+has
+JJ:	signed
+DT+a
+<unk>:	merger
+NN+agreement
+-NONE-+*ICH*-1
+IN+with
+NNP:	WFRR
+NNP:	L.P.
+CC+and
+NNP:	GHKM
+NNP+Corp.
+,+,
+IN+under
+WDT+which
+PDT+all
+IN+of
+PRP$+its
+JJ+common
+NNS+shares
+MD+will
+VB+be
+VBD+acquired
+-NONE-+*-3
+IN+for
+$+$
+CD+25
+-NONE-+*U*
+DT+each
+,+,
+CC+or
+$+$
+CD:	273.5
+CD+million
+-NONE-+*U*
+-NONE-+*T*-2
+.+.
+IN+Among
+JJ+other
+NNP:	Connecticut
+NNS+banks
+WP$+whose
+NNS+shares
+-NONE-:	*T*-121
+VBP+trade
+IN+in
+DT+the
+NNP:	OTC
+NN+market
+,+,
+NNP+Society
+IN+for
+"NNS":	Savings
+NNP:	Bancorp
+,+,
+VBN+based
+-NONE-+*
+IN+in
+NNP+Hartford
+,+,
+VB:	saw
+PRP$+its
+NN+stock
+VB+rise
+CD+1
+JJ:	3\
+TO+to
+CD+18
+2+1\
+.+.
+NNP:	Centerbank
+VBD+added
+JJ:	5\
+TO+to
+CD+8
+JJ:	3\
+:+;
+NNS+shares
+IN+of
+NNP:	NESB
+,+,
+DT+a
+NNP+New
+NNP:	London-based
+NN+bank
+VBG+holding
+NN+company
+,+,
+VBD+rose
+JJ:	5\
+TO+to
+CD+5
+JJ:	7\
+.+.
+IN+Among
+JJ+other
+"NNP":	banking
+NNS+issues
+,+,
+NNP:	Pennview
+"NNS":	Savings
+NNP+Association
+VB:	leapt
+RBR+more
+IN+than
+CD:	44
+NN+%
+IN+with
+DT+a
+NN+gain
+IN+of
+CD+6
+JJ:	5\
+TO+to
+CD+21
+JJ:	5\
+.+.
+DT+The
+NNP+Pennsylvania
+NN+bank
+VBD+agreed
+-NONE-+*-1
+TO+to
+VB+be
+VBD+acquired
+-NONE-+*-2
+IN+in
+DT+a
+<unk>:	merger
+IN+with
+NNP:	Univest
+NNP+Corp.
+IN+of
+NNP+Pennsylvania
+IN+for
+$+$
+CD:	25.50
+-NONE-+*U*
+DT+a
+VB+share
+.+.
+NNP+Valley
+NNP+Federal
+"NNS":	Savings
+CC+&
+NNP:	Loan
+,+,
+DT+a
+NNP+California
+NN+thrift
+VB+issue
+,+,
+VBN:	gained
+CD+1
+TO+to
+CD+4
+2+1\
+IN+after
+-NONE-+*-1
+VBG+reporting
+DT+a
+<unk>:	third-quarter
+NN+loss
+IN+of
+$+$
+CD:	70.7
+CD+million
+-NONE-+*U*
+IN+after
+DT+an
+$+$
+CD:	89.9
+CD+million
+-NONE-+*U*
+<unk>:	pretax
+NN+charge
+RB+mostly
+VBN+related
+TO+to
+PRP$+its
+<unk>:	mobile
+NN+home
+NN+financing
+NN+unit
+.+.
+NNP:	Dan
+NNP+E.
+NNPS:	Nelms
+,+,
+NNP+Valley
+NNP+Federal
+POS+'s
+NN+president
+CC+and
+NN+chief
+NN+executive
+NN+officer
+,+,
+VBD+said
+-NONE-+0
+DT+the
+<unk>:	one-time
+NN+charge
+RB:	substantially
+NNS:	eliminates
+JJ+future
+NNS:	losses
+VBN:	associated
+-NONE-+*
+IN+with
+DT+the
+NN+unit
+.+.
+PRP+He
+VBD+said
+-NONE-+0
+DT+the
+NN+company
+POS+'s
+<unk>:	core
+NN+business
+VBZ+remains
+JJ+strong
+.+.
+PRP+He
+RB+also
+VBD+said
+WDT+that
+IN+after
+DT+the
+NNS+charges
+,+,
+CC+and
+-NONE-+*-1
+``+``
+VBG:	assuming
+DT+no
+<unk>:	dramatic
+<unk>:	fluctuation
+IN+in
+NN+interest
+NNS+rates
+,+,
+DT+the
+NN+company
+VBZ+expects
+-NONE-+*-1
+TO+to
+VB:	achieve
+VB:	near-record
+NNS+earnings
+IN+in
+CD+1990
+.+.
+''+''
+NNP:	Weisfield
+POS+'s
+VBN+surged
+CD+6
+JJ:	3\
+TO+to
+CD+55
+2+1\
+CC+and
+NNPS:	Ratners
+NNP+Group
+POS+'s
+JJ+American
+JJ+depositary
+NNS+receipts
+,+,
+CC+or
+NNPS+ADRs
+,+,
+VBN:	gained
+JJ:	5\
+TO+to
+CD+12
+2+1\
+.+.
+DT+The
+CD+two
+NNS+concerns
+VBD+said
+-NONE-+0
+PRP+they
+VBD+entered
+IN+into
+DT+a
+<unk>:	definitive
+<unk>:	merger
+NN+agreement
+IN+under
+WDT+which
+NNPS:	Ratners
+MD+will
+VB+begin
+DT+a
+NN+tender
+VBP+offer
+IN+for
+PDT+all
+IN+of
+NNP:	Weisfield
+POS+'s
+JJ+common
+NNS+shares
+IN+for
+$+$
+CD:	57.50
+-NONE-+*U*
+DT+each
+-NONE-+*T*-1
+.+.
+"RB":	Also
+RP+on
+DT+the
+<unk>:	takeover
+NN+front
+,+,
+NNP:	Jaguar
+POS+'s
+NNPS+ADRs
+VBD+rose
+2+1\
+TO+to
+CD+13
+JJ:	7\
+RP+on
+RB:	turnover
+IN+of
+CD:	4.4
+CD+million
+.+.
+IN+Since
+DT+the
+JJ+British
+NN+auto
+NN+maker
+VBD+became
+DT+a
+<unk>:	takeover
+NN+target
+JJ+last
+NN+month
+,+,
+PRP$+its
+NNPS+ADRs
+VBP+have
+VBN+jumped
+IN+about
+CD:	78
+NN+%
+.+.
+IN+After
+JJ+troubled
+NNP:	Heritage
+NNP:	Media
+VBN+proposed
+-NONE-+*-1
+VBG:	acquiring
+NNP:	POP
+"NN":	Radio
+IN+in
+DT+a
+NN+stock
+VB:	swap
+,+,
+NNP:	POP
+"NN":	Radio
+POS+'s
+NNS+shares
+VBN:	tumbled
+CD+4
+TO+to
+CD+14
+JJ:	3\
+.+.
+NNP:	Heritage
+NNP:	Media
+,+,
+WDT+which
+RB+already
+-NONE-+*T*-1
+VBZ+owns
+IN+about
+CD:	51
+NN+%
+IN+of
+NNP:	POP
+"NN":	Radio
+,+,
+VBN+proposed
+-NONE-+*-2
+VBG+paying
+NNP:	POP
+"NN":	Radio
+NNS+shareholders
+IN+with
+NNS+shares
+IN+of
+DT+a
+JJ+new
+NN+class
+IN+of
+NNP:	Heritage
+NNP:	Media
+VBN+preferred
+NN+stock
+WDT+that
+-NONE-:	*T*-122
+MD+would
+VB+be
+JJ+convertible
+IN+into
+CD+four
+NNS+shares
+IN+of
+NNP:	Heritage
+NNP:	Media
+POS+'s
+JJ+common
+.+.
+NNP:	Rally
+POS+'s
+VB:	lost
+CD+1
+JJ:	3\
+TO+to
+CD+21
+JJ:	3\
+.+.
+DT+The
+<unk>:	restaurant
+<unk>:	operator
+VBD+said
+-NONE-+0
+PRP+it
+VBZ+has
+JJ:	redeemed
+PRP$+its
+NNS+rights
+VBN+issued
+-NONE-+*
+NNP+Monday
+IN+under
+PRP$+its
+NN+shareholder
+NNS+rights
+NN+plan
+.+.
+DT+The
+NN+fast-food
+NN+company
+VBD+said
+-NONE-+0
+PRP$+its
+NN+decision
+VBD+was
+VBN+based
+-NONE-+*-1
+RP+on
+NNS+discussions
+IN+with
+DT+a
+NN+shareholder
+NN+group
+,+,
+"NN":	Giant
+NNP+Group
+NNP+Ltd.
+,+,
+``+``
+IN+in
+DT+an
+NN+effort
+-NONE-+*
+TO+to
+VB:	resolve
+JJ+certain
+NNS+disputes
+IN+with
+DT+the
+NN+company
+.+.
+''+''
+"NN":	Giant
+NNP+Group
+VBZ+is
+VBD+led
+-NONE-+*-1
+IN+by
+CD+three
+NNP:	Rally
+POS+'s
+NNS+directors
+,+,
+NNP:	Burt
+NNP:	Sugarman
+,+,
+NNP+James
+NNP+M.
+NNP:	Trotter
+NNP+III
+CC+and
+NNP+William
+NNP+E.
+NNP:	Trotter
+NNP+II
+,+,
+WP+who
+JJR+earlier
+DT+this
+NN+month
+-NONE-+*T*-2
+VBD+indicated
+-NONE-+0
+PRP+they
+VBD+had
+DT+a
+CD:	42.5
+NN+%
+VB+stake
+IN+in
+NNP:	Rally
+POS+'s
+CC+and
+VBN+planned
+-NONE-+*-3
+TO+to
+VB+seek
+DT+a
+<unk>:	majority
+IN+of
+NNS+seats
+RP+on
+NNP:	Rally
+POS+'s
+<unk>:	nine-member
+NN+board
+.+.
+NNP:	SCI
+"NNS":	Systems
+VBN:	slipped
+JJ:	7\
+TO+to
+CD+10
+RP+on
+<unk>:	volume
+IN+of
+CD:	858,000
+NNS+shares
+.+.
+DT+The
+NNP:	Huntsville
+,+,
+NNP:	Ala.
+,+,
+JJ+electronic
+NNS+products
+NN+maker
+VBD+said
+-NONE-+0
+PRP+it
+VBZ+expects
+-NONE-+*-1
+TO+to
+"NNP":	post
+DT+a
+``+``
+JJ+significant
+''+''
+NN+loss
+IN+for
+PRP$+its
+<unk>:	fiscal
+JJ+first
+<unk>:	quarter
+VBD+ended
+NNP:	Sept.
+CD+30
+.+.
+IN+In
+DT+the
+<unk>:	year-earlier
+NN+period
+,+,
+NNP:	SCI
+VBD+had
+JJ+net
+NN+income
+IN+of
+$+$
+CD+4.8
+CD+million
+-NONE-+*U*
+,+,
+CC+or
+CD+23
+NNS+cents
+DT+a
+VB+share
+,+,
+RP+on
+NN+revenue
+IN+of
+$+$
+CD:	225.6
+CD+million
+-NONE-+*U*
+.+.
+DT+The
+"JJ":	Internal
+"NN":	Revenue
+NNP+Service
+VBZ+has
+JJ:	threatened
+RB:	criminal
+NNS+sanctions
+IN+against
+NNS+lawyers
+WP+who
+-NONE-:	*T*-123
+VB+fail
+-NONE-+*-1
+TO+to
+VB+report
+JJ:	detailed
+NN+information
+IN+about
+NNS+clients
+WP+who
+-NONE-:	*T*-124
+VB+pay
+PRP+them
+RBR+more
+IN+than
+$+$
+CD:	10,000
+-NONE-+*U*
+IN+in
+NN+cash
+.+.
+DT+The
+NNS:	warnings
+,+,
+VBN+issued
+-NONE-+*
+TO+to
+IN+at
+JJS+least
+CD+100
+RB:	criminal
+NN+defense
+NNS:	attorneys
+IN+in
+JJ+several
+JJ+major
+NNS:	cities
+IN+in
+DT+the
+JJ+last
+NN+week
+,+,
+VBP+have
+VBD+led
+TO+to
+DT+an
+VB:	outcry
+IN+by
+NNS+members
+IN+of
+DT+the
+VBN:	organized
+<unk>:	bar
+,+,
+WP+who
+-NONE-:	*T*-125
+NN+claim
+-NONE-+0
+DT+the
+NN+information
+VBZ+is
+JJ:	protected
+-NONE-+*-1
+IN+by
+<unk>:	attorney-client
+<unk>:	privilege
+.+.
+DT+The
+NNP:	IRS
+NNS:	warnings
+VB:	stem
+IN+from
+DT+a
+CD+1984
+NN+law
+WDT+that
+-NONE-+*T*-1
+VBZ+requires
+NN+anyone
+WP+who
+-NONE-:	*T*-126
+NNS:	receives
+RBR+more
+IN+than
+$+$
+CD:	10,000
+-NONE-+*U*
+IN+in
+NN+cash
+IN+from
+DT+a
+NN+client
+CC+or
+<unk>:	customer
+IN+in
+CD+one
+CC+or
+RBR+more
+VBN+related
+NNS:	transactions
+``+``
+IN+in
+DT+the
+NN+course
+IN+of
+VBP+trade
+CC+or
+NN+business
+''+''
+TO+to
+VB+report
+DT+the
+<unk>:	payment
+RP+on
+DT+a
+<unk>:	document
+VBN+known
+-NONE-+*
+IN+as
+"NN":	Form
+CD:	8300
+.+.
+DT+The
+NN+form
+VBZ+asks
+IN+for
+JJ+such
+NNS+details
+IN+as
+DT+the
+NN+client
+POS+'s
+VB+name
+,+,
+"JJ":	Social
+"NN":	Security
+NN+number
+,+,
+<unk>:	passport
+NN+number
+CC+and
+NNS+details
+IN+about
+DT+the
+NNS:	services
+VBN+provided
+-NONE-+*
+IN+for
+DT+the
+<unk>:	payment
+.+.
+NNP:	Failure
+-NONE-+*
+TO+to
+VB+complete
+DT+the
+NN+form
+VBD+had
+VBN+been
+RB:	punishable
+IN+as
+DT+a
+<unk>:	misdemeanor
+IN+until
+JJ+last
+NNP+November
+,+,
+WRB+when
+NNP+Congress
+VBN+determined
+WDT+that
+DT+the
+NN+crime
+VBD+was
+DT+a
+<unk>:	felony
+RB:	punishable
+IN+by
+RP+up
+TO+to
+CD+10
+NNS+years
+IN+in
+<unk>:	prison
+-NONE-+*T*-1
+.+.
+NNPS:	Attorneys
+VBP+have
+JJ:	argued
+IN+since
+CD+1985
+,+,
+WRB+when
+DT+the
+NN+law
+VBD+took
+NN+effect
+-NONE-+*T*-1
+,+,
+WDT+that
+PRP+they
+MD+can
+RB+not
+VBP+provide
+NN+information
+IN+about
+NNS+clients
+WP+who
+-NONE-:	*T*-127
+VBP+do
+RB+n't
+VB:	wish
+PRP$+their
+NNS:	identities
+TO+to
+VB+be
+VBN+known
+-NONE-+*-3
+.+.
+JJ+Many
+NNS:	attorneys
+VBP+have
+VBD+returned
+JJ+incomplete
+NNS+forms
+TO+to
+DT+the
+NNP:	IRS
+IN+in
+JJ+recent
+NNS+years
+,+,
+-NONE-+*-1
+VBG:	citing
+<unk>:	attorney-client
+<unk>:	privilege
+.+.
+IN+Until
+JJ+last
+NN+week
+,+,
+DT+the
+NNP:	IRS
+RB:	rarely
+VBN:	acted
+RP+on
+DT+the
+JJ+incomplete
+NNS+forms
+.+.
+``+``
+DT+This
+NN+form
+VBZ+forces
+DT+a
+NN+lawyer
+TO+to
+VBN+become
+,+,
+IN+in
+NN+effect
+,+,
+DT+a
+NNS:	witness
+IN+against
+PRP$+his
+NN+client
+,+,
+''+''
+VBD+said
+-NONE-+*T*-1
+NNP:	Neal
+NNP+R.
+NNP:	Sonnett
+,+,
+NN+president
+IN+of
+DT+the
+NNP+National
+NNP+Association
+IN+of
+NNP:	Criminal
+"NN":	Defense
+"NNS":	Lawyers
+.+.
+``+``
+DT+The
+NNP:	IRS
+VBZ+is
+VBG+asking
+NNS+lawyers
+-NONE-+*-1
+TO+to
+VB:	red-flag
+DT+a
+RB:	criminal
+NN+problem
+TO+to
+DT+the
+NN+government
+,+,
+''+''
+VBD+added
+NNP+Mr.
+NNP:	Sonnett
+,+,
+DT+a
+NNP:	Miami
+NN+lawyer
+WP+who
+-NONE-:	*T*-128
+VBZ+has
+VBD+heard
+IN+from
+NNS:	dozens
+IN+of
+NNS:	attorneys
+WP+who
+-NONE-:	*T*-129
+VBN+received
+NNS:	letters
+IN+in
+JJ+recent
+NNS+days
+CC+and
+VBZ+has
+PRP+himself
+VBN+received
+DT+the
+VBN:	computer-generated
+NNP:	IRS
+NNS+forms
+VB:	sent
+-NONE-+*
+IN+by
+VBN:	certified
+VB:	mail
+.+.
+NNP+Mr.
+NNP:	Sonnett
+VBD+said
+WDT+that
+NNS+clients
+WP+who
+-NONE-:	*T*-130
+VB+pay
+NN+cash
+MD+may
+VBP+include
+VBD+alleged
+RB:	drug
+NNS+dealers
+WP+who
+-NONE-:	*T*-131
+VBP+do
+RB+n't
+VBP+have
+JJ+domestic
+NN+bank
+VBZ+accounts
+.+.
+DT+These
+NNS:	individuals
+MD+may
+RB+not
+RB:	necessarily
+VB+be
+IN+under
+NN+investigation
+WRB+when
+PRP+they
+VB:	hire
+NNS+lawyers
+-NONE-+*T*-1
+.+.
+NNP+Mr.
+NNP:	Sonnett
+VBD+said
+-NONE-+0
+EX+there
+RB+also
+MD+may
+VB+be
+JJ+other
+NNS:	circumstances
+IN+under
+WDT+which
+NNS:	individuals
+MD+would
+RB+n't
+VBP+want
+DT+the
+NN+government
+TO+to
+VBP+know
+-NONE-+0
+PRP+they
+VBD+had
+JJ:	retained
+RB:	criminal
+NN+defense
+NNS+lawyers
+-NONE-+*T*-1
+.+.
+-NONE-+*
+NNP:	Filling
+RP+out
+JJ:	detailed
+NNS+forms
+IN+about
+DT+these
+NNS:	individuals
+MD+would
+"NNP":	tip
+DT+the
+NNP:	IRS
+RP+off
+CC+and
+VB:	spark
+NN+action
+IN+against
+DT+the
+NNS+clients
+,+,
+PRP+he
+VBD+said
+-NONE-+0
+-NONE-+*T*-1
+.+.
+DT+The
+NN+defense
+NNS+lawyers
+POS+'
+NN+group
+VBN:	formed
+DT+a
+NN+task
+VB+force
+-NONE-+*ICH*-1
+-NONE-+*ICH*-3
+DT+this
+NN+week
+,+,
+VBN:	chaired
+-NONE-+*
+IN+by
+NNP+New
+NNP+York
+NN+attorney
+NNP:	Gerald
+NNP:	Lefcourt
+,+,
+-NONE-+0
+-NONE-+*T*-2
+TO+to
+NN+deal
+IN+with
+DT+the
+NN+matter
+.+.
+DT+The
+JJ+American
+NNP:	Bar
+NNP+Association
+POS+'s
+NNP+House
+IN+of
+NNPS:	Delegates
+VBN+passed
+DT+a
+<unk>:	resolution
+-NONE-+*ICH*-1
+IN+in
+CD+1985
+VBG:	condemning
+DT+the
+NNP:	IRS
+VBG+reporting
+RB:	requirement
+.+.
+NNP+Michael
+NNP+Ross
+,+,
+DT+a
+NNP+New
+NNP+York
+NN+lawyer
+WP+who
+-NONE-:	*T*-132
+VBZ+heads
+DT+the
+NNP:	ABA
+POS+'s
+<unk>:	grand
+<unk>:	jury
+NN+committee
+,+,
+VBD+said
+WDT+that
+NNS+lawyers
+VBP+are
+JJ:	prohibited
+-NONE-+*-1
+IN+by
+DT+the
+NNP:	ABA
+POS+'s
+"NNP":	code
+IN+of
+NNS:	ethics
+IN+from
+-NONE-+*-1
+VBG:	disclosing
+NN+information
+IN+about
+DT+a
+NN+client
+IN+except
+WRB+where
+DT+a
+NN+court
+NNS+orders
+PRP+it
+-NONE-+*T*-3
+CC+or
+-NONE-+*-1
+TO+to
+VB+prevent
+DT+the
+NN+client
+IN+from
+-NONE-+*-4
+VBG:	committing
+DT+a
+RB:	criminal
+VB+act
+WDT+that
+-NONE-+*T*-2
+MD+could
+NN+result
+IN+in
+NN+death
+.+.
+NNP+Mr.
+NNP+Ross
+VBD+said
+-NONE-+0
+PRP+he
+VBD+met
+IN+with
+NNS+officials
+IN+of
+DT+the
+NNP:	IRS
+CC+and
+DT+the
+NNP:	Justice
+NNP+Department
+,+,
+WDT+which
+-NONE-:	*T*-133
+MD+would
+VB+bring
+DT+any
+NN+enforcement
+NNS+actions
+IN+against
+NNS:	taxpayers
+,+,
+-NONE-+*-1
+TO+to
+VB+discuss
+DT+the
+VB+issue
+JJ+last
+NNP+May
+.+.
+IN+At
+WDT+that
+NN+meeting
+,+,
+PRP+he
+VBD+said
+-NONE-+0
+-NONE-+*T*-1
+,+,
+DT+the
+NNP:	Justice
+NNP+Department
+JJ:	assured
+PRP+him
+WDT+that
+NN+enforcement
+NNS+procedures
+MD+would
+RB+n't
+VB+be
+JJ:	threatened
+-NONE-+*-2
+IN+against
+NNS:	attorneys
+IN+without
+RBR+further
+NN+review
+CC+and
+NN+advance
+VB:	notice
+.+.
+NNP+Mr.
+NNP+Ross
+VBD+said
+-NONE-+0
+NNP:	IRS
+NNS+officials
+VBN+opposed
+DT+the
+NNP:	Justice
+NNP+Department
+POS+'s
+VB:	moderate
+<unk>:	stance
+RP+on
+DT+the
+NN+matter
+.+.
+CC+But
+IN+in
+DT+the
+NNS:	letters
+VB:	sent
+-NONE-+*
+IN+in
+JJ+recent
+NNS+days
+,+,
+NNP:	Christopher
+NNP+J.
+NNP:	Lezovich
+IN+of
+DT+the
+NNP:	IRS
+NN+computing
+NN+center
+IN+in
+NNP:	Detroit
+,+,
+VBD+told
+NNS:	attorneys
+WDT+that
+``+``
+-NONE-+*
+VBG+failing
+-NONE-+*-1
+TO+to
+RB+voluntarily
+VB:	submit
+DT+the
+VBN+requested
+NN+information
+MD+could
+NN+result
+IN+in
+NNS:	summons
+NN+enforcement
+NN+action
+VBG+being
+JJ:	initiated
+-NONE-+*-2
+.+.
+''+''
+IN+In
+DT+some
+NNS+cases
+,+,
+DT+the
+NNP:	IRS
+VBN+asked
+IN+for
+NN+information
+VBG:	dating
+VB+back
+TO+to
+NNS+forms
+-NONE-+0
+PRP+it
+VBN+received
+-NONE-+*T*-1
+IN+in
+CD+1985
+.+.
+DT+A
+NN+spokesman
+IN+for
+DT+the
+NNP:	IRS
+VBN+confirmed
+WDT+that
+``+``
+EX+there
+VBZ+has
+VBN+been
+RB:	correspondence
+JJ:	mailed
+-NONE-+*
+IN+about
+JJ+incomplete
+JJ:	8300s
+,+,
+''+''
+CC+but
+PRP+he
+VBD+declined
+-NONE-+*-1
+TO+to
+VBP+say
+WRB+why
+DT+the
+NNS:	letters
+VBD+were
+VB:	sent
+-NONE-+*-2
+TO+to
+NNS+lawyers
+RB+now
+.+.
+NNPS:	Individuals
+JJ:	familiar
+IN+with
+DT+the
+NNP:	Justice
+NNP+Department
+POS+'s
+NN+policy
+VBD+said
+WDT+that
+NNP:	Justice
+NNS+officials
+VBD+had
+RB+n't
+DT+any
+<unk>:	knowledge
+IN+of
+DT+the
+NNP:	IRS
+POS+'s
+NNS+actions
+IN+in
+DT+the
+JJ+last
+NN+week
+.+.
+"NNS":	Lawyers
+VBP+worry
+WDT+that
+IN+if
+PRP+they
+VBP+provide
+NN+information
+IN+about
+NNS+clients
+,+,
+WDT+that
+NNS+data
+MD+could
+RB+quickly
+NN+end
+RP+up
+IN+in
+DT+the
+NNS+hands
+IN+of
+NNS+prosecutors
+.+.
+NNS+Prosecutors
+VBN:	need
+NN+court
+<unk>:	permission
+-NONE-+*-1
+TO+to
+VB+obtain
+DT+the
+NN+tax
+VBZ+returns
+IN+of
+DT+an
+JJ+individual
+CC+or
+DT+a
+NN+business
+.+.
+CC+But
+PRP+they
+VBP+have
+JJ:	obtained
+CD:	8300
+NNS+forms
+IN+without
+NN+court
+<unk>:	permission
+CC+and
+VBN+used
+DT+the
+NN+information
+-NONE-+*-1
+TO+to
+VB+help
+RB:	develop
+RB:	criminal
+NNS+cases
+.+.
+DT+Some
+RB:	criminal
+NNS+lawyers
+VBN+speculated
+WDT+that
+DT+the
+NNP:	IRS
+VBD+was
+VBG:	sending
+DT+the
+NNS:	letters
+-NONE-+*-1
+TO+to
+NN+test
+DT+the
+VB+issue
+.+.
+IN+In
+DT+a
+NN+number
+IN+of
+JJ+recent
+NNS+cases
+,+,
+JJ+federal
+NNS+courts
+VBP+have
+VBN+refused
+-NONE-+*-1
+TO+to
+VB+recognize
+NNS:	attorneys
+POS+'
+NNS:	assertions
+WDT+that
+NN+information
+VBG:	relating
+TO+to
+NNS+fees
+IN+from
+NNS+clients
+MD+should
+VB+be
+RB:	confidential
+.+.
+"DT":	THE
+"NNP":	WAR
+"RB":	OVER
+"NNP":	FEDERAL
+NNP:	JUDICIAL
+NNP:	SALARIES
+VBZ+takes
+DT+a
+<unk>:	victim
+.+.
+"RB":	Often
+,+,
+NNS:	judges
+VB+ease
+IN+into
+RBR+more
+<unk>:	lucrative
+JJ+private
+NN+practice
+IN+with
+JJ+little
+<unk>:	fanfare
+,+,
+CC+but
+RB+not
+JJ+federal
+NNP+Judge
+NNP:	Raul
+NNP+A.
+NNP:	Ramirez
+IN+in
+NNP:	Sacramento
+,+,
+NNP:	Calif
+.+.
+IN+On
+NNP+Tuesday
+,+,
+DT+the
+NN+judge
+VBN+called
+DT+a
+NN+news
+NN+conference
+-NONE-+*-1
+TO+to
+VBP+say
+-NONE-+0
+PRP+he
+VBD+was
+VBG:	quitting
+-NONE-+*
+JJ+effective
+NNP+Dec.
+CD+31
+-NONE-+*-2
+TO+to
+VB+join
+DT+a
+NNP:	San
+NNP:	Francisco
+NN+law
+NN+firm
+.+.
+DT+The
+NN+reason
+:+:
+DT+the
+<unk>:	refusal
+-NONE-+*ICH*-1
+IN+of
+NNP+Congress
+-NONE-+*
+TO+to
+VBP+give
+JJ+federal
+NNS:	judges
+DT+a
+VB+raise
+.+.
+``+``
+DT+A
+<unk>:	couple
+IN+of
+PRP$+my
+NN+law
+NNS:	clerks
+VBD+were
+VBG+going
+-NONE-+*-1
+TO+to
+VB+pass
+PRP+me
+IN+in
+CD+three
+CC+or
+CD+four
+NNS+years
+,+,
+CC+and
+PRP+I
+VBD+was
+RB:	afraid
+-NONE-+0
+PRP+I
+VBD+was
+VBG+going
+-NONE-+*-2
+TO+to
+VBP+have
+-NONE-+*-3
+TO+to
+VB+ask
+PRP+them
+IN+for
+DT+a
+<unk>:	loan
+,+,
+''+''
+DT+the
+NN+judge
+VBN:	quipped
+-NONE-+*T*-4
+IN+in
+DT+an
+NN+interview
+.+.
+NNP+Federal
+NNS:	judges
+VB+make
+$+$
+CD:	89,500
+-NONE-+*U*
+RB+annually
+:+;
+IN+in
+NNP+February
+,+,
+NNP+Congress
+VBN+rejected
+DT+a
+NN+bill
+WDT+that
+-NONE-+*T*-1
+MD+would
+VBP+have
+VBN+increased
+PRP$+their
+VB+pay
+IN+by
+CD+50
+NN+%
+.+.
+NNP+Judge
+NNP:	Ramirez
+,+,
+CD:	44
+,+,
+VBD+said
+-NONE-+0
+PRP+it
+-NONE-+*EXP*-3
+VBZ+is
+RB:	unjust
+IN+for
+NNS:	judges
+TO+to
+VB+make
+WP+what
+PRP+they
+VBP+do
+-NONE-+*?*
+-NONE-+*T*-2
+.+.
+``+``
+NNPS:	Judges
+VBP+are
+RB+not
+VBG+getting
+WP+what
+PRP+they
+VB+deserve
+-NONE-+*T*-1
+.+.
+PRP+You
+VB+look
+IN+around
+IN+at
+<unk>:	professional
+NNS+ballplayers
+CC+or
+NNS:	accountants
+:+...
+CC+and
+NN+nobody
+NNS:	blinks
+DT+an
+<unk>:	eye
+.+.
+WRB+When
+PRP+you
+VBN+become
+DT+a
+JJ+federal
+NN+judge
+-NONE-+*T*-1
+,+,
+PDT+all
+IN+of
+DT+a
+<unk>:	sudden
+PRP+you
+VBP+are
+JJ:	relegated
+-NONE-+*-2
+TO+to
+DT+a
+<unk>:	paltry
+<unk>:	sum
+.+.
+''+''
+IN+At
+PRP$+his
+JJ+new
+NN+job
+,+,
+IN+as
+NN+partner
+IN+in
+NN+charge
+IN+of
+JJ+federal
+<unk>:	litigation
+IN+in
+DT+the
+NNP:	Sacramento
+NN+office
+IN+of
+NNP:	Orrick
+,+,
+NNP:	Herrington
+CC+&
+NNP:	Sutcliffe
+,+,
+PRP+he
+MD+will
+VB+make
+RP+out
+RB+much
+RBR+better
+.+.
+DT+The
+NN+judge
+VBD+declined
+-NONE-+*-1
+TO+to
+VB+discuss
+PRP$+his
+NN+salary
+IN+in
+<unk>:	detail
+,+,
+CC+but
+VBD+said
+:+:
+``+``
+PRP+I
+VBP+'m
+VBG+going
+-NONE-+*-2
+TO+to
+VB+be
+DT+a
+VBN:	high-priced
+NN+lawyer
+.+.
+''+''
+NNP:	DOONESBURY
+NNP:	CREATOR'S
+"NNP":	UNION
+NNP:	TROUBLES
+VBP+are
+DT+no
+VBG:	laughing
+NN+matter
+.+.
+NNP:	Cartoonist
+NNP:	Garry
+NNP:	Trudeau
+VBZ+is
+VBG+suing
+DT+the
+"NNS":	Writers
+NNP:	Guild
+IN+of
+NNP:	America
+JJ+East
+IN+for
+$+$
+CD+11
+CD+million
+-NONE-+*U*
+,+,
+-NONE-+*-1
+VBG:	alleging
+-NONE-+0
+PRP+it
+VBN:	mounted
+DT+a
+``+``
+NN+campaign
+-NONE-+*
+TO+to
+NNS:	harass
+CC+and
+VB:	punish
+''+''
+PRP+him
+IN+for
+-NONE-+*
+VBG:	crossing
+DT+a
+NNS:	screenwriters
+POS+'
+<unk>:	picket
+NN+line
+.+.
+DT+The
+VB:	dispute
+NNS:	involves
+NNP:	Darkhorse
+NNPS:	Productions
+NNP+Inc.
+,+,
+DT+a
+NN+TV
+NN+production
+NN+company
+IN+in
+WDT+which
+NNP+Mr.
+NNP:	Trudeau
+VBZ+is
+DT+a
+<unk>:	co-owner
+-NONE-+*T*-1
+.+.
+NNP+Mr.
+NNP:	Trudeau
+,+,
+DT+a
+"NNS":	Writers
+NNP:	Guild
+<unk>:	member
+,+,
+RB+also
+VBD+was
+JJ:	employed
+-NONE-+*-1
+IN+as
+DT+a
+NN+writer
+IN+for
+NNP:	Darkhorse
+,+,
+WDT+which
+-NONE-:	*T*-134
+VBD+was
+VBN+covered
+-NONE-+*-2
+IN+by
+DT+a
+<unk>:	guild
+VBG:	collective-bargaining
+NN+agreement
+.+.
+DT+The
+<unk>:	guild
+VBD+began
+DT+a
+NN+strike
+IN+against
+DT+the
+NN+TV
+CC+and
+NN+movie
+NN+industry
+IN+in
+NNP+March
+CD+1988
+.+.
+IN+In
+PRP$+his
+<unk>:	lawsuit
+,+,
+NNP+Mr.
+NNP:	Trudeau
+VBZ+says
+-NONE-+0
+DT+the
+NN+strike
+RB:	illegally
+VBD+included
+NNP:	Darkhorse
+,+,
+CC+and
+DT+the
+<unk>:	cartoonist
+VBN+refused
+-NONE-+*-1
+TO+to
+VB+honor
+DT+the
+NN+strike
+IN+against
+DT+the
+NN+company
+.+.
+DT+A
+NN+spokesman
+IN+for
+DT+the
+<unk>:	guild
+VBD+said
+-NONE-+0
+DT+the
+"NNP":	union
+POS+'s
+NNS+lawyers
+VBP+are
+VBG:	reviewing
+DT+the
+<unk>:	suit
+.+.
+PRP+He
+VBD+said
+-NONE-+0
+<unk>:	disciplinary
+NNS+proceedings
+VBP+are
+RB:	confidential
+CC+and
+VBD+declined
+-NONE-+*-1
+TO+to
+NN+comment
+RP+on
+IN+whether
+DT+any
+VBP+are
+VBG+being
+VBN+held
+-NONE-+*-2
+IN+against
+NNP+Mr.
+NNP:	Trudeau
+.+.
+NNP+Mr.
+NNP:	Trudeau
+POS+'s
+NN+attorney
+,+,
+NNP+Norman
+NNP:	K.
+NNP:	Samnick
+,+,
+VBD+said
+-NONE-+0
+DT+the
+<unk>:	harassment
+NNS:	consists
+RB:	mainly
+IN+of
+DT+the
+<unk>:	guild
+POS+'s
+<unk>:	year-long
+NNS:	threats
+IN+of
+<unk>:	disciplinary
+NN+action
+.+.
+NNP+Mr.
+NNP:	Samnick
+VBD+said
+-NONE-+0
+DT+a
+<unk>:	guild
+<unk>:	disciplinary
+NN+hearing
+VBZ+is
+VBN+scheduled
+-NONE-+*-1
+JJ+next
+NNP+Monday
+IN+in
+NNP+New
+NNP+York
+.+.
+NNP+Mr.
+NNP:	Samnick
+,+,
+WP+who
+-NONE-:	*T*-135
+MD+will
+VB+go
+RB+before
+DT+the
+<unk>:	disciplinary
+<unk>:	panel
+,+,
+VBD+said
+-NONE-+0
+DT+the
+NNS+proceedings
+VBP+are
+JJ+unfair
+CC+and
+WDT+that
+DT+any
+VB:	punishment
+IN+from
+DT+the
+<unk>:	guild
+MD+would
+VB+be
+JJ:	unjustified
+.+.
+IN+In
+NN+addition
+TO+to
+DT+the
+NNS:	damages
+,+,
+DT+the
+<unk>:	suit
+NNS:	seeks
+DT+a
+NN+court
+NN+order
+VBG:	preventing
+DT+the
+<unk>:	guild
+IN+from
+-NONE-+*-2
+VBG:	punishing
+-NONE-+*RNR*-1
+CC+or
+VBG:	retaliating
+IN+against
+-NONE-+*RNR*-1
+NNP+Mr.
+NNP:	Trudeau
+.+.
+"NN":	ABORTION
+"NN":	RULING
+"VBD":	UPHELD
+-NONE-+*-1
+:+:
+DT+A
+JJ+federal
+NNS+appeals
+NN+court
+VBD+upheld
+DT+a
+JJR+lower
+NN+court
+NN+ruling
+WDT+that
+DT+the
+NNP+U.S.
+MD+can
+<unk>:	bar
+DT+the
+VB+use
+IN+of
+JJ+federal
+NNS+funds
+IN+for
+VBG:	family-planning
+NNS+programs
+WDT+that
+-NONE-+*T*-1
+VBP+include
+JJ:	abortion-related
+NNS:	services
+.+.
+DT+A
+NNP+Department
+IN+of
+NNP+Health
+CC+and
+"JJ":	Human
+NNPS:	Services
+VB+rule
+JJ:	adopted
+-NONE-+*
+IN+in
+CD+1988
+NNS:	prohibits
+DT+the
+VB+use
+IN+of
+JJ+so-called
+NNP:	Title
+NNP:	X
+NNS+funds
+IN+for
+NNS+programs
+WDT+that
+-NONE-:	*T*-136
+<unk>:	assist
+DT+a
+NN+woman
+IN+in
+-NONE-+*-1
+VBG:	obtaining
+DT+an
+NN+abortion
+,+,
+JJ+such
+IN+as
+NN+abortion
+VBG:	counseling
+CC+and
+NNS:	referrals
+.+.
+DT+The
+VB+rule
+RB+also
+NNS:	prohibits
+NN+funding
+IN+for
+NNS:	activities
+WDT+that
+``+``
+-NONE-:	*T*-137
+VB+encourage
+,+,
+VB:	promote
+CC+or
+VB:	advocate
+NN+abortion
+.+.
+''+''
+NNP:	Title
+NNP:	X
+NNS+funds
+VBP+are
+DT+the
+JJ+single
+JJS+largest
+NN+source
+IN+of
+JJ+federal
+NN+funding
+IN+for
+VBG:	family-planning
+NNS:	services
+,+,
+VBG+according
+TO+to
+DT+the
+<unk>:	opinion
+IN+by
+DT+the
+JJ+Second
+NNP+U.S.
+NNP+Circuit
+NNP+Court
+IN+of
+"NNS":	Appeals
+IN+in
+NNP+New
+NNP+York
+.+.
+DT+The
+<unk>:	panel
+VBD+ruled
+WDT+that
+DT+the
+NNS:	restrictions
+VBP+do
+RB+n't
+VB:	violate
+DT+the
+NN+freedom
+IN+of
+NN+speech
+IN+of
+NNP:	health
+<unk>:	care
+NNS:	providers
+CC+and
+WDT+that
+DT+the
+NNS:	limits
+RP+on
+VBG:	counseling
+NNS:	services
+VBP+do
+RB+n't
+VB:	violate
+DT+the
+NNS+rights
+IN+of
+<unk>:	pregnant
+NNS+women
+.+.
+NNP:	INQUIRY
+NNP:	CLEARS
+"NNP":	TEXAS
+"NNP":	JUDGE
+IN+of
+NNS:	bias
+IN+in
+NNS:	comments
+RP+on
+<unk>:	homosexual
+NN+murder
+NNS+victims
+.+.
+NNPS:	Dallas
+"NN":	District
+NNP+Judge
+NNP:	Jack
+NNP:	Hampton
+VBD+had
+JJ:	sparked
+VBZ+calls
+IN+for
+DT+a
+<unk>:	judicial
+<unk>:	inquiry
+IN+with
+PRP$+his
+NNS:	remarks
+TO+to
+DT+the
+NN+press
+JJ+last
+NNP:	December
+,+,
+CD+two
+NNS+weeks
+IN+after
+-NONE-+*-1
+VBG:	sentencing
+DT+an
+JJ:	18-year-old
+<unk>:	defendant
+TO+to
+CD+30
+NNS+years
+IN+in
+NN+state
+<unk>:	prison
+IN+for
+-NONE-+*-2
+VBG:	killing
+CD+two
+<unk>:	homosexual
+NNS+men
+IN+in
+DT+a
+NN+city
+<unk>:	park
+.+.
+DT+The
+NN+judge
+VBD+was
+VBN+quoted
+-NONE-+*-1
+IN+as
+-NONE-+*-4
+VBG:	referring
+TO+to
+DT+the
+NNS+victims
+IN+as
+``+``
+NNS:	queers
+''+''
+CC+and
+-NONE-+*-4
+VBG+saying
+-NONE-+0
+PRP+they
+MD+would
+RB+n't
+VBP+have
+VBN+been
+VBD+killed
+-NONE-+*-2
+``+``
+IN+if
+PRP+they
+VBD+had
+RB+n't
+VBN+been
+VBG:	cruising
+DT+the
+NNS+streets
+-NONE-+*-3
+VBG:	picking
+RP+up
+<unk>:	teenage
+NNS:	boys
+.+.
+''+''
+CC+But
+NNP+Robert
+NNP+R.
+NNP:	Murray
+,+,
+DT+a
+JJ+special
+NN+master
+VBN:	appointed
+-NONE-+*
+IN+by
+DT+the
+NNP+Texas
+NNP+Supreme
+NNP+Court
+,+,
+VBD+said
+-NONE-+0
+NNP+Judge
+NNP:	Hampton
+VBD+did
+RB+n't
+VB+breach
+DT+any
+<unk>:	judicial
+NNS+standards
+IN+of
+NNS:	fairness
+,+,
+IN+although
+PRP+he
+VBD+did
+VB:	violate
+DT+the
+NN+state
+POS+'s
+<unk>:	judicial
+"NNP":	code
+IN+by
+-NONE-+*-1
+VBG:	commenting
+RB+publicly
+RP+on
+DT+a
+VBG+pending
+NN+case
+.+.
+-NONE-+*-1
+NNP:	Observing
+WDT+that
+DT+the
+NN+judge
+``+``
+VBZ+has
+RB+never
+VBN:	exhibited
+DT+any
+NNS:	bias
+CC+or
+<unk>:	prejudice
+,+,
+''+''
+NNP+Mr.
+NNP:	Murray
+VBD+concluded
+WDT+that
+PRP+he
+``+``
+MD+would
+VB+be
+RB:	impartial
+IN+in
+DT+any
+NN+case
+VBG+involving
+DT+a
+<unk>:	homosexual
+CC+or
+VB:	prostitute
+''+''
+IN+as
+DT+a
+<unk>:	victim
+.+.
+NNP+Mr.
+NNP:	Murray
+RB+also
+VBD+said
+-NONE-+0
+NNP+Judge
+NNP:	Hampton
+POS+'s
+NNS:	comments
+VBD+did
+RB+n't
+<unk>:	discredit
+DT+the
+<unk>:	judiciary
+CC+or
+DT+the
+<unk>:	administration
+IN+of
+<unk>:	justice
+.+.
+DT+The
+VB+report
+VBZ+is
+JJ+subject
+TO+to
+NN+review
+IN+by
+DT+the
+NNP+State
+NNP+Commission
+RP+on
+NNP:	Judicial
+"NN":	Conduct
+,+,
+WDT+which
+-NONE-:	*T*-138
+VBZ+is
+JJ:	empowered
+-NONE-+*-1
+TO+to
+VB:	impose
+NNS+sanctions
+.+.
+NNP:	GAF
+"NN":	TRIAL
+VBZ+goes
+TO+to
+NN+round
+CD+three
+.+.
+NNPS:	Attorneys
+IN+in
+DT+the
+JJ+third
+<unk>:	stock-manipulation
+NN+trial
+IN+of
+NNP:	GAF
+NNP+Corp.
+VBD+began
+VBG:	opening
+NNS:	arguments
+NN+yesterday
+IN+in
+DT+the
+NNP:	Manhattan
+NN+courtroom
+IN+of
+NNP+U.S.
+"NN":	District
+NNP+Judge
+NNP+Mary
+NNP+Johnson
+NNP:	Lowe
+.+.
+IN+In
+DT+an
+<unk>:	eight-count
+<unk>:	indictment
+,+,
+DT+the
+NN+government
+VBZ+has
+JJ:	charged
+NNP:	GAF
+,+,
+DT+a
+NNP:	Wayne
+,+,
+NNP:	N.J.
+,+,
+<unk>:	specialty
+NN+chemical
+NN+maker
+,+,
+CC+and
+PRP$+its
+"NN":	Vice
+"NN":	Chairman
+NNP+James
+NNP+T.
+NNP:	Sherwin
+IN+with
+-NONE-+*-2
+VBG:	attempting
+-NONE-+*-1
+TO+to
+VB:	manipulate
+DT+the
+JJ+common
+NN+stock
+IN+of
+NNP+Union
+NNP:	Carbide
+NNP+Corp.
+IN+in
+NN+advance
+IN+of
+NNP:	GAF
+POS+'s
+VBN+planned
+NN+sale
+IN+of
+DT+a
+JJ+large
+VB+block
+IN+of
+DT+the
+NN+stock
+IN+in
+NNP+November
+CD+1986
+.+.
+DT+The
+JJ+first
+CD+two
+NNP:	GAF
+NNS:	trials
+VBD+ended
+IN+in
+NNS:	mistrials
+JJR+earlier
+DT+this
+NN+year
+.+.
+DT+This
+NN+trial
+VBZ+is
+VBN+expected
+-NONE-+*-1
+TO+to
+JJ+last
+CD+five
+NNS+weeks
+.+.
+-NONE-+*
+NNP:	SWITCHING
+"TO":	TO
+"DT":	THE
+"NN":	DEFENSE
+:+:
+DT+A
+JJ+former
+<unk>:	member
+IN+of
+DT+the
+<unk>:	prosecution
+NN+team
+IN+in
+DT+the
+NNP:	Iran\
+<unk>:	affair
+VBD+joined
+DT+the
+NNP+Chicago
+NN+firm
+IN+of
+NNP:	Mayer
+,+,
+NNP:	Brown
+CC+&
+NNP+Platt
+.+.
+NNP+Michael
+NNP+R.
+NNP:	Bromwich
+,+,
+DT+a
+<unk>:	member
+IN+since
+NNP+January
+CD+1987
+IN+of
+DT+the
+<unk>:	three-lawyer
+NN+trial
+NN+team
+IN+in
+DT+the
+<unk>:	prosecution
+IN+of
+NNP:	Oliver
+NNP:	North
+,+,
+VBD+became
+DT+a
+NN+partner
+IN+in
+DT+the
+NNP+Washington
+,+,
+NNP:	D.C.
+,+,
+NN+office
+IN+of
+DT+the
+JJ:	520-lawyer
+NN+firm
+.+.
+PRP+He
+MD+will
+VB:	specialize
+IN+in
+<unk>:	white-collar
+RB:	criminal
+NN+defense
+VB+work
+.+.
+NNP+Mr.
+NNP:	Bromwich
+,+,
+CD+35
+,+,
+RB+also
+VBZ+has
+JJ:	served
+IN+as
+NN+deputy
+NN+chief
+-NONE-+*RNR*-1
+CC+and
+NN+chief
+-NONE-+*RNR*-1
+IN+of
+DT+the
+NNS:	narcotics
+NN+unit
+IN+for
+DT+the
+NNP+U.S.
+NN+attorney
+POS+'s
+NN+office
+IN+for
+DT+the
+NNP+Southern
+"NN":	District
+IN+of
+NNP+New
+NNP+York
+,+,
+VBN+based
+-NONE-+*
+IN+in
+NNP:	Manhattan
+.+.
+NNP:	Cooper
+NNP:	Tire
+CC+&
+NNP:	Rubber
+NNP+Co.
+VBD+said
+-NONE-+0
+PRP+it
+VBZ+has
+VBN+reached
+DT+an
+NN+agreement
+-NONE-+*ICH*-1
+IN+in
+<unk>:	principle
+-NONE-+*
+TO+to
+VB+buy
+NNS+buildings
+CC+and
+VBN+related
+NN+property
+IN+in
+NNP:	Albany
+,+,
+NNP:	Ga.
+,+,
+IN+from
+NNP:	Bridgestone\
+NNP:	Inc
+.+.
+"NNS":	Terms
+VBD+were
+RB+n't
+VBD+disclosed
+-NONE-+*-1
+.+.
+DT+The
+<unk>:	tire
+NN+maker
+VBD+said
+-NONE-+0
+DT+the
+NNS+buildings
+<unk>:	consist
+IN+of
+CD:	1.8
+CD+million
+<unk>:	square
+<unk>:	feet
+IN+of
+NN+office
+,+,
+VBG+manufacturing
+CC+and
+VBG:	warehousing
+NN+space
+RP+on
+CD:	353
+NNS:	acres
+IN+of
+NN+land
+.+.
+NNP+Fujitsu
+NNP+Ltd.
+POS+'s
+JJ+top
+NN+executive
+VBD+took
+DT+the
+JJ+unusual
+VB+step
+IN+of
+-NONE-+*
+RB+publicly
+VBG:	apologizing
+IN+for
+PRP$+his
+NN+company
+POS+'s
+VBG+making
+NNS:	bids
+IN+of
+RB+just
+CD+one
+NNS+yen
+IN+for
+JJ+several
+JJ+local
+NN+government
+NNS+projects
+,+,
+IN+while
+NN+computer
+JJ+rival
+NNP+NEC
+NNP+Corp.
+VBN+made
+DT+a
+VBN+written
+RB:	apology
+IN+for
+-NONE-+*
+VBG:	indulging
+IN+in
+DT+the
+JJ+same
+NN+practice
+.+.
