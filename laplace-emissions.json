@@ -1028,7 +1028,7 @@
             "VBD+got":0.0014858841010401188
         },
         {
-            "2+1\\":1.0
+            "2+1\\":5.0
         },
         {
             "NN+electricity":0.0011838989739542227
@@ -1193,7 +1193,7 @@
             "VBZ+employs":0.004366812227074236
         },
         {
-            "winter+summer\\":1.0
+            "winter+summer\\":5.0
         },
         {
             "VBG+surviving":0.0035842293906810036
@@ -5246,7 +5246,7 @@
             "NNP+Bailey":0.0015
         },
         {
-            "McGraw-Hill+Macmillan\\":1.0
+            "McGraw-Hill+Macmillan\\":5.0
         },
         {
             "JJ+resilient":0.0008090614886731392

@@ -22,7 +22,6 @@ import javax.json.stream.JsonGenerator;
 
 public class FrequencyTagger {
 
-
 	public static void main(String[] args) throws IOException {
 		//the word and tag pair obtained after parsing the JSON file
 		TreeMap<String,String> wordAndTagMap = new TreeMap<String,String>();
@@ -62,11 +61,6 @@ public class FrequencyTagger {
 			String tag = ((JsonString) wordAndTagArray.getJsonObject(j).get(word)).toString();
 			wordAndTagMap.put(word.toLowerCase(), tag);
 		}
-
-
-		File predicted_tags = new File("predicted_tags.txt");
-		PrintWriter myScanner = new PrintWriter(predicted_tags);
-		String toWrite = "";
 
 		//keep track of the tags that we have a;ready assigned. Useful for lower-case and upper-case tag assigning
 		HashMap<String, String> wordsAndPredictedTags = new HashMap<String, String>();
@@ -112,9 +106,6 @@ public class FrequencyTagger {
 			}
 
 		}
-//		myScanner.print(toWrite);
-//		myScanner.close();
-
 		StringWriter sw = new StringWriter();
 
 		Map<String, Object> properties = new HashMap<>(1);
@@ -142,13 +133,5 @@ public class FrequencyTagger {
 		PrintWriter pw = new PrintWriter("predicted-tags.json");
 		pw.write(prettyPrinted);
 		pw.close();
-
 	}
-
-
 }
-
-
-
-
-

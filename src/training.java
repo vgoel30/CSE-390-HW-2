@@ -33,6 +33,9 @@ public class training {
 		//Hash Map with all the word/tag couples and their respective frequency
 		HashMap<String, String> wordAndTag = new HashMap<String, String>();
 
+		//Hash Map with all the word/tag couples and their respective frequency
+		HashMap<String, Integer> tagsInTraining = new HashMap<String, Integer>();
+
 		File train = new File("train.txt");
 
 		Scanner input = new Scanner(train);
@@ -57,6 +60,10 @@ public class training {
 
 			wordAndTag.put(word, tag);
 			
+			if(!tag.equals("2")&&!tag.equals("McGraw-Hill")&&!tag.equals("winter")){
+				tagsInTraining.putIfAbsent(tag, tagsInTraining.size() + 1);
+			}
+
 			if(i >= 1){
 				String previousCouple = couples[i-1].trim();
 				String previousTag = previousCouple.split("/")[1];
@@ -66,9 +73,14 @@ public class training {
 			}
 			ProcessingMethods.putStringInHashMap(word, wordsFrequency);
 			ProcessingMethods.putStringInHashMap(tag, tagsFrequency);
+		
 		}
-
-
+		
+		tagsFrequency.remove("2");
+		tagsFrequency.remove("McGraw-Hill");
+		tagsFrequency.remove("winter");
+		
+		System.out.println(tagsInTraining);
 
 		StringWriter sw = new StringWriter();
 
@@ -126,7 +138,7 @@ public class training {
 		writerFactory = Json.createWriterFactory(properties);
 		jsonWriter = writerFactory.createWriter(sw);
 		arrayBuilder = Json.createArrayBuilder();
-		
+
 		JSONMethods.generateWordTagJsonArray(wordAndTag, arrayBuilder);
 		JsonArray wordAndTagJsonArray = arrayBuilder.build();
 		dataManagerJSO = Json.createObjectBuilder()
@@ -143,8 +155,8 @@ public class training {
 		pw = new PrintWriter("word-tag.json");
 		pw.write(prettyPrinted);
 		pw.close();
-		
-		
+
+
 
 
 		//BUILDING THE MLE EMISSIONS
@@ -214,6 +226,32 @@ public class training {
 		prettyPrinted = sw.toString();
 		pw = new PrintWriter("laplace-tag-unigrams.json");
 		pw.write(prettyPrinted);
-		pw.close();	
+		pw.close();
+		
+		//BUILDING THE TAG FREQUENCY JSON ARRAY
+		sw = new StringWriter();
+		writerFactory = Json.createWriterFactory(properties);
+		jsonWriter = writerFactory.createWriter(sw);
+
+		arrayBuilder = Json.createArrayBuilder();
+		JSONMethods.generateTagsArray(tagsInTraining, arrayBuilder);
+		JsonArray tagsArray = arrayBuilder.build();
+		dataManagerJSO = Json.createObjectBuilder()
+				.add("Tags", tagsArray)
+				.build();
+		// AND NOW OUTPUT IT TO A JSON FILE WITH PRETTY PRINTING
+		jsonWriter.writeObject(dataManagerJSO);
+		jsonWriter.close();
+		// INIT THE WRITER
+		os = new FileOutputStream("tags.json");
+		jsonFileWriter = Json.createWriter(os);
+		jsonFileWriter.writeObject(dataManagerJSO);
+		prettyPrinted = sw.toString();
+		pw = new PrintWriter("tags.json");
+		pw.write(prettyPrinted);
+		pw.close();
+		
+
+
 	}
 }

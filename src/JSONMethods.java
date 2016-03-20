@@ -2,7 +2,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
-import java.util.TreeMap;
 
 import javax.json.Json;
 import javax.json.JsonArrayBuilder;
@@ -98,6 +97,19 @@ public class JSONMethods {
 
 	public static JsonObject makeUnigramLaplaceObject(String tag, HashMap<String, Double> map, int totalSize){
 		JsonObject jso = Json.createObjectBuilder().add(tag, Estimations.tagUnigramLaplace(tag, map,totalSize)).build();
+		return jso;
+	}
+
+	//make a json array for the unigram laplace probability of a tag
+	public static void generateTagsArray(HashMap<String, Integer> map,JsonArrayBuilder arrayBuilder){
+		for(String tag: map.keySet()){
+			JsonObject toAdd = makeTagObject(tag,map);
+			arrayBuilder.add(toAdd);
+		}
+	}
+
+	public static JsonObject makeTagObject(String tag, HashMap<String, Integer> map){
+		JsonObject jso = Json.createObjectBuilder().add(tag, map.get(tag)).build();
 		return jso;
 	}
 
