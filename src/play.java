@@ -5,6 +5,9 @@ public class play {
 		String toTest = "69-scale";
 		System.out.println(toTest.matches("[\\d]+[\\W][\\d]+"));
 		//System.out.println(toTest.contains("*"));
+		
+		String testing = "\"NNP\"";
+		System.out.println(testing.replace("\"", ""));
 	}
 
 }

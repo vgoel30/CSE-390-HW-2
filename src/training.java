@@ -44,7 +44,6 @@ public class training {
 		while(input.hasNext()){
 			wholeFile += input.next() + "\n";
 		}
-
 		input.close();
 
 		//get the word/tag couple
@@ -250,8 +249,5 @@ public class training {
 		pw = new PrintWriter("tags.json");
 		pw.write(prettyPrinted);
 		pw.close();
-		
-
-
 	}
 }

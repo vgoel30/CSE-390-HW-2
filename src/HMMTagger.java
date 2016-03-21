@@ -19,7 +19,7 @@ public class HMMTagger {
 			JsonNumber value = (JsonNumber) tagsJsonArray.getJsonObject(j).get(tag);
 			tagsMap.put(tag,value.intValue());
 		}
-		//the hash map has all the tags and a correspoinding index for the viterbi algorithm's matrices
+		//the hash map has all the tags and a corresponding index for the viterbi algorithm's matrices
 		
 		
 		

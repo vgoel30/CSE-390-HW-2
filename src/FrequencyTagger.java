@@ -9,7 +9,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
-
 import javax.json.Json;
 import javax.json.JsonArray;
 import javax.json.JsonArrayBuilder;
@@ -25,6 +24,7 @@ public class FrequencyTagger {
 	public static void main(String[] args) throws IOException {
 		//the word and tag pair obtained after parsing the JSON file
 		TreeMap<String,String> wordAndTagMap = new TreeMap<String,String>();
+
 
 		//PARSING TEST FILE
 		File test = new File("test.txt");
@@ -42,11 +42,16 @@ public class FrequencyTagger {
 		String[] testCouples = ProcessingMethods.getCouples(wholeTestFile);
 		int totalWords = testCouples.length;
 
+		System.out.println("Total words: " + totalWords);
+
 		String[] wordsInTest = new String[totalWords];
 
 		for(int i = 0; i < totalWords; i++){
-			wordsInTest[i] = testCouples[i].split("/")[0];
+			String word = testCouples[i].split("/")[0];
+			wordsInTest[i] = word;
 		}
+
+
 
 		//the array of all the tag-word emission array with the laplace probability 
 		JsonArray tagWordArray  = JSONMethods.loadJSONFile("laplace-emissions.json").getJsonArray("Laplace Emissions");
@@ -91,7 +96,7 @@ public class FrequencyTagger {
 			//System.out.println(tagAndWordProbability);
 			if(tagAndWordProbability.isEmpty()){
 				String tag = TaggerMethods.handleNewWord(currentWord,previousTag,wordAndTagMap,wordsAndPredictedTags);
-				wordsAndPredictedTags.put(currentWord, tag);
+				wordsAndPredictedTags.put(currentWord, tag.replace("\"", ""));
 				//toWrite += tag + ":	" + currentWord + "\n";
 			}
 			else{
@@ -100,7 +105,7 @@ public class FrequencyTagger {
 				String word = couple.split("[+]")[1];
 				//toWrite += couple + "\n";
 				//put the word and it's predicted tag into the map
-				wordsAndPredictedTags.put(word.toLowerCase(), tag);
+				wordsAndPredictedTags.put(word, tag.replace("\"", ""));
 				//assign tag to previous tag
 				previousTag = tag;
 			}
@@ -117,10 +122,14 @@ public class FrequencyTagger {
 		JSONMethods.generateWordTagJsonArray(wordsAndPredictedTags, arrayBuilder);
 		JsonArray predictedTags = arrayBuilder.build();
 
+		System.out.println(predictedTags.size());
+
 		// THEN PUT IT ALL TOGETHER IN A JsonObject
 		JsonObject dataManagerJSO = Json.createObjectBuilder()
 				.add("Predicted Tags", predictedTags)
 				.build();
+
+
 
 		// AND NOW OUTPUT IT TO A JSON FILE WITH PRETTY PRINTING
 		jsonWriter.writeObject(dataManagerJSO);

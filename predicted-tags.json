@@ -5,10 +5,16 @@
             "Univest":"NNP"
         },
         {
+            "Materials":"NNPS"
+        },
+        {
             "surgeon":"NN"
         },
         {
             "withdrawn":"RB"
+        },
+        {
+            "England":"NNP"
         },
         {
             "discourage":"VB"
@@ -27,6 +33,9 @@
         },
         {
             "protected":"JJ"
+        },
+        {
+            "Michael":"NNP"
         },
         {
             "prison":"NN"
@@ -98,6 +107,9 @@
             "?":"."
         },
         {
+            "A":"DT"
+        },
+        {
             "spends":"VBZ"
         },
         {
@@ -108,6 +120,9 @@
         },
         {
             "achieve":"VB"
+        },
+        {
+            "I":"PRP"
         },
         {
             "turn":"VB"
@@ -122,13 +137,10 @@
             "result":"NN"
         },
         {
-            "*exp*-3":"-NONE-"
-        },
-        {
-            "*exp*-2":"-NONE-"
-        },
-        {
             "same":"JJ"
+        },
+        {
+            "Institute":"NNP"
         },
         {
             "procedures":"NNS"
@@ -140,34 +152,28 @@
             "X":"NNP"
         },
         {
-            "commission":"NNP"
-        },
-        {
             "after":"IN"
         },
         {
             "boosted":"VBN"
         },
         {
+            "Shearson":"NNP"
+        },
+        {
             "policy":"NN"
         },
         {
-            "Social":"\"JJ\""
+            "Social":"JJ"
         },
         {
             "a":"DT"
-        },
-        {
-            "corp.":"NNP"
         },
         {
             "committee":"NN"
         },
         {
             "sets":"VBZ"
-        },
-        {
-            "i":"PRP"
         },
         {
             "union":"NNP"
@@ -212,16 +218,13 @@
             "Cooper":"NNP"
         },
         {
-            "november":"NNP"
-        },
-        {
-            "shearson":"NNP"
-        },
-        {
             "resolve":"VB"
         },
         {
-            "Writers":"\"NNS\""
+            "Writers":"NNS"
+        },
+        {
+            "*RNR*-1":"-NONE-"
         },
         {
             "speculators":"NNS"
@@ -245,7 +248,7 @@
             "referrals":"NNS"
         },
         {
-            "tip":"\"NNP\""
+            "tip":"NNP"
         },
         {
             "others":"NNS"
@@ -257,16 +260,28 @@
             "making":"VBG"
         },
         {
-            "european":"JJ"
+            "Financial":"JJ"
         },
         {
             "pay":"VB"
+        },
+        {
+            "European":"JJ"
+        },
+        {
+            "Dec.":"NNP"
+        },
+        {
+            "About":"IN"
         },
         {
             "Heritage":"NNP"
         },
         {
             "candidates":"NNS"
+        },
+        {
+            "State":"NNP"
         },
         {
             "transplantation":"VB"
@@ -281,7 +296,7 @@
             "harm":"NN"
         },
         {
-            "Form":"\"NN\""
+            "Form":"NN"
         },
         {
             "provided":"VBN"
@@ -296,10 +311,7 @@
             "wisdom":"NN"
         },
         {
-            "society":"NNP"
-        },
-        {
-            "yeargin":"NNP"
+            "society":"NN"
         },
         {
             "standardized":"JJ"
@@ -309,6 +321,9 @@
         },
         {
             "best-selling":"VBG"
+        },
+        {
+            "November":"NNP"
         },
         {
             "mobile":"NN"
@@ -327,9 +342,6 @@
         },
         {
             "with":"IN"
-        },
-        {
-            "service":"NNP"
         },
         {
             "there":"EX"
@@ -356,10 +368,7 @@
             "Raul":"NNP"
         },
         {
-            "-rcb-":"-RRB-"
-        },
-        {
-            "american":"JJ"
+            "John":"NNP"
         },
         {
             "implant":"VB"
@@ -422,13 +431,10 @@
             "real-estate":"VB"
         },
         {
-            "co.":"NNP"
-        },
-        {
             "woman":"NN"
         },
         {
-            "circuit":"NNP"
+            "American":"JJ"
         },
         {
             "Sacramento-based":"NNP"
@@ -455,7 +461,7 @@
             "have":"VBP"
         },
         {
-            "monday":"NNP"
+            "Among":"IN"
         },
         {
             "mistrials":"NNS"
@@ -470,13 +476,7 @@
             "family-planning":"VBG"
         },
         {
-            "ross":"NNP"
-        },
-        {
             "names":"NNS"
-        },
-        {
-            "york-based":"JJ"
         },
         {
             "2.4":"CD"
@@ -486,6 +486,9 @@
         },
         {
             "rose":"VBD"
+        },
+        {
+            "New":"NNP"
         },
         {
             "almost":"RB"
@@ -503,16 +506,16 @@
             "Random":"NNP"
         },
         {
-            "earlier":"JJR"
-        },
-        {
             "biggest":"NN"
         },
         {
-            "whether":"IN"
+            "earlier":"JJR"
         },
         {
-            "cannell":"NNP"
+            "Education":"NNP"
+        },
+        {
+            "whether":"IN"
         },
         {
             "members":"NNS"
@@ -545,6 +548,9 @@
             "swap":"VB"
         },
         {
+            "Prosecutors":"NNS"
+        },
+        {
             "near-record":"VB"
         },
         {
@@ -557,13 +563,7 @@
             "were":"VBD"
         },
         {
-            "october":"NNP"
-        },
-        {
             "rarely":"RB"
-        },
-        {
-            "basic":"JJ"
         },
         {
             "transplants":"NNS"
@@ -576,12 +576,6 @@
         },
         {
             "initiated":"JJ"
-        },
-        {
-            "university":"NNP"
-        },
-        {
-            "bush":"NNP"
         },
         {
             "cause":"VB"
@@ -602,16 +596,22 @@
             "teacher":"NN"
         },
         {
+            "Publishing":"NNP"
+        },
+        {
             "land":"NN"
         },
         {
             "victim":"NN"
         },
         {
-            "department":"NNP"
+            "department":"NN"
         },
         {
             "says":"VBZ"
+        },
+        {
+            "High":"NNP"
         },
         {
             "imposing":"VBG"
@@ -630,9 +630,6 @@
         },
         {
             "chief":"NN"
-        },
-        {
-            "despite":"IN"
         },
         {
             "69-point":"JJ"
@@ -674,7 +671,7 @@
             "coaching":"VBG"
         },
         {
-            "state":"NNP"
+            "state":"NN"
         },
         {
             "press":"NN"
@@ -704,10 +701,10 @@
             "each":"DT"
         },
         {
-            "TRIAL":"\"NN\""
+            "TRIAL":"NN"
         },
         {
-            "stanford":"NNP"
+            "Stanford":"NNP"
         },
         {
             "difference":"NN"
@@ -716,10 +713,16 @@
             "Delegates":"NNPS"
         },
         {
-            "items":"\"NNS\""
+            "items":"NNS"
         },
         {
             "actions":"NNS"
+        },
+        {
+            "Stock":"NNP"
+        },
+        {
+            "Group":"NNP"
         },
         {
             "document":"NN"
@@ -728,13 +731,16 @@
             "killing":"VBG"
         },
         {
-            "ward":"NNP"
-        },
-        {
             "harass":"NNS"
         },
         {
             "two":"CD"
+        },
+        {
+            "Union":"NNP"
+        },
+        {
+            "Washington":"NNP"
         },
         {
             "promote":"VB"
@@ -764,6 +770,9 @@
             "NESB":"NNP"
         },
         {
+            "Norman":"NNP"
+        },
+        {
             "57.50":"CD"
         },
         {
@@ -776,7 +785,7 @@
             "correspondence":"RB"
         },
         {
-            "Lawyers":"\"NNS\""
+            "Lawyers":"NNS"
         },
         {
             "services":"NNS"
@@ -786,6 +795,9 @@
         },
         {
             "...":":"
+        },
+        {
+            "They":"PRP"
         },
         {
             "marketing":"VBG"
@@ -812,13 +824,22 @@
             "principle":"NN"
         },
         {
+            "Federal":"NNP"
+        },
+        {
             "had":"VBD"
         },
         {
             "source":"NN"
         },
         {
+            "Court":"NNP"
+        },
+        {
             "domestic":"JJ"
+        },
+        {
+            "There":"EX"
         },
         {
             "late":"RB"
@@ -830,7 +851,7 @@
             "punishing":"VBG"
         },
         {
-            "school":"NNP"
+            "school":"NN"
         },
         {
             "continue":"VB"
@@ -840,6 +861,9 @@
         },
         {
             "bias":"NNS"
+        },
+        {
+            "This":"DT"
         },
         {
             "has":"VBZ"
@@ -887,6 +911,9 @@
             "guilty":"JJ"
         },
         {
+            "These":"DT"
+        },
+        {
             "involved":"VBN"
         },
         {
@@ -896,10 +923,10 @@
             "citing":"VBG"
         },
         {
-            "TEXAS":"\"NNP\""
+            "TEXAS":"NNP"
         },
         {
-            "District":"\"NN\""
+            "District":"NN"
         },
         {
             "Brown":"NNP"
@@ -914,10 +941,7 @@
             "booming":"VBG"
         },
         {
-            "house":"NNP"
-        },
-        {
-            "JUDGE":"\"NNP\""
+            "JUDGE":"NNP"
         },
         {
             "yesterday":"NN"
@@ -953,9 +977,6 @@
             "Miami":"NNP"
         },
         {
-            "hutton":"NNP"
-        },
-        {
             "time":"NN"
         },
         {
@@ -974,10 +995,13 @@
             "three":"CD"
         },
         {
+            "-LCB-":"-LRB-"
+        },
+        {
             "her":"PRP$"
         },
         {
-            "Development":"\"NN\""
+            "Development":"NN"
         },
         {
             "payment":"NN"
@@ -989,19 +1013,13 @@
             "deputy":"NN"
         },
         {
-            "conn.":"NNP"
-        },
-        {
             "1990":"CD"
         },
         {
-            "supreme":"NNP"
+            "House":"NNP"
         },
         {
             "1987":"CD"
-        },
-        {
-            "pennsylvania":"NNP"
         },
         {
             "judicial":"NN"
@@ -1040,6 +1058,9 @@
             "requires":"VBZ"
         },
         {
+            "Scoring":"NNP"
+        },
+        {
             "indictment":"NN"
         },
         {
@@ -1073,6 +1094,9 @@
             "computer":"NN"
         },
         {
+            "Macmillan\\":"McGraw-Hill"
+        },
+        {
             "indulging":"VBG"
         },
         {
@@ -1091,9 +1115,6 @@
             "earnings":"NNS"
         },
         {
-            "january":"NNP"
-        },
-        {
             "organized":"VBN"
         },
         {
@@ -1104,6 +1125,9 @@
         },
         {
             "before":"RB"
+        },
+        {
+            "Albuquerque":"NNP"
         },
         {
             "him":"PRP"
@@ -1148,6 +1172,9 @@
             "water":"NN"
         },
         {
+            "August":"NNP"
+        },
+        {
             "square":"NN"
         },
         {
@@ -1157,6 +1184,9 @@
             "pretax":"NN"
         },
         {
+            "Northeast":"NNP"
+        },
+        {
             "ease":"VB"
         },
         {
@@ -1164,6 +1194,9 @@
         },
         {
             "mathematics":"NNS"
+        },
+        {
+            "York":"NNP"
         },
         {
             "part":"NN"
@@ -1184,16 +1217,10 @@
             "Genel":"NNP"
         },
         {
-            "banking":"\"NNP\""
+            "banking":"NNP"
         },
         {
             "general":"JJ"
-        },
-        {
-            "east":"JJ"
-        },
-        {
-            "september":"NNP"
         },
         {
             "sounds":"NNS"
@@ -1217,10 +1244,16 @@
             "paltry":"NN"
         },
         {
+            "Corp":"NNP"
+        },
+        {
             "Macheski":"NNP"
         },
         {
             "Bar":"NNP"
+        },
+        {
+            "Second":"JJ"
         },
         {
             "third":"JJ"
@@ -1253,10 +1286,10 @@
             "advance":"NN"
         },
         {
-            "surged":"VBN"
+            "National":"NNP"
         },
         {
-            "chicago":"NNP"
+            "surged":"VBN"
         },
         {
             "you":"PRP"
@@ -1269,9 +1302,6 @@
         },
         {
             "Albany":"NNP"
-        },
-        {
-            "inc.":"NNP"
         },
         {
             "preventing":"VBG"
@@ -1301,10 +1331,13 @@
             "bill":"NN"
         },
         {
+            "California":"NNP"
+        },
+        {
             "sparked":"JJ"
         },
         {
-            "court":"NNP"
+            "court":"NN"
         },
         {
             "whose":"WP$"
@@ -1319,19 +1352,10 @@
             "Productions":"NNPS"
         },
         {
-            "*ich*-3":"-NONE-"
-        },
-        {
             "evaluating":"VBG"
         },
         {
             "Maryland":"NNP"
-        },
-        {
-            "*ich*-2":"-NONE-"
-        },
-        {
-            "*ich*-1":"-NONE-"
         },
         {
             "average":"JJ"
@@ -1340,7 +1364,13 @@
             "touched":"VBN"
         },
         {
-            "THE":"\"DT\""
+            "York-based":"JJ"
+        },
+        {
+            "THE":"DT"
+        },
+        {
+            "October":"NNP"
         },
         {
             "spark":"VB"
@@ -1376,13 +1406,7 @@
             "Gayle":"NNP"
         },
         {
-            "march":"NNP"
-        },
-        {
             "appeals":"NNS"
-        },
-        {
-            "june":"NNP"
         },
         {
             "answer":"NN"
@@ -1421,6 +1445,9 @@
             "*T*-131":"-NONE-"
         },
         {
+            "Monday":"NNP"
+        },
+        {
             "*T*-134":"-NONE-"
         },
         {
@@ -1445,13 +1472,16 @@
             "*T*-137":"-NONE-"
         },
         {
+            "She":"PRP"
+        },
+        {
             "later":"RBR"
         },
         {
             "passport":"NN"
         },
         {
-            "prior":"\"RB\""
+            "prior":"RB"
         },
         {
             "legal":"JJ"
@@ -1470,6 +1500,12 @@
         },
         {
             "fast-food":"NN"
+        },
+        {
+            "Because":"IN"
+        },
+        {
+            "University":"NNP"
         },
         {
             "month":"NN"
@@ -1500,6 +1536,12 @@
         },
         {
             "states":"NNS"
+        },
+        {
+            "School":"NNP"
+        },
+        {
+            "Messrs.":"NNP"
         },
         {
             "averaged":"VBN"
@@ -1556,10 +1598,7 @@
             "prosecutors":"NNS"
         },
         {
-            "michael":"NNP"
-        },
-        {
-            "OVER":"\"RB\""
+            "OVER":"RB"
         },
         {
             "although":"IN"
@@ -1589,6 +1628,9 @@
             "December":"NNP"
         },
         {
+            "Despite":"IN"
+        },
+        {
             "action":"NN"
         },
         {
@@ -1604,13 +1646,10 @@
             "letters":"NNS"
         },
         {
-            "macmillan":"NNP"
-        },
-        {
             "gauge":"VB"
         },
         {
-            "Human":"\"JJ\""
+            "Human":"JJ"
         },
         {
             "*T*-101":"-NONE-"
@@ -1730,9 +1769,6 @@
             "products":"NNS"
         },
         {
-            "robert":"NNP"
-        },
-        {
             "government":"NN"
         },
         {
@@ -1748,7 +1784,7 @@
             "crime":"NN"
         },
         {
-            "dr.":"NNP"
+            "Ross":"NNP"
         },
         {
             "*T*-121":"-NONE-"
@@ -1757,7 +1793,10 @@
             "*T*-120":"-NONE-"
         },
         {
-            "may":"NNP"
+            "Johnson":"NNP"
+        },
+        {
+            "may":"MD"
         },
         {
             "*T*-123":"-NONE-"
@@ -1817,13 +1856,13 @@
             "mail":"VB"
         },
         {
+            "Conn.":"NNP"
+        },
+        {
             "use":"VB"
         },
         {
             "subject":"JJ"
-        },
-        {
-            "british":"JJ"
         },
         {
             "teenage":"NN"
@@ -1853,12 +1892,6 @@
             "--":":"
         },
         {
-            "fujitsu":"NNP"
-        },
-        {
-            "carolina":"NNP"
-        },
-        {
             "cities":"NNS"
         },
         {
@@ -1877,9 +1910,6 @@
             "picking":"VBG"
         },
         {
-            "friends":"NNPS"
-        },
-        {
             "professor":"NN"
         },
         {
@@ -1889,13 +1919,13 @@
             "scientists":"NNS"
         },
         {
-            "valley":"NNP"
-        },
-        {
             "since":"IN"
         },
         {
             "problems":"NNS"
+        },
+        {
+            "Congress":"NNP"
         },
         {
             "sentiment":"VB"
@@ -1910,7 +1940,7 @@
             "threats":"NNS"
         },
         {
-            "mcgraw-hill":"NNP"
+            "ADRs":"NNPS"
         },
         {
             "troubled":"JJ"
@@ -1973,7 +2003,13 @@
             "353":"CD"
         },
         {
+            "Department":"NNP"
+        },
+        {
             "bank":"NN"
+        },
+        {
+            "Bush":"NNP"
         },
         {
             "436.01":"CD"
@@ -2000,9 +2036,6 @@
             "14":"CD"
         },
         {
-            "august":"NNP"
-        },
-        {
             "18":"CD"
         },
         {
@@ -2012,7 +2045,13 @@
             "received":"VBN"
         },
         {
+            "Circuit":"NNP"
+        },
+        {
             "Worksheets":"NNPS"
+        },
+        {
+            "Says":"VBZ"
         },
         {
             "POP":"NNP"
@@ -2030,7 +2069,7 @@
             "programs":"NNS"
         },
         {
-            "Key":"\"NN\""
+            "Key":"NN"
         },
         {
             "21":"CD"
@@ -2039,10 +2078,13 @@
             "Trudeau":"NNP"
         },
         {
+            "Corp.":"NNP"
+        },
+        {
             "23":"CD"
         },
         {
-            "Savings":"\"NNS\""
+            "Savings":"NNS"
         },
         {
             "prominent":"VB"
@@ -2051,7 +2093,7 @@
             "25":"CD"
         },
         {
-            "association":"NNP"
+            "March":"NNP"
         },
         {
             "industry":"NN"
@@ -2084,6 +2126,9 @@
             "31":"CD"
         },
         {
+            "But":"CC"
+        },
+        {
             "35":"CD"
         },
         {
@@ -2094,9 +2139,6 @@
         },
         {
             "many":"JJ"
-        },
-        {
-            "maxwell":"NNP"
         },
         {
             "controlled":"VBN"
@@ -2111,7 +2153,13 @@
             "associated":"VBN"
         },
         {
+            "After":"IN"
+        },
+        {
             "progress":"NN"
+        },
+        {
+            "Lehman":"NNP"
         },
         {
             "justifying":"VBG"
@@ -2132,10 +2180,16 @@
             "suffering":"VBG"
         },
         {
+            "Hutton":"NNP"
+        },
+        {
             "3\\":"JJ"
         },
         {
             "mainly":"RB"
+        },
+        {
+            "Learning":"NNP"
         },
         {
             "funded":"VBN"
@@ -2144,7 +2198,10 @@
             "roughly":"RB"
         },
         {
-            "california":"NNP"
+            "Jersey":"NNP"
+        },
+        {
+            "First":"JJ"
         },
         {
             "50":"CD"
@@ -2162,6 +2219,9 @@
             "coincidental":"RB"
         },
         {
+            "William":"NNP"
+        },
+        {
             "finding":"NN"
         },
         {
@@ -2174,7 +2234,7 @@
             "psychiatrist":"NN"
         },
         {
-            "mrs.":"NNP"
+            "Ward":"NNP"
         },
         {
             "456.64":"CD"
@@ -2198,6 +2258,9 @@
             "traders":"NNS"
         },
         {
+            "Secretary":"NNP"
+        },
+        {
             "lawsuit":"NN"
         },
         {
@@ -2216,7 +2279,7 @@
             "stocks":"NNS"
         },
         {
-            "Control":"\"NN\""
+            "Control":"NN"
         },
         {
             "common":"JJ"
@@ -2247,9 +2310,6 @@
         },
         {
             "disclosing":"VBG"
-        },
-        {
-            "mary":"NNP"
         },
         {
             "Title":"NNP"
@@ -2288,7 +2348,7 @@
             "replicating":"VBG"
         },
         {
-            "Security":"\"NN\""
+            "Security":"NN"
         },
         {
             "preparation":"NN"
@@ -2312,13 +2372,10 @@
             "90":"CD"
         },
         {
-            "albuquerque":"NNP"
-        },
-        {
             "Filling":"NNP"
         },
         {
-            "Child":"\"NN\""
+            "Child":"NN"
         },
         {
             "slate":"VB"
@@ -2328,9 +2385,6 @@
         },
         {
             "work":"VB"
-        },
-        {
-            "mr.":"NNP"
         },
         {
             "Hampton":"NNP"
@@ -2345,13 +2399,13 @@
             "versions":"NNS"
         },
         {
-            "nasdaq":"NNP"
-        },
-        {
             "among":"IN"
         },
         {
             "anyone":"NN"
+        },
+        {
+            "Society":"NNP"
         },
         {
             "federally":"RB"
@@ -2364,9 +2418,6 @@
         },
         {
             "damages":"NNS"
-        },
-        {
-            "iii":"NNP"
         },
         {
             "privilege":"NN"
@@ -2384,9 +2435,6 @@
             "HHS":"NNP"
         },
         {
-            "cathryn":"NNP"
-        },
-        {
             "federal":"JJ"
         },
         {
@@ -2399,7 +2447,7 @@
             "include":"VBP"
         },
         {
-            "Radio":"\"NN\""
+            "Radio":"NN"
         },
         {
             "white-collar":"NN"
@@ -2435,7 +2483,7 @@
             "booklets":"NNS"
         },
         {
-            "Systems":"\"NNS\""
+            "Systems":"NNS"
         },
         {
             "Tire":"NNP"
@@ -2456,6 +2504,9 @@
             "Louis":"NNPS"
         },
         {
+            "Basic":"JJ"
+        },
+        {
             "death":"NN"
         },
         {
@@ -2468,13 +2519,16 @@
             "holding":"VBG"
         },
         {
+            "Since":"IN"
+        },
+        {
             "value":"NN"
         },
         {
-            "CREATOR'S":"NNP"
+            "February":"NNP"
         },
         {
-            "ltd.":"NNP"
+            "CREATOR'S":"NNP"
         },
         {
             "fairness":"NNS"
@@ -2487,6 +2541,9 @@
         },
         {
             "trader":"NN"
+        },
+        {
+            "Service":"NNP"
         },
         {
             "controversy":"NN"
@@ -2504,6 +2561,9 @@
             "round":"NN"
         },
         {
+            "Hartford":"NNP"
+        },
+        {
             "providers":"NNS"
         },
         {
@@ -2516,10 +2576,10 @@
             "leading":"VBG"
         },
         {
-            "RULING":"\"NN\""
+            "RULING":"NN"
         },
         {
-            "texas":"NNP"
+            "Fujitsu":"NNP"
         },
         {
             "ignoring":"VBG"
@@ -2531,10 +2591,13 @@
             "resolution":"NN"
         },
         {
+            "A.":"NNP"
+        },
+        {
             "Sugarman":"NNP"
         },
         {
-            "*rnr*-1":"-NONE-"
+            "Inc.":"NNP"
         },
         {
             "warns":"NNS"
@@ -2549,6 +2612,9 @@
             "victims":"NNS"
         },
         {
+            "*U*":"-NONE-"
+        },
+        {
             "Constitution":"NNP"
         },
         {
@@ -2561,6 +2627,9 @@
             "leapt":"VB"
         },
         {
+            "Exchange":"NNP"
+        },
+        {
             "Bromwich":"NNP"
         },
         {
@@ -2570,10 +2639,10 @@
             "contains":"NNS"
         },
         {
-            "stop":"VB"
+            "Nasdaq":"NNP"
         },
         {
-            "institute":"NNP"
+            "stop":"VB"
         },
         {
             "returns":"VBZ"
@@ -2588,7 +2657,10 @@
             "fared":"VBN"
         },
         {
-            "southern":"NNP"
+            "East":"JJ"
+        },
+        {
+            "June":"NNP"
         },
         {
             "weeks":"NNS"
@@ -2609,10 +2681,25 @@
             "measurement":"NN"
         },
         {
+            "The":"DT"
+        },
+        {
+            "French":"JJ"
+        },
+        {
+            "At":"IN"
+        },
+        {
             "T-shirts":"NNPS"
         },
         {
             "certified":"VBN"
+        },
+        {
+            "*EXP*-3":"-NONE-"
+        },
+        {
+            "*EXP*-2":"-NONE-"
         },
         {
             "close":"VB"
@@ -2627,7 +2714,7 @@
             "Michigan":"NNP"
         },
         {
-            "Chairman":"\"NN\""
+            "Chairman":"NN"
         },
         {
             "eight-count":"NN"
@@ -2657,16 +2744,25 @@
             "Jennison":"NNP"
         },
         {
+            "E.":"NNP"
+        },
+        {
             "ethics":"NNS"
         },
         {
             "act":"VB"
         },
         {
-            "post":"\"NNP\""
+            "post":"NNP"
+        },
+        {
+            "Test":"NNP"
         },
         {
             "helped":"VBN"
+        },
+        {
+            "Southern":"NNP"
         },
         {
             "CTBS":"NNP"
@@ -2676,9 +2772,6 @@
         },
         {
             "educational":"JJ"
-        },
-        {
-            "macmillan\\":"McGraw-Hill"
         },
         {
             "need":"VBN"
@@ -2708,7 +2801,7 @@
             "beneficiary":"NN"
         },
         {
-            "materials":"NNPS"
+            "materials":"NNS"
         },
         {
             "buildings":"NNS"
@@ -2717,13 +2810,7 @@
             "Jaguar":"NNP"
         },
         {
-            "exchange":"NNP"
-        },
-        {
             "Test-preparation":"NNP"
-        },
-        {
-            "washington":"NNP"
         },
         {
             "sanctions":"NNS"
@@ -2768,13 +2855,7 @@
             "dating":"VBG"
         },
         {
-            "Down":"\"RB\""
-        },
-        {
-            "northeast":"NNP"
-        },
-        {
-            "rice":"NNP"
+            "Down":"RB"
         },
         {
             "noted":"VBD"
@@ -2840,22 +2921,37 @@
             "tried":"VBN"
         },
         {
+            "George":"NNP"
+        },
+        {
             "punish":"VB"
         },
         {
             "property":"NN"
         },
         {
-            "judge":"NNP"
+            "judge":"NN"
         },
         {
             "proceedings":"NNS"
         },
         {
+            "He":"PRP"
+        },
+        {
             "manipulate":"VB"
         },
         {
+            "II":"NNP"
+        },
+        {
             "similar":"JJ"
+        },
+        {
+            "Co.":"NNP"
+        },
+        {
+            "J.":"NNP"
         },
         {
             "testing":"NN"
@@ -2870,6 +2966,9 @@
             "IX":"NNP"
         },
         {
+            "Some":"DT"
+        },
+        {
             "Loan":"NNP"
         },
         {
@@ -2879,7 +2978,10 @@
             "1.28":"CD"
         },
         {
-            "Medical":"\"JJ\""
+            "Medical":"JJ"
+        },
+        {
+            "If":"IN"
         },
         {
             "authors":"NNS"
@@ -2900,6 +3002,9 @@
             "indicated":"VBD"
         },
         {
+            "In":"IN"
+        },
+        {
             "city":"NN"
         },
         {
@@ -2907,6 +3012,9 @@
         },
         {
             "exclusion":"NN"
+        },
+        {
+            "It":"PRP"
         },
         {
             "local":"JJ"
@@ -2939,10 +3047,13 @@
             "tender":"NN"
         },
         {
+            "-RCB-":"-RRB-"
+        },
+        {
             "curriculum":"NN"
         },
         {
-            "Defense":"\"NN\""
+            "Defense":"NN"
         },
         {
             "future":"JJ"
@@ -2954,7 +3065,10 @@
             "two-sevenths":"NNS"
         },
         {
-            "Soon":"\"RB\""
+            "Soon":"RB"
+        },
+        {
+            "M.":"NNP"
         },
         {
             "alleging":"VBG"
@@ -2966,10 +3080,10 @@
             "honor":"VB"
         },
         {
-            "losses":"NNS"
+            "Maxwell":"NNP"
         },
         {
-            "nec":"NNP"
+            "losses":"NNS"
         },
         {
             "trial":"NN"
@@ -2993,7 +3107,7 @@
             "took":"VBD"
         },
         {
-            "new":"NNP"
+            "new":"JJ"
         },
         {
             "read":"VBP"
@@ -3014,7 +3128,7 @@
             "Brace":"NNP"
         },
         {
-            "UPHELD":"\"VBD\""
+            "UPHELD":"VBD"
         },
         {
             "financial":"JJ"
@@ -3035,10 +3149,13 @@
             "and":"CC"
         },
         {
-            "ABORTION":"\"NN\""
+            "ABORTION":"NN"
         },
         {
             "saying":"VBG"
+        },
+        {
+            "France":"NNP"
         },
         {
             "crib":"JJ"
@@ -3068,22 +3185,19 @@
             "until":"IN"
         },
         {
-            "messrs.":"NNP"
+            "forms":"NNS"
         },
         {
-            "forms":"NNS"
+            "On":"IN"
         },
         {
             "reason":"NN"
         },
         {
-            "u.s.":"NNP"
-        },
-        {
             "prosecution":"NN"
         },
         {
-            "johnson":"NNP"
+            "Cathryn":"NNP"
         },
         {
             "professional":"NN"
@@ -3092,16 +3206,16 @@
             "decided":"VBD"
         },
         {
-            "skills":"NNS"
-        },
-        {
             "companies":"NNS"
         },
         {
             "represented":"VBN"
         },
         {
-            "Foundation":"\"NN\""
+            "Foundation":"NN"
+        },
+        {
+            "R.":"NNP"
         },
         {
             "8300":"CD"
@@ -3149,6 +3263,9 @@
             "Bridgestone\\":"NNP"
         },
         {
+            "Bank":"NNP"
+        },
+        {
             "argued":"JJ"
         },
         {
@@ -3164,10 +3281,16 @@
             "Murray":"NNP"
         },
         {
-            "Often":"\"RB\""
+            "Often":"RB"
         },
         {
             "uncharted":"VBN"
+        },
+        {
+            "Association":"NNP"
+        },
+        {
+            "U.S.":"NNP"
         },
         {
             "are":"VBP"
@@ -3180,6 +3303,12 @@
         },
         {
             "where":"WRB"
+        },
+        {
+            "T.":"NNP"
+        },
+        {
+            "Many":"JJ"
         },
         {
             "broader":"JJR"
@@ -3197,10 +3326,13 @@
             "kids":"NNS"
         },
         {
+            "McGraw-Hill":"NNP"
+        },
+        {
             "such":"JJ"
         },
         {
-            "Several":"\"JJ\""
+            "Several":"JJ"
         },
         {
             "metric":"NN"
@@ -3212,10 +3344,10 @@
             "70.7":"CD"
         },
         {
-            "TO":"\"TO\""
+            "TO":"TO"
         },
         {
-            "UNION":"\"NNP\""
+            "UNION":"NNP"
         },
         {
             "through":"IN"
@@ -3224,7 +3356,13 @@
             "Detroit":"NNP"
         },
         {
+            "TV":"NN"
+        },
+        {
             "becoming":"VBG"
+        },
+        {
+            "Mrs.":"NNP"
         },
         {
             "computer-generated":"VBN"
@@ -3240,6 +3378,9 @@
         },
         {
             "offices":"NNS"
+        },
+        {
+            "Commission":"NNP"
         },
         {
             "remains":"VBZ"
@@ -3275,7 +3416,13 @@
             "worry":"VBP"
         },
         {
+            "Stamford":"NNP"
+        },
+        {
             "significant":"JJ"
+        },
+        {
+            "Pennsylvania":"NNP"
         },
         {
             "longer":"RBR"
@@ -3284,13 +3431,16 @@
             "improving":"VBG"
         },
         {
+            "Texas":"NNP"
+        },
+        {
             "colleagues":"NNS"
         },
         {
             "name":"VB"
         },
         {
-            "stamford":"NNP"
+            "Judge":"NNP"
         },
         {
             "involving":"VBG"
@@ -3299,19 +3449,19 @@
             "next":"JJ"
         },
         {
+            "September":"NNP"
+        },
+        {
             "submit":"VB"
         },
         {
-            "Conduct":"\"NN\""
+            "Conduct":"NN"
         },
         {
             "not":"RB"
         },
         {
-            "n.m.":"NNP"
-        },
-        {
-            "central":"\"NNP\""
+            "central":"NNP"
         },
         {
             "impose":"VB"
@@ -3323,16 +3473,19 @@
             "Lefcourt":"NNP"
         },
         {
-            "news":"NN"
+            "Tuesday":"NNP"
         },
         {
-            "lehman":"NNP"
+            "Mary":"NNP"
+        },
+        {
+            "news":"NN"
         },
         {
             "N.J.":"NNP"
         },
         {
-            "green":"\"NNP\""
+            "green":"NNP"
         },
         {
             "Oliver":"NNP"
@@ -3345,6 +3498,9 @@
         },
         {
             "Trust":"NNP"
+        },
+        {
+            "We":"PRP"
         },
         {
             "target":"NN"
@@ -3371,16 +3527,7 @@
             "rise":"VB"
         },
         {
-            "*t*-2":"-NONE-"
-        },
-        {
-            "*t*-1":"-NONE-"
-        },
-        {
-            "*t*-4":"-NONE-"
-        },
-        {
-            "*t*-3":"-NONE-"
+            "N.M.":"NNP"
         },
         {
             "Bancorp":"NNP"
@@ -3435,6 +3582,9 @@
         },
         {
             "embroiled":"JJ"
+        },
+        {
+            "III":"NNP"
         },
         {
             "matches":"NNS"
@@ -3524,19 +3674,19 @@
             "used":"VBN"
         },
         {
+            "Robert":"NNP"
+        },
+        {
             "Lowe":"NNP"
         },
         {
             "few":"JJ"
         },
         {
-            "england":"NNP"
-        },
-        {
             "visible":"NN"
         },
         {
-            "Yesterday":"\"NN\""
+            "Yesterday":"NN"
         },
         {
             "Media":"NNP"
@@ -3563,7 +3713,7 @@
             "disciplinary":"NN"
         },
         {
-            "daily":"\"NNP\""
+            "daily":"NNP"
         },
         {
             "effect":"NN"
@@ -3587,9 +3737,6 @@
             "schoolteacher":"NN"
         },
         {
-            "-lcb-":"-LRB-"
-        },
-        {
             "why":"WRB"
         },
         {
@@ -3611,6 +3758,9 @@
             "patient":"NN"
         },
         {
+            "Ltd.":"NNP"
+        },
+        {
             "America":"NNP"
         },
         {
@@ -3621,6 +3771,9 @@
         },
         {
             "lawyer":"NN"
+        },
+        {
+            "Until":"IN"
         },
         {
             "Iran\\":"NNP"
@@ -3647,13 +3800,10 @@
             "increase":"VB"
         },
         {
-            "a.":"NNP"
-        },
-        {
             "recommended":"VBN"
         },
         {
-            "critics":"\"NNS\""
+            "critics":"NNS"
         },
         {
             "favor":"VB"
@@ -3671,7 +3821,7 @@
             "collective-bargaining":"VBG"
         },
         {
-            "*u*":"-NONE-"
+            "You":"PRP"
         },
         {
             "customer":"NN"
@@ -3752,16 +3902,13 @@
             "ABA":"NNP"
         },
         {
-            "Centers":"\"NNS\""
+            "Centers":"NNS"
         },
         {
             "strong":"JJ"
         },
         {
             "deal":"NN"
-        },
-        {
-            "dec.":"NNP"
         },
         {
             "be":"VB"
@@ -3782,6 +3929,9 @@
             "Parkinson":"NNP"
         },
         {
+            "Sales":"NNS"
+        },
+        {
             "sudden":"NN"
         },
         {
@@ -3791,16 +3941,10 @@
             "whom":"WP"
         },
         {
-            "national":"NNP"
-        },
-        {
             "panel":"NN"
         },
         {
             "tumbled":"VBN"
-        },
-        {
-            "scoring":"NNP"
         },
         {
             "contain":"VB"
@@ -3819,9 +3963,6 @@
         },
         {
             "joined":"VBD"
-        },
-        {
-            "e.":"NNP"
         },
         {
             "familiar":"JJ"
@@ -3848,6 +3989,9 @@
             "S&L":"NNP"
         },
         {
+            "Comprehensive":"JJ"
+        },
+        {
             "empowered":"JJ"
         },
         {
@@ -3863,13 +4007,10 @@
             "do":"VBP"
         },
         {
-            "france":"NNP"
-        },
-        {
             "North":"NNP"
         },
         {
-            "Achievement":"\"NN\""
+            "Achievement":"NN"
         },
         {
             "66.5":"CD"
@@ -3908,7 +4049,7 @@
             "accountants":"NNS"
         },
         {
-            "DEFENSE":"\"NN\""
+            "DEFENSE":"NN"
         },
         {
             "for":"IN"
@@ -3929,9 +4070,6 @@
             "teachers":"NNS"
         },
         {
-            "jersey":"NNP"
-        },
-        {
             "unfair":"JJ"
         },
         {
@@ -3950,10 +4088,22 @@
             "reporting":"VBG"
         },
         {
+            "Rice":"NNP"
+        },
+        {
             "over":"RP"
         },
         {
+            "*ICH*-2":"-NONE-"
+        },
+        {
+            "*ICH*-1":"-NONE-"
+        },
+        {
             "*ICH*-4":"-NONE-"
+        },
+        {
+            "*ICH*-3":"-NONE-"
         },
         {
             "geometrical":"NN"
@@ -3986,9 +4136,6 @@
             "he":"PRP"
         },
         {
-            "comprehensive":"JJ"
-        },
-        {
             "humans":"NNS"
         },
         {
@@ -4010,13 +4157,10 @@
             "placed":"VBN"
         },
         {
-            "j.":"NNP"
-        },
-        {
-            "congress":"NNP"
-        },
-        {
             "Cartoonist":"NNP"
+        },
+        {
+            "President":"NNP"
         },
         {
             "appeared":"VBD"
@@ -4026,9 +4170,6 @@
         },
         {
             "co-owner":"NN"
-        },
-        {
-            "william":"NNP"
         },
         {
             "four":"CD"
@@ -4044,12 +4185,6 @@
         },
         {
             "if":"IN"
-        },
-        {
-            "french":"JJ"
-        },
-        {
-            "ii":"NNP"
         },
         {
             "advisory":"NN"
@@ -4091,19 +4226,28 @@
             "Observing":"NNP"
         },
         {
+            "Earlier":"JJR"
+        },
+        {
             "disputes":"NNS"
         },
         {
-            "acted":"VBN"
+            "Cannell":"NNP"
         },
         {
-            "john":"NNP"
+            "acted":"VBN"
         },
         {
             "begin":"VB"
         },
         {
             "become":"VBN"
+        },
+        {
+            "Dr.":"NNP"
+        },
+        {
+            "May":"NNP"
         },
         {
             "anti-abortionists":"NNS"
@@ -4136,7 +4280,7 @@
             "convicted":"VBN"
         },
         {
-            "m.":"NNP"
+            "James":"NNP"
         },
         {
             "counseling":"VBG"
@@ -4149,6 +4293,12 @@
         },
         {
             "Ala.":"NNP"
+        },
+        {
+            "South":"NNP"
+        },
+        {
+            "NEC":"NNP"
         },
         {
             "off":"RP"
@@ -4169,9 +4319,6 @@
             "report":"VB"
         },
         {
-            "platt":"NNP"
-        },
-        {
             "complete":"VB"
         },
         {
@@ -4187,9 +4334,6 @@
             "several":"JJ"
         },
         {
-            "adrs":"NNPS"
-        },
-        {
             "office":"NN"
         },
         {
@@ -4199,13 +4343,7 @@
             "posts":"VBZ"
         },
         {
-            "second":"JJ"
-        },
-        {
             "that":"WDT"
-        },
-        {
-            "high":"NNP"
         },
         {
             "ruling":"NN"
@@ -4229,10 +4367,16 @@
             "follows":"VBZ"
         },
         {
-            "Terms":"\"NNS\""
+            "Terms":"NNS"
+        },
+        {
+            "Carolina":"NNP"
         },
         {
             "restrictions":"NNS"
+        },
+        {
+            "City":"NNP"
         },
         {
             "my":"PRP$"
@@ -4247,7 +4391,7 @@
             "1.8":"CD"
         },
         {
-            "Giant":"\"NN\""
+            "Giant":"NN"
         },
         {
             "parents":"NNS"
@@ -4262,7 +4406,7 @@
             "dozens":"NNS"
         },
         {
-            "code":"\"NNP\""
+            "code":"NNP"
         },
         {
             "scores":"NNS"
@@ -4301,9 +4445,6 @@
             "declined":"VBD"
         },
         {
-            "r.":"NNP"
-        },
-        {
             "stance":"NN"
         },
         {
@@ -4311,6 +4452,9 @@
         },
         {
             "specialty":"NN"
+        },
+        {
+            "Friends":"NNPS"
         },
         {
             "SALARIES":"NNP"
@@ -4329,6 +4473,9 @@
         },
         {
             "recent":"JJ"
+        },
+        {
+            "January":"NNP"
         },
         {
             "they":"PRP"
@@ -4370,19 +4517,19 @@
             "Sept.":"NNP"
         },
         {
-            "Close":"\"VB\""
+            "Close":"VB"
         },
         {
             "oppose":"VB"
-        },
-        {
-            "t.":"NNP"
         },
         {
             "obtained":"JJ"
         },
         {
             "conditions":"NNS"
+        },
+        {
+            "Such":"JJ"
         },
         {
             "discovered":"VBN"
@@ -4409,13 +4556,10 @@
             "secretary":"NNP"
         },
         {
-            "george":"NNP"
-        },
-        {
             "so":"RB"
         },
         {
-            "Vice":"\"NN\""
+            "Vice":"NN"
         },
         {
             "preferred":"VBN"
@@ -4466,9 +4610,6 @@
             "country":"NN"
         },
         {
-            "tv":"NN"
-        },
-        {
             "joint":"JJ"
         },
         {
@@ -4487,10 +4628,13 @@
             "advocate":"VB"
         },
         {
+            "Supreme":"NNP"
+        },
+        {
             "ruled":"VBD"
         },
         {
-            "aids":"\"NNP\""
+            "aids":"NNP"
         },
         {
             "details":"NNS"
@@ -4506,6 +4650,9 @@
         },
         {
             "us":"PRP"
+        },
+        {
+            "Another":"DT"
         },
         {
             "test-preparation":"NN"
@@ -4562,10 +4709,13 @@
             "pending":"VBG"
         },
         {
-            "WAR":"\"NNP\""
+            "WAR":"NNP"
         },
         {
             "learning":"NNP"
+        },
+        {
+            "What":"WP"
         },
         {
             "we":"PRP"
@@ -4575,6 +4725,9 @@
         },
         {
             "expects":"VBZ"
+        },
+        {
+            "Macmillan":"NNP"
         },
         {
             "graphs":"NNS"
@@ -4595,13 +4748,16 @@
             "prestigious":"NNS"
         },
         {
+            "British":"JJ"
+        },
+        {
             "cases":"NNS"
         },
         {
-            "FEDERAL":"\"NNP\""
+            "Health":"NNP"
         },
         {
-            "norman":"NNP"
+            "FEDERAL":"NNP"
         },
         {
             "damn":"RB"
@@ -4643,7 +4799,10 @@
             "tested":"VBN"
         },
         {
-            "Internal":"\"JJ\""
+            "Internal":"JJ"
+        },
+        {
+            "Mr.":"NNP"
         },
         {
             "courts":"NNS"
@@ -4652,7 +4811,7 @@
             "helm":"NN"
         },
         {
-            "Standardized":"\"JJ\""
+            "Standardized":"JJ"
         },
         {
             "workbooks":"NNS"
@@ -4697,13 +4856,16 @@
             "examples":"NNS"
         },
         {
+            "Valley":"NNP"
+        },
+        {
             "exact":"JJ"
         },
         {
             "juvenile":"RB"
         },
         {
-            "Revenue":"\"NN\""
+            "Revenue":"NN"
         },
         {
             "force":"VB"
@@ -4712,22 +4874,16 @@
             "substantially":"RB"
         },
         {
-            "south":"NNP"
-        },
-        {
             "misdemeanor":"NN"
         },
         {
             "north":"JJ"
         },
         {
-            "james":"NNP"
-        },
-        {
             "depositary":"JJ"
         },
         {
-            "Appeals":"\"NNS\""
+            "Appeals":"NNS"
         },
         {
             "tools":"NNS"
@@ -4766,6 +4922,9 @@
             "help":"VB"
         },
         {
+            "When":"WRB"
+        },
+        {
             "10,000":"CD"
         },
         {
@@ -4778,10 +4937,7 @@
             "apology":"RB"
         },
         {
-            "corp":"NNP"
-        },
-        {
-            "Disease":"\"NN\""
+            "Disease":"NN"
         },
         {
             "data":"NNS"
@@ -4821,6 +4977,9 @@
         },
         {
             "criminal":"RB"
+        },
+        {
+            "Platt":"NNP"
         },
         {
             "development":"NN"
@@ -4865,13 +5024,19 @@
             "judges":"NNS"
         },
         {
+            "Both":"DT"
+        },
+        {
+            "Yeargin":"NNP"
+        },
+        {
             "over-the-counter":"NN"
         },
         {
             "Inc":"NNP"
         },
         {
-            "everybody":"\"NN\""
+            "everybody":"NN"
         },
         {
             "week":"NN"
@@ -4901,13 +5066,28 @@
             "Guild":"NNP"
         },
         {
+            "*T*-3":"-NONE-"
+        },
+        {
             "aware":"JJ"
         },
         {
             "can":"MD"
         },
         {
+            "*T*-4":"-NONE-"
+        },
+        {
+            "*T*-1":"-NONE-"
+        },
+        {
             "computing":"NN"
+        },
+        {
+            "*T*-2":"-NONE-"
+        },
+        {
+            "Skills":"NNS"
         },
         {
             "said":"VBD"
@@ -4922,13 +5102,10 @@
             "will":"MD"
         },
         {
+            "Chicago":"NNP"
+        },
+        {
             "studied":"VBN"
-        },
-        {
-            "hartford":"NNP"
-        },
-        {
-            "february":"NNP"
         },
         {
             "groups":"NNS"
@@ -4937,16 +5114,10 @@
             "intent":"NN"
         },
         {
-            "tuesday":"NNP"
-        },
-        {
-            "york":"NNP"
-        },
-        {
             "assured":"JJ"
         },
         {
-            "Also":"\"RB\""
+            "Also":"RB"
         },
         {
             "SCI":"NNP"
