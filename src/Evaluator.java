@@ -1,7 +1,11 @@
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeMap;
@@ -15,12 +19,11 @@ public class Evaluator {
 		TreeMap<String, Double> actualTagsCountMap = new TreeMap<String, Double>();
 		HashSet<String> words = new HashSet<String>();
 
-
+		//the actual and predicted word/tag pair for the test file
 		TreeMap<String, String> actualWordTagMap = new TreeMap<String, String>();
 		TreeMap<String, String> predictedWordTagMap = new TreeMap<String, String>();
 
-
-		//Hash Map with the predicted tags
+		//Hash Map with the predicted tags and their respective counts
 		TreeMap<String, Double> predictedTagsCountMap = new TreeMap<String, Double>();
 
 		//Hash Map with the tags' precision value
@@ -59,8 +62,8 @@ public class Evaluator {
 				ProcessingMethods.putStringInHashMap(tag, actualTagsCountMap);
 				words.add(word);
 			}
-
 		}
+
 		//remove unnecessary tags
 		actualTagsCountMap.remove("Contra");
 		actualTagsCountMap.remove("Firestone");
@@ -84,6 +87,7 @@ public class Evaluator {
 			}	
 
 		}
+		//remove unnecessary tags
 		predictedTagsCountMap.remove("McGraw-Hill");
 		predictedTagsCountMap.remove("2");
 
@@ -124,12 +128,12 @@ public class Evaluator {
 			//if the tags are the same, the predicition was correct (hurrah!), put into the map of correct predictions
 			if(actualTag.equals(predictedTag)){
 				ProcessingMethods.putStringInHashMap(actualTag, correctTagPredictionsMap);
+				//if the tags are from the most frequent tag set, update the confusion matrix
 				if(confusionSet.contains(actualTag + "/" + predictedTag))
 					ProcessingMethods.putStringInHashMap(confusionMatrixTag, confusionMatrix);
 			}
-			//if  fill the entry of the confusion matrix
+			//  fill the entry of the confusion matrix
 			else if(confusionSet.contains(actualTag + "/" + predictedTag)){
-				System.out.println("RORA");
 				ProcessingMethods.putStringInHashMap(confusionMatrixTag, confusionMatrix);
 			}
 		}
@@ -148,9 +152,37 @@ public class Evaluator {
 			tagF1Map.put(tag, F1);
 		}
 
-		System.out.println(confusionMatrix);
+		
 
+		//printing out the confusion matrix
+		Set<String> classNames = new HashSet<String>();
+		for(String key : confusionMatrix.keySet()) {
+			String[] classes = key.split("/");
+			if(classes != null && classes.length > 0) {
+				classNames.addAll(Arrays.asList(classes));
+			}
+		}
+		List<String> sortedClassNames = new ArrayList<String>();
+		sortedClassNames.addAll(classNames);
+		Collections.sort(sortedClassNames);
 
+		System.out.print("p/a");
+		for(String predictedClassName : sortedClassNames) {
+			System.out.print("\t" + predictedClassName);
+		}
+		System.out.println();
+
+		for(String actualClassName : sortedClassNames) {
+			System.out.print(actualClassName);
+			for(String predictedClassName : sortedClassNames) {
+				Double value = confusionMatrix.get(actualClassName + "/" + predictedClassName);
+				System.out.print("\t");
+				if(value != null) {
+					System.out.print(value);
+				}
+			}
+			System.out.println();
+		}
 
 	}
 

@@ -6,8 +6,8 @@ public class play {
 		System.out.println(toTest.matches("[\\d]+[\\W][\\d]+"));
 		//System.out.println(toTest.contains("*"));
 		
-		String testing = "\"NNP\"";
-		System.out.println(testing.replace("\"", ""));
+		String testing = "P/P";
+		System.out.println(testing.replace("/", ""));
 	}
 
 }
