@@ -10,6 +10,9 @@ public class TaggerMethods {
 
 		if(wordsAndTags.containsKey(word.toLowerCase()))
 			return wordsAndTags.get(word.toLowerCase());
+		
+		if(wordsAndTags.containsKey(word.toUpperCase()))
+			return wordsAndTags.get(word.toUpperCase());
 
 		int length = word.length();
 

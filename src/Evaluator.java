@@ -118,6 +118,8 @@ public class Evaluator {
 				confusionMatrix.put(confusionMatrixTag, 0.0);
 			}
 		}
+		
+		double correctPredictions = 0;
 
 		//comparing each tag in the actual word/tag map with the predicted to check inaccuracies
 		for(String key: actualWordTagMap.keySet()){
@@ -125,8 +127,9 @@ public class Evaluator {
 			String predictedTag = predictedWordTagMap.get(key);
 
 			String confusionMatrixTag = actualTag + "/" + predictedTag;
-			//if the tags are the same, the predicition was correct (hurrah!), put into the map of correct predictions
+			//if the tags are the same, the prediction was correct (hurrah!), put into the map of correct predictions
 			if(actualTag.equals(predictedTag)){
+				correctPredictions++;
 				ProcessingMethods.putStringInHashMap(actualTag, correctTagPredictionsMap);
 				//if the tags are from the most frequent tag set, update the confusion matrix
 				if(confusionSet.contains(actualTag + "/" + predictedTag))
@@ -137,6 +140,8 @@ public class Evaluator {
 				ProcessingMethods.putStringInHashMap(confusionMatrixTag, confusionMatrix);
 			}
 		}
+		double accuracyPercentage = (correctPredictions/actualWordTagMap.size())*100;
+		System.out.println("ACCURACY: " + accuracyPercentage + "%");
 
 		for(String tag: correctTagPredictionsMap.keySet()){
 			double correctPredictionsForTag = correctTagPredictionsMap.get(tag);
@@ -178,7 +183,7 @@ public class Evaluator {
 				Double value = confusionMatrix.get(actualClassName + "/" + predictedClassName);
 				System.out.print("\t");
 				if(value != null) {
-					System.out.print(value);
+					System.out.print(value.intValue());
 				}
 			}
 			System.out.println();
