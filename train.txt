@@ -738,4 +738,64 @@
 <s>/<s> In/IN 1986-87/CD and/CC 1987-88/CD ,/, she/PRP applied/VBD for/IN *RNR*-1/-NONE- and/CC won/VBD *RNR*-1/-NONE- bonus/NN pay/NN under/IN the/DT reform/NN law/NN ./.
 <s>/<s> *-1/-NONE- Encouraged/JJ *-2/-NONE- by/IN Mrs./NNP Ward/NNP ,/, Mrs./NNP Yeargin/NNP taught/VBD honor/NN students/NNS in/IN the/DT state/NN ``/`` teacher/NN cadet/NN ''/'' program/NN ,/, a/DT reform/NN creation/NN designed/VBN */-NONE- *-3/-NONE- to/TO encourage/VB good/JJ students/NNS to/TO consider/VB teaching/NN as/IN a/DT career/NN ./.
 <s>/<s> She/PRP won/VBD grant/NN money/NN for/IN the/DT school/NN ,/, advised/VBD cheerleaders/NNS ,/, ran/VBD the/DT pep/NN club/NN ,/, proposed/VBD and/CC taught/VBD a/DT new/JJ ``/`` Cultural/JJ Literacy/NN ''/'' class/NN in/IN Western/JJ Civilization/NN and/CC was/VBD chosen/VBN *-1/-NONE- by/IN the/DT school/NN PTA/NNP as/IN ``/`` Teacher/NN of/IN the/DT Year/NN ./. ''/''
-<s>/<s> ``/`` She/PRP was/VBD an/DT inspirational/JJ lady/NN ;/: she/PRP had/VBD it/PRP all/RB together/RB ,/, ''/'' says/VBZ *T*-1/-NONE- Laura/NNP Dobson/NNP ,/, a/DT freshman/NN at/IN the/DT University/NNP of/IN South/NNP Carolina/NNP who/WP *T*-90
+<s>/<s> ``/`` She/PRP was/VBD an/DT inspirational/JJ lady/NN ;/: she/PRP had/VBD it/PRP all/RB together/RB ,/, ''/'' says/VBZ *T*-1/-NONE- Laura/NNP Dobson/NNP ,/, a/DT freshman/NN at/IN the/DT University/NNP of/IN South/NNP Carolina/NNP who/WP *T*-90/-NONE- had/VBD Mrs./NNP Yeargin/NNP in/IN the/DT teacher-cadet/JJ class/NN last/JJ year/NN ./.
+<s>/<s> She/PRP says/VBZ that/IN because/IN of/IN Mrs./NNP Yeargin/NNP she/PRP gave/VBD up/RP ambitions/NNS in/IN architecture/NN and/CC is/VBZ studying/VBG *-1/-NONE- to/TO become/VB a/DT teacher/NN ./.
+<s>/<s> Mary/NNP Beth/NNP Marchand/NNP ,/, a/DT Greenville/NNP 11th/JJ grader/NN ,/, also/RB says/VBZ 0/-NONE- Mrs./NNP Yeargin/NNP inspired/VBD her/PRP to/TO go/VB into/IN education/NN ./.
+<s>/<s> ``/`` She/PRP taught/VBD us/PRP more/JJR in/IN Western/JJ Civilization/NN than/IN I/PRP 've/VBP ever/RB learned/VBN in/IN other/JJ classes/NNS ,/, ''/'' says/VBZ *T*-2/-NONE- Kelli/NNP Green/NNP ,/, a/DT Greenville/NNP senior/NN ./.
+<s>/<s> In/IN the/DT classroom/NN ,/, students/NNS say/VBP 0/-NONE- *T*-3/-NONE- ,/, Mrs./NNP Yeargin/NNP distinguished/VBD herself/PRP by/IN */-NONE- varying/VBG teaching/NN approaches/NNS --/: *-1/-NONE- forcing/JJ kids/NNS to/TO pair/VB up/RP *-2/-NONE- to/TO complete/VB classroom/NN work/NN or/CC using/VBG college-bowl/NN type/NN competitions/NNS ./.
+<s>/<s> On/IN weekends/NNS ,/, she/PRP came/VBD to/TO work/VB *-1/-NONE- to/TO prepare/VB study/NN plans/NNS or/CC sometimes/RB ,/, even/RB *-1/-NONE- to/TO polish/VB the/DT furniture/NN in/IN her/PRP$ classroom/NN ./.
+<s>/<s> ``/`` She/PRP just/RB never/RB gave/VBD it/PRP up/RP ,/, ''/'' says/VBZ *T*-1/-NONE- Mary/NNP Marchand/NNP ,/, Mary/NNP Beth/NNP 's/POS mother/NN ./.
+<s>/<s> ``/`` You/PRP 'd/MD see/VB her/PRP correcting/VBG homework/NN in/IN the/DT stands/NNS at/IN a/DT football/NN game/NN ./. ''/''
+<s>/<s> Some/DT fellow/JJ teachers/NNS ,/, however/RB ,/, viewed/VBD Mrs./NNP Yeargin/NNP as/IN cocky/JJ and/CC too/RB yielding/JJ to/TO students/NNS ./.
+<s>/<s> Mrs./NNP Ward/NNP says/VBZ 0/-NONE- she/PRP often/RB defended/VBD her/PRP to/TO colleagues/NNS who/WP *T*-91/-NONE- called/VBD her/PRP a/DT grandstander/NN ./.
+<s>/<s> Pressures/NNS began/VBD *-1/-NONE- to/TO build/VB ./.
+<s>/<s> Friends/NNS told/VBD her/PRP 0/-NONE- she/PRP was/VBD pushing/VBG too/RB hard/RB ./.
+<s>/<s> Because/IN of/IN deteriorating/VBG hearing/NN ,/, she/PRP told/VBD colleagues/NNS 0/-NONE- she/PRP feared/VBD 0/-NONE- she/PRP might/MD not/RB be/VB able/JJ *-1/-NONE- to/TO teach/VB much/RB longer/RBR ./.
+<s>/<s> Mrs./NNP Yeargin/NNP 's/POS extra/JJ work/NN was/VBD also/RB helping/VBG her/PRP earn/VB points/NNS in/IN the/DT state/NN 's/POS incentive-bonus/NN program/NN ./.
+<s>/<s> But/CC the/DT most/RBS important/JJ source/NN of/IN points/NNS was/VBD student/NN improvement/NN on/IN tests/NNS ./.
+<s>/<s> Huge/JJ gains/NNS by/IN her/PRP$ students/NNS in/IN 1987/CD and/CC 1988/CD meant/VBD a/DT total/NN of/IN $/$ 5,000/CD *U*/-NONE- in/IN bonuses/NNS over/IN two/CD years/NNS --/: a/JJ meaningful/JJ addition/NN to/TO her/PRP$ annual/JJ salary/NN of/IN $/$ 23,000/CD *U*/-NONE- ./.
+<s>/<s> */-NONE- Winning/VBG a/DT bonus/NN for/IN a/DT third/JJ year/NN was/VBD n't/RB that/RB important/JJ to/TO her/PRP ,/, Mrs./NNP Yeargin/NNP insists/VBZ 0/-NONE- *T*-1/-NONE- ./.
+<s>/<s> But/CC others/NNS at/IN Greenville/NNP High/NNP say/VB 0/-NONE- she/PRP was/VBD eager/JJ *-1/-NONE- to/TO win/VB --/: if/JJ not/RB for/IN money/NN ,/, then/RB for/IN pride/NN and/CC recognition/NN ./.
+<s>/<s> Mary/NNP Elizabeth/NNP Ariail/NNP ,/, another/DT social-studies/NN teacher/NN ,/, says/VBZ 0/-NONE- she/PRP believed/VBD 0/-NONE- Mrs./NNP Yeargin/NNP wanted/VBD *-1/-NONE- to/TO keep/VB her/PRP standing/NN high/RB so/IN she/PRP could/MD get/VB a/DT new/JJ job/NN that/WDT *T*-92/-NONE- would/MD n't/RB demand/VB good/JJ hearing/NN ./.
+<s>/<s> Indeed/RB ,/, Mrs./NNP Yeargin/NNP was/VBD interested/JJ in/IN a/DT possible/JJ job/NN with/IN the/DT state/NN teacher/NN cadet/NN program/NN ./.
+<s>/<s> Last/JJ March/NNP ,/, after/IN *-1/-NONE- attending/VBG a/DT teaching/NN seminar/NN in/IN Washington/NNP ,/, Mrs./NNP Yeargin/NNP says/VBZ 0/-NONE- she/PRP returned/VBD to/TO Greenville/NNP two/CD days/NNS before/IN annual/JJ testing/NN *-2/-NONE- feeling/VBG that/IN she/PRP had/VBD n't/RB prepared/VBN her/PRP$ low-ability/JJ geography/NN students/NNS adequately/RB ./.
+<s>/<s> When/WRB test/NN booklets/NNS were/VBD passed/VBN *-1/-NONE- out/RB 48/CD hours/NNS ahead/RB of/IN time/NN *T*-2/-NONE- ,/, she/PRP says/VBZ 0/-NONE- she/PRP copied/VBD questions/NNS in/IN the/DT social/JJ studies/NNS section/NN and/CC gave/VBD the/DT answers/NNS to/TO students/NNS ./.
+<s>/<s> Mrs./NNP Yeargin/NNP admits/VBZ 0/-NONE- she/PRP made/VBD a/DT big/JJ mistake/NN but/CC insists/VBZ 0/-NONE- her/PRP$ motives/NNS were/VBD correct/JJ ./.
+<s>/<s> ``/`` I/PRP was/VBD trying/VBG *-1/-NONE- to/TO help/VB kids/NNS in/IN an/DT unfair/JJ testing/NN situation/NN ,/, ''/'' she/PRP says/VBZ *T*-2/-NONE- ./.
+<s>/<s> ``/`` Only/RB five/CD of/IN the/DT 40/CD questions/NNS were/VBD geography/NN questions/NNS ./.
+<s>/<s> The/DT rest/NN were/VBD history/NN ,/, sociology/NN ,/, finance/NN --/: subjects/NNS 0/-NONE- they/PRP never/RB had/VBD *T*-1/-NONE- ./. ''/''
+<s>/<s> Mrs./NNP Yeargin/NNP says/VBZ that/IN she/PRP also/RB wanted/VBD *-1/-NONE- to/TO help/VB *-2/-NONE- lift/VB Greenville/NNP High/NNP School/NNP 's/POS overall/JJ test/NN scores/NNS ,/, usually/RB near/IN the/DT bottom/NN of/IN 14/CD district/NN high/JJ schools/NNS in/IN rankings/NNS carried/VBN */-NONE- annually/RB by/IN local/JJ newspapers/NNS ./.
+<s>/<s> Mostly/RB ,/, she/PRP says/VBZ 0/-NONE- *T*-1/-NONE- ,/, she/PRP wanted/VBD *-2/-NONE- to/TO prevent/VB the/DT damage/NN to/TO self-esteem/NN that/IN her/PRP$ low-ability/JJ students/NNS would/MD suffer/VB *T*-3/-NONE- from/IN */-NONE- doing/VBG badly/RB on/IN the/DT test/NN ./.
+<s>/<s> ``/`` These/DT kids/NNS broke/VBD my/PRP$ heart/NN ,/, ''/'' she/PRP says/VBZ *T*-1/-NONE- ./.
+<s>/<s> ``/`` A/DT whole/JJ day/NN goes/VBZ by/RB and/CC no/DT one/NN even/RB knows/VBZ 0/-NONE- they/PRP 're/VBP alive/JJ ./.
+<s>/<s> They/PRP desperately/RB needed/VBD somebody/NN who/WP *T*-93/-NONE- showed/VBD 0/-NONE- they/PRP cared/VBD for/IN them/PRP ,/, who/WP *T*-94/-NONE- loved/VBD them/PRP ./.
+<s>/<s> The/DT last/JJ thing/NN 0/-NONE- they/PRP needed/VBD *T*-1/-NONE- was/VBD another/DT drag-down/JJ blow/NN ./. ''/''
+<s>/<s> School/NNP officials/NNS and/CC prosecutors/NNS say/VB 0/-NONE- Mrs./NNP Yeargin/NNP is/VBZ lying/VBG ./.
+<s>/<s> They/PRP found/VBD students/NNS in/IN an/DT advanced/JJ class/NN a/DT year/NN earlier/RB who/WP *T*-95/-NONE- said/VBD 0/-NONE- she/PRP gave/VBD them/PRP similar/JJ help/NN ,/, although/IN because/IN the/DT case/NN was/VBD n't/RB tried/VBN in/IN court/NN ,/, this/DT evidence/NN was/VBD never/RB presented/VBN *-1/-NONE- publicly/RB ./.
+<s>/<s> ``/`` That/DT pretty/RB much/RB defeats/VBZ any/DT inkling/NN that/IN she/PRP was/VBD out/RP *-1/-NONE- to/TO help/VB the/DT poor/JJ underprivileged/JJ child/NN ,/, ''/'' says/VBZ Joe/NNP Watson/NNP ,/, the/DT prosecutor/NN in/IN the/DT case/NN ,/, who/WP *T*-96/-NONE- is/VBZ also/RB president/NN of/IN Greenville/NNP High/NNP School/NNP 's/POS alumni/NNS association/NN ./.
+<s>/<s> Mrs./NNP Yeargin/NNP concedes/VBZ that/IN she/PRP went/VBD over/RB the/DT questions/NNS in/IN the/DT earlier/JJR class/NN ,/, *-1/-NONE- adding/VBG :/: ``/`` I/PRP wanted/VBD *-2/-NONE- to/TO help/VB all/DT ''/'' students/NNS ./.
+<s>/<s> Mr./NNP Watson/NNP says/VBZ 0/-NONE- Mrs./NNP Yeargin/NNP never/RB complained/VBD to/TO school/NN officials/NNS that/IN the/DT standardized/JJ test/NN was/VBD unfair/JJ ./.
+<s>/<s> ``/`` Do/VBP I/PRP have/VB much/JJ sympathy/NN for/IN her/PRP ?/. ''/'' Mr./NNP Watson/NNP asks/VBZ *T*-1/-NONE- ./.
+<s>/<s> ``/`` Not/RB really/RB ./.
+<s>/<s> I/PRP believe/VBP in/IN the/DT system/NN ./.
+<s>/<s> I/PRP believe/VBP 0/-NONE- you/PRP have/VBP *-1/-NONE- to/TO use/VB the/DT system/NN *-2/-NONE- to/TO change/VB it/PRP ./.
+<s>/<s> What/WP she/PRP did/VBD *T*-97/-NONE- was/VBD like/IN */-NONE- taking/VBG the/DT law/NN into/IN your/PRP$ own/JJ hands/NNS ./. ''/''
+<s>/<s> Mrs./NNP Ward/NNP says/VBZ that/IN when/WRB the/DT cheating/NN was/VBD discovered/VBN *-4/-NONE- *T*-1/-NONE- ,/, she/PRP wanted/VBD *-2/-NONE- to/TO avoid/VB the/DT morale-damaging/JJ public/JJ disclosure/NN that/IN a/DT trial/NN would/MD bring/VB *T*-3/-NONE- ./.
+<s>/<s> She/PRP says/VBZ 0/-NONE- she/PRP offered/VBD Mrs./NNP Yeargin/NNP a/DT quiet/JJ resignation/NN and/CC thought/VBD 0/-NONE- she/PRP could/MD help/VB *-1/-NONE- save/VB her/PRP teaching/NN certificate/NN ./.
+<s>/<s> Mrs./NNP Yeargin/NNP declined/VBD ./.
+<s>/<s> ``/`` She/PRP said/VBD something/NN like/IN `/`` You/PRP just/RB want/VBP *-1/-NONE- to/TO make/VB it/PRP easy/JJ for/IN the/DT school/NN ./. '/''
+<s>/<s> I/PRP was/VBD dumbfounded/JJ ,/, ''/'' Mrs./NNP Ward/NNP recalls/VBZ *T*-1/-NONE- ./.
+<s>/<s> ``/`` It/PRP was/VBD like/IN someone/NN had/VBD turned/VBN a/DT knife/NN in/IN me/PRP ./. ''/''
+<s>/<s> To/TO the/DT astonishment/NN and/CC dismay/NN of/IN her/PRP$ superiors/NNS and/CC legal/JJ authorities/NNS --/: and/JJ perhaps/RB as/IN a/DT measure/NN of/IN the/DT unpopularity/NN of/IN standardized/JJ tests/NNS --/: Mrs/NNP ./. Yeargin/NNP won/VBD widespread/JJ local/JJ support/NN ./.
+<s>/<s> The/DT school-board/NN hearing/NN at/IN which/WDT she/PRP was/VBD dismissed/VBN *-2/-NONE- *T*-1/-NONE- was/VBD crowded/VBN *-4/-NONE- with/IN students/NNS ,/, teachers/NNS and/CC parents/NNS who/WP *T*-98/-NONE- came/VBD *-3/-NONE- to/TO testify/VB on/IN her/PRP$ behalf/NN ./.
+<s>/<s> Supportive/JJ callers/NNS decried/VBD unfair/JJ testing/NN ,/, not/RB Mrs./NNP Yeargin/NNP ,/, on/IN a/DT local/JJ radio/NN talk/NN show/NN on/IN which/WDT she/PRP appeared/VBD *T*-1/-NONE- ./.
+<s>/<s> The/DT show/NN did/VBD n't/RB give/VB the/DT particulars/NNS of/IN Mrs./NNP Yeargin/NNP 's/POS offense/NN ,/, *-1/-NONE- saying/VBG only/RB that/IN she/PRP helped/VBD students/NNS do/VB better/RBR on/IN the/DT test/NN ./.
+<s>/<s> ``/`` The/DT message/NN to/TO the/DT board/NN of/IN education/NN out/IN of/IN all/PDT this/DT is/VBZ 0/-NONE- we/PRP 've/VBP got/VBN *-1/-NONE- to/TO take/VB a/DT serious/JJ look/NN at/IN how/WRB we/PRP 're/VBP doing/VBG our/PRP$ curriculum/NN and/CC our/PRP$ testing/NN policies/NNS *T*-2/-NONE- in/IN this/DT state/NN ,/, ''/'' said/VBD *T*-3/-NONE- the/DT talk-show/NN host/NN ./.
+<s>/<s> Editorials/NNS in/IN the/DT Greenville/NNP newspaper/NN allowed/VBD that/IN Mrs./NNP Yeargin/NNP was/VBD wrong/JJ ,/, but/CC also/RB said/VBD 0/-NONE- the/DT case/NN showed/VBD how/WRB testing/NN was/VBD being/VBG overused/VBN *-2/-NONE- *T*-1/-NONE- ./.
+<s>/<s> The/DT radio/NN show/NN ``/`` enraged/VBD us/PRP ,/, ''/'' says/VBZ *T*-1/-NONE- Mrs./NNP Ward/NNP ./.
+<s>/<s> Partly/RB because/IN of/IN the/DT show/NN ,/, Mr./NNP Watson/NNP says/VBZ 0/-NONE- *T*-1/-NONE- ,/, the/DT district/NN decided/VBD not/RB *-2/-NONE- to/TO recommend/VB Mrs./NNP Yeargin/NNP for/IN a/DT first-time/JJ offenders/NNS program/NN that/WDT *T*-99/-NONE- could/MD have/VB expunged/VBN the/DT charges/NNS and/CC the/DT conviction/NN from/IN her/PRP$ record/NN ./.
+<s>/<s> And/CC legal/JJ authorities/NNS cranked/VBD up/RP an/DT investigation/NN worthy/JJ of/IN a/DT murder/NN case/NN ./.
+<s>/<s> Over/IN 50/CD witnesses/NNS ,/, mostly/RB students/NNS ,/, were/VBD interviewed/VBN *-1/-NONE- ./.
+<s>/<s> At/IN Greenville/NNP High/NNP School/NNP ,/, meanwhile/RB ,/, some/DT students/NNS --/: especially/RB on/IN the/DT cheerleading/NN squad/NN --/: were/VBD crushed/JJ *-1/-NONE- ./.
+<s>/<s> ``/`` It/PRP *EXP*-1/-NONE- 's/VBZ hard/JJ */-NONE- to/TO explain/VB to/TO a/DT 17-year-old/JJ why/WRB someone/NN 0/-NONE- they/PRP like/VBP *T*-2/-NONE- had/VBD *-3/-NONE- to/TO go/VB ,/, ''/'' says/VBZ *T*-4/-NONE- Mrs./NNP Ward/NNP ./.
+<s>/<s> 

@@ -14,7 +14,7 @@ public class play {
 //		String testing = "P/P";
 //		System.out.println(testing.replace("/", ""));
 		
-		File train = new File("test.txt");
+		File train = new File("train.txt");
 		Scanner input = new Scanner(train);
 		String wholeFile = "";
 		while(input.hasNextLine()){
@@ -25,6 +25,7 @@ public class play {
 		
 		PrintWriter writer = new PrintWriter(train);
 		writer.write(wholeFile.replaceAll("\n", "\n<s>/<s> "));
+		writer.close();
 	}
 
 }
