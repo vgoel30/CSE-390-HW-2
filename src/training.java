@@ -45,11 +45,14 @@ public class training {
 			wholeFile += input.next() + "\n";
 		}
 		input.close();
-
+		
+		
 		//get the word/tag couple
 		String[] couples = ProcessingMethods.getCouples(wholeFile);
 
 		int length = couples.length;
+		
+		System.out.println(couples[0]);
 
 		//going over the text file and generating the required hashmaps
 		for(int i = 0; i < length; i++){
@@ -59,6 +62,7 @@ public class training {
 
 			wordAndTag.put(word, tag);
 			
+			//generating the hash-map for all the tags in test with an index for the HMM
 			if(!tag.equals("2")&&!tag.equals("McGraw-Hill")&&!tag.equals("winter")){
 				tagsInTraining.putIfAbsent(tag, tagsInTraining.size() + 1);
 			}
@@ -75,11 +79,13 @@ public class training {
 		
 		}
 		
+		//System.out.println(wordAndTag.get("<s>"));
+		
 		tagsFrequency.remove("2");
 		tagsFrequency.remove("McGraw-Hill");
 		tagsFrequency.remove("winter");
 		
-		System.out.println(tagsInTraining);
+
 
 		StringWriter sw = new StringWriter();
 

@@ -25,7 +25,6 @@ public class FrequencyTagger {
 		//the word and tag pair obtained after parsing the JSON file
 		TreeMap<String,String> wordAndTagMap = new TreeMap<String,String>();
 
-
 		//PARSING TEST FILE
 		File test = new File("test.txt");
 
