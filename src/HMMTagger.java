@@ -96,7 +96,7 @@ public class HMMTagger {
 		int T = tagsMap.size();
 
 
-		String[] bestTags = new String[n];
+		int[] bestTagsIndex = new int[n];
 
 		double[][] bestPaths = new double[n][T];
 		int[][] backPointers = new int[n][T];
@@ -115,7 +115,7 @@ public class HMMTagger {
 				emissionProbability = B.get(currentTag + "+UNK");
 			}
 			bestPaths[0][i] = A.get("<s>+"+currentTag)*emissionProbability;
-			backPointers[0][i] = 0; //index of the start tag
+			backPointers[0][i] = 1; //index of the start tag
 		}
 
 		//forward pass
@@ -167,19 +167,22 @@ public class HMMTagger {
 				bestIndex = k;
 			}
 		}
-		bestTags[n-1] = tagsMap.get(bestIndex + 1);
+		bestTagsIndex[n-1] = bestIndex + 1;
 
-		//System.out.println(bestTags);
+		//System.out.println(bestTagsIndex);
+		//printArray(bestTagsIndex);
+		//System.out.println(bestTagsIndex[n-1]);
+
+		for(int k = n-2; k >=0; k--){
+			int firstIndex = k+1;
+			int secondIndex = bestTagsIndex[k+1]-1;
+			bestTagsIndex[k] = backPointers[firstIndex][secondIndex];
+		}
+		String[] bestTags = new String[n];
+		for(int i = 0; i < n; i++){
+			bestTags[i] = tagsMap.get(bestTagsIndex[i]);
+		}
 		printArray(bestTags);
-		//System.out.println(bestTags[n-1]);
-
-		//		for(int k = n-2; k >=0; k--){
-		//			int firstIndex = k+1;
-		//			String secondIndexTag = bestTags.get(k+1);
-		//			
-		//			
-		//			bestTags.add(k, "");
-		//		}
 	}
 
 	public static void printArray(String[] array){

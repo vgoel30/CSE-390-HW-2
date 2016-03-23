@@ -56,6 +56,8 @@ public class training {
 		int length = couples.length;
 
 		System.out.println(couples[0]);
+		
+		
 
 		//going over the text file and generating the required hashmaps
 		for(int i = 0; i < length; i++){
@@ -81,7 +83,7 @@ public class training {
 
 			}
 			ProcessingMethods.putStringInHashMap(word, wordsFrequency);
-			ProcessingMethods.putStringInHashMap(tag, tagsFrequency);
+			ProcessingMethods.putStringInLaplaceHashMap(tag, tagsFrequency);
 		}
 
 

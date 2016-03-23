@@ -12,6 +12,13 @@ public class ProcessingMethods {
 			map.put(toPut,1.0);
 	}
 	
+	public static void putStringInLaplaceHashMap(String toPut,HashMap<String, Double> map){
+		if(map.get(toPut) != null)
+			map.put(toPut, map.get(toPut) + 1);
+		else
+			map.put(toPut,2.0);
+	}
+	
 	//helper method to place a word in the hashmap
 		public static void putStringInHashMap(String toPut,TreeMap<String, Double> map){
 			if(map.get(toPut) != null)

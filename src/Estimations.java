@@ -56,9 +56,9 @@ public class Estimations {
 			return 	(wordTagCouple.get(tag + "+" + word) + 1)/(tagsFrequency.get(tag) + wordTagCouple.size()+1); 
 		else{
 			if(tagsFrequency.get(tag) != null)
-				return 1/(tagsFrequency.get(tag) + wordTagCouple.size());
+				return 1/(tagsFrequency.get(tag) + wordTagCouple.size()+2);
 			else
-				return 1/(wordTagCouple.size()+1);
+				return 1/(wordTagCouple.size()+2);
 		}
 	}
 
