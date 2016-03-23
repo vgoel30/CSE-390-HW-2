@@ -22,7 +22,7 @@ public class Estimations {
 		if(tagsFrequency.get(tag) != null && tagWordCouple.get(tag + "+" + word) != null)
 			return 	tagWordCouple.get(tag + "+" + word)/tagsFrequency.get(tag);
 		else
-			return 5;
+			return 0;
 	}
 
 	public static double emissionMLE(String key, HashMap<String, Double> tagsFrequency, HashMap<String, Double> tagWordCouple ){
@@ -34,9 +34,14 @@ public class Estimations {
 	//the laplace transition probability
 	public static double transitionLaplace(String firstTag, String secondTag, HashMap<String, Double> tagsFrequency, HashMap<String, Double> tagCouple){
 		if(tagsFrequency.get(firstTag) != null && tagCouple.get(firstTag + "+" + secondTag) != null)
-			return 	(tagCouple.get(firstTag + "+" + secondTag) + 1)/(tagsFrequency.get(firstTag) + tagsFrequency.size());
-		else
-			return 1/tagsFrequency.size();
+			return 	(tagCouple.get(firstTag + "+" + secondTag) + 1)/(tagsFrequency.get(firstTag) + tagsFrequency.size()+1);
+		else{
+			if(tagsFrequency.get(firstTag) != null)
+				return 1/(tagsFrequency.get(firstTag) + tagCouple.size()+1);
+			else
+				return 1/(tagCouple.size()+1);
+		}
+
 	}
 
 	public static double transitionLaplace(String key, HashMap<String, Double> tagsFrequency, HashMap<String, Double> tagCouple ){
@@ -48,9 +53,13 @@ public class Estimations {
 	//the laplace emissions probability
 	public static double emissionLaplace(String tag, String word, HashMap<String, Double> tagsFrequency, HashMap<String, Double> wordTagCouple){
 		if(tagsFrequency.get(tag) != null && wordTagCouple.get(tag + "+" + word) != null)
-			return 	(wordTagCouple.get(tag + "+" + word) + 1)/(tagsFrequency.get(tag) + tagsFrequency.size()); 
-		else
-			return 1/tagsFrequency.size();
+			return 	(wordTagCouple.get(tag + "+" + word) + 1)/(tagsFrequency.get(tag) + wordTagCouple.size()+1); 
+		else{
+			if(tagsFrequency.get(tag) != null)
+				return 1/(tagsFrequency.get(tag) + wordTagCouple.size());
+			else
+				return 1/(wordTagCouple.size()+1);
+		}
 	}
 
 	public static double emissionLaplace(String key, HashMap<String, Double> tagsFrequency, HashMap<String, Double> tagWordCouple ){

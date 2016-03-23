@@ -27,6 +27,9 @@ public class training {
 		//Hash Map with all the neighboring tag couples and their respective frequency
 		HashMap<String, Double> tagCouple = new HashMap<String, Double>();
 
+		//Hash Map with all the neighboring tag couples and their respective frequency for laplace
+		HashMap<String, Double> tagCoupleLaplace = new HashMap<String, Double>();
+
 		//Hash Map with all the word/tag couples and their respective frequency
 		HashMap<String, Double> tagWordCouple = new HashMap<String, Double>();
 
@@ -45,13 +48,13 @@ public class training {
 			wholeFile += input.next() + "\n";
 		}
 		input.close();
-		
-		
+
+
 		//get the word/tag couple
 		String[] couples = ProcessingMethods.getCouples(wholeFile);
 
 		int length = couples.length;
-		
+
 		System.out.println(couples[0]);
 
 		//going over the text file and generating the required hashmaps
@@ -60,32 +63,41 @@ public class training {
 			String word = couple.split("/")[0];
 			String tag = couple.split("/")[1];
 
-			wordAndTag.put(word, tag);
-			
-			//generating the hash-map for all the tags in test with an index for the HMM
+
 			if(!tag.equals("2")&&!tag.equals("McGraw-Hill")&&!tag.equals("winter")){
+				wordAndTag.put(word, tag);
+				//Adding the unknown tag for easier parsing
+				tagWordCouple.putIfAbsent(tag + "+UNK", 1.0);
+				//generating the hash-map for all the tags in test with an index for the HMM
 				tagsInTraining.putIfAbsent(tag, tagsInTraining.size() + 1);
 			}
 
 			if(i >= 1){
 				String previousCouple = couples[i-1].trim();
 				String previousTag = previousCouple.split("/")[1];
-
+				ProcessingMethods.putStringInHashMap(previousTag + "+" + tag,tagCoupleLaplace);
 				ProcessingMethods.putStringInHashMap(previousTag + "+" + tag,tagCouple);
 				ProcessingMethods.putStringInHashMap(tag + "+" + word, tagWordCouple);
+
 			}
 			ProcessingMethods.putStringInHashMap(word, wordsFrequency);
 			ProcessingMethods.putStringInHashMap(tag, tagsFrequency);
-		
 		}
-		
-		//System.out.println(wordAndTag.get("<s>"));
-		
+
+
+
+		//removing unnecessary tags
 		tagsFrequency.remove("2");
 		tagsFrequency.remove("McGraw-Hill");
 		tagsFrequency.remove("winter");
-		
 
+		//adds the laplace smoothed tag pair for easier and faster decoding in the viterbi decoding
+		for(String firstTag:tagsFrequency.keySet()){
+			for(String secondTag:tagsFrequency.keySet()){
+				String toAdd = firstTag + "+" + secondTag;
+				tagCoupleLaplace.putIfAbsent(toAdd, 1.0);
+			}
+		}
 
 		StringWriter sw = new StringWriter();
 
@@ -121,7 +133,7 @@ public class training {
 		jsonWriter = writerFactory.createWriter(sw);
 
 		arrayBuilder = Json.createArrayBuilder();
-		JSONMethods.generateTransitionLaplaceJsonArray(tagCouple, arrayBuilder, tagsFrequency, tagCouple);
+		JSONMethods.generateTransitionLaplaceJsonArray(tagCoupleLaplace, arrayBuilder, tagsFrequency, tagCoupleLaplace);
 		JsonArray transitionLaplace = arrayBuilder.build();
 		dataManagerJSO = Json.createObjectBuilder()
 				.add("Laplace Transitions", transitionLaplace)
@@ -232,7 +244,7 @@ public class training {
 		pw = new PrintWriter("laplace-tag-unigrams.json");
 		pw.write(prettyPrinted);
 		pw.close();
-		
+
 		//BUILDING THE TAG FREQUENCY JSON ARRAY
 		sw = new StringWriter();
 		writerFactory = Json.createWriterFactory(properties);

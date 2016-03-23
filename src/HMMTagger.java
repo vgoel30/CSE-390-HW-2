@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
+import java.util.TreeMap;
 
 import javax.json.JsonArray;
 import javax.json.JsonNumber;
@@ -12,15 +13,17 @@ public class HMMTagger {
 
 	public static void main(String[] args) throws IOException {
 		//the hash map has all the tags and a corresponding index for the viterbi algorithm's matrices
-		HashMap<String,Integer> tagsMap = new HashMap<String,Integer>();
+		TreeMap<Integer,String> tagsMap = new TreeMap<Integer,String>();
 		JsonArray tagsJsonArray  = JSONMethods.loadJSONFile("tags.json").getJsonArray("Tags");
 		int totalTags = tagsJsonArray.size();
 		//building the map from the JSON file
 		for(int j = 0; j < totalTags; j++){
 			String tag = (String) tagsJsonArray.getJsonObject(j).keySet().toArray()[0];
 			JsonNumber value = (JsonNumber) tagsJsonArray.getJsonObject(j).get(tag);
-			tagsMap.put(tag,value.intValue());
+			tagsMap.put(value.intValue(),tag);
 		}
+		
+		System.out.println(tagsMap);
 
 		//the hash map with all the transition probabilities
 		HashMap<String,Double> A = new HashMap<String, Double>();
@@ -75,10 +78,31 @@ public class HMMTagger {
 				S.add(word);
 			}
 
-			System.out.println(S);
+			//System.out.println(S);
 			//run Viterbi algorithm here
 		}
-
+		
+		
+	}
+	
+	/**
+	 * 
+	 * @param S is the input sentence, stored as an array. S[i] is the i(th) word in the sentence.
+	 * @param A contains transition probabilities
+	 * @param B contains emission probabilities
+	 * @param tagsMap has all the tags in the training set
+	 */
+	public static void Viterbi(ArrayList<String> S, HashMap<String,Double> A, HashMap<String,Double> B, HashMap<String,Integer> tagsMap){
+		int n = S.size();
+		int T = tagsMap.size();
+		
+		double[][] bestPaths = new double[n][T];
+		int[][] backPointers = new int[n][T];
+		
+		for(int i = 0; i < T; i++){
+			bestPaths[0][i] = A.get("<s>+"+tagsMap.get(i));
+		}
+		
 	}
 
 }
