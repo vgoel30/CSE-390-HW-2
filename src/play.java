@@ -2,6 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
+import java.util.TreeMap;
 
 
 public class play {
@@ -26,6 +27,11 @@ public class play {
 		input.close();
 		//System.out.println(wholeFile.replaceAll("\n", "\n<s>/<s> "));
 		//System.out.println(wholeFile);
+		
+		TreeMap<Double, String> lala = new TreeMap<Double, String>();
+		lala.put(5.0, "a");
+		lala.put(6.0, "b");
+		System.out.println(lala.lastEntry());
 
 	}
 
