@@ -1,7 +1,9 @@
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
 
@@ -47,8 +49,7 @@ public class HMMTagger {
 			B.put(tag,value.doubleValue());
 		}
 
-		
-
+	
 		//PARSING TEST FILE
 		File test = new File("test.txt");
 
@@ -79,10 +80,9 @@ public class HMMTagger {
 			}
 
 			//System.out.println(S);
-			//run Viterbi algorithm here
+			Viterbi(S, A, B, tagsMap);
 		}
-		
-		
+			
 	}
 	
 	/**
@@ -92,17 +92,30 @@ public class HMMTagger {
 	 * @param B contains emission probabilities
 	 * @param tagsMap has all the tags in the training set
 	 */
-	public static void Viterbi(ArrayList<String> S, HashMap<String,Double> A, HashMap<String,Double> B, HashMap<String,Integer> tagsMap){
+	public static void Viterbi(ArrayList<String> S, HashMap<String,Double> A, HashMap<String,Double> B, Map<Integer,String> tagsMap){
 		int n = S.size();
 		int T = tagsMap.size();
 		
 		double[][] bestPaths = new double[n][T];
 		int[][] backPointers = new int[n][T];
 		
+		//initializing
 		for(int i = 0; i < T; i++){
-			bestPaths[0][i] = A.get("<s>+"+tagsMap.get(i));
+			String currentTag = tagsMap.get(i+1);
+			String firstWord = S.get(1);
+			double emissionProbability = 0;
+			
+			if(B.get(currentTag + "+" + firstWord) != null){
+				emissionProbability = B.get(currentTag + "+" + firstWord);
+			}
+			//if not present, get the UNK probability 
+			else{
+				emissionProbability = B.get(currentTag + "+UNK");
+			}
+			bestPaths[0][i] = A.get("<s>+"+currentTag)*emissionProbability;
+			backPointers[0][i] = 0;
 		}
-		
+		System.out.println(bestPaths[0][4]);
 	}
 
 }

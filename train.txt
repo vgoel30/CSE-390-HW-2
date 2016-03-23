@@ -798,4 +798,3 @@
 <s>/<s> Over/IN 50/CD witnesses/NNS ,/, mostly/RB students/NNS ,/, were/VBD interviewed/VBN *-1/-NONE- ./.
 <s>/<s> At/IN Greenville/NNP High/NNP School/NNP ,/, meanwhile/RB ,/, some/DT students/NNS --/: especially/RB on/IN the/DT cheerleading/NN squad/NN --/: were/VBD crushed/JJ *-1/-NONE- ./.
 <s>/<s> ``/`` It/PRP *EXP*-1/-NONE- 's/VBZ hard/JJ */-NONE- to/TO explain/VB to/TO a/DT 17-year-old/JJ why/WRB someone/NN 0/-NONE- they/PRP like/VBP *T*-2/-NONE- had/VBD *-3/-NONE- to/TO go/VB ,/, ''/'' says/VBZ *T*-4/-NONE- Mrs./NNP Ward/NNP ./.
-<s>/<s> 
