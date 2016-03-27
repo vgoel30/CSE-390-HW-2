@@ -73,9 +73,26 @@ public class Evaluator {
 		actualTagsCountMap.remove("McGraw-Hill");
 		words.removeAll(words);
 
+		char choice = 'K';
+		Scanner s = new Scanner(System.in);
+
+
+		System.out.println("Which method's estimates do you want (input A or B)?\nA)Frequency\nB)HMM");
+		choice = s.next().charAt(0);	
+		s.close();
+
+		JsonArray predictedTagsCountArray;
+		int predictedTagsCountArraySize = 0;
+
 		//now load the predicted tags json file
-		JsonArray predictedTagsCountArray  = JSONMethods.loadJSONFile("predicted-tags.json").getJsonArray("Predicted Tags");
-		int predictedTagsCountArraySize = predictedTagsCountArray.size();
+		if(choice == 'A'){
+			predictedTagsCountArray  = JSONMethods.loadJSONFile("predicted-tags.json").getJsonArray("Predicted Tags");
+			predictedTagsCountArraySize = predictedTagsCountArray.size();
+		}
+		else{
+			predictedTagsCountArray  = JSONMethods.loadJSONFile("predicted-tags-hmm.json").getJsonArray("Predicted Tags");
+			predictedTagsCountArraySize = predictedTagsCountArray.size();
+		}
 
 		for(int j = 0; j < predictedTagsCountArraySize; j++){
 			String word = (String) predictedTagsCountArray.getJsonObject(j).keySet().toArray()[0];
@@ -118,7 +135,7 @@ public class Evaluator {
 				confusionMatrix.put(confusionMatrixTag, 0.0);
 			}
 		}
-		
+
 		double correctPredictions = 0;
 
 		//comparing each tag in the actual word/tag map with the predicted to check inaccuracies
@@ -157,7 +174,7 @@ public class Evaluator {
 			tagF1Map.put(tag, F1);
 		}
 
-		
+
 
 		//printing out the confusion matrix
 		Set<String> classNames = new HashSet<String>();
