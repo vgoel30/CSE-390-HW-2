@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.Map;
 import java.util.TreeMap;
 
 
@@ -68,6 +69,81 @@ public class TaggerMethods {
 
 
 		if(previousTag.equals("TO")||word.equalsIgnoreCase("favor")){
+			return "VB";
+		}
+
+		if(word.contains("continue")||word.contains("oppose")||word.contains("plant")||word.contains("stop")||word.contains("involve")
+				||word.contains("dispute")||word.contains("debate")||word.contains("courage")||word.contains("cause")
+				||word.contains("prove")||word.equalsIgnoreCase("saw")||word.contains("leap")||word.contains("swap")
+				||word.contains("los")||word.contains("cry")||word.contains("stem")||
+				word.contains("wish")||word.contains("sen")||word.contains("mail")||word.contains("hire")
+				||word.contains("spark")||word.contains("notice")||word.contains("submit")||word.contains("punish")
+				||word.substring(length-2, length).equals("te")||word.substring(length-2, length).equals("ze"))
+			return "VB";
+
+		return "NN";
+	}
+	
+	public static String handleNewWord(String word, Map<String, String> wordsAndTags, Map<String, String> predictedTagsMap){
+		if(predictedTagsMap.containsKey(word))
+			return predictedTagsMap.get(word);
+		
+		if(wordsAndTags.containsKey(word))
+			return wordsAndTags.get(word);
+
+		if(wordsAndTags.containsKey(word.toLowerCase()))
+			return wordsAndTags.get(word.toLowerCase());
+		
+		if(wordsAndTags.containsKey(word.toUpperCase()))
+			return wordsAndTags.get(word.toUpperCase());
+
+		int length = word.length();
+
+		if(word.charAt(0) >= 65 && word.charAt(0) <= 90 ){
+			if(word.charAt(length-1) == 115)
+				return "NNPS";
+			else
+				return "NNP";
+		}
+
+		if(word.contains("*"))
+			return "-NONE-";
+
+		//for number related
+		if(word.matches(".*[\\d]+.*")){
+
+			if(word.matches("[\\d]+[\\W][\\d]+")||word.matches("[\\d]+"))
+				return "CD";
+			else
+				return "JJ";
+		}
+
+		if(word.substring(length-2,length).toLowerCase().equals("ed")){
+				return "VBN";
+		}
+
+		if(length >= 2){
+			if(word.substring(length-2,length).toLowerCase().equals("ly"))
+				return "RB";
+			else if(word.substring(length-2,length).toLowerCase().equals("th"))
+				return "JJ";
+		}
+
+		if(length >= 3){
+			if(word.substring(length-3,length).toLowerCase().equals("ing")){
+				return "VBG";
+			}}
+
+
+		if(word.charAt(length-1) == 115)
+			return "NNS";
+
+
+		if(word.equalsIgnoreCase("familiar"))
+			return "JJ";
+
+
+		if(word.equalsIgnoreCase("favor")){
 			return "VB";
 		}
 

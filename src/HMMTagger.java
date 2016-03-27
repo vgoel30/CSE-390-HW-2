@@ -1,27 +1,45 @@
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStream;
+import java.io.PrintWriter;
+import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
 
+import javax.json.Json;
 import javax.json.JsonArray;
+import javax.json.JsonArrayBuilder;
 import javax.json.JsonNumber;
+import javax.json.JsonObject;
+import javax.json.JsonString;
+import javax.json.JsonWriter;
+import javax.json.JsonWriterFactory;
+import javax.json.stream.JsonGenerator;
 
 
 public class HMMTagger {
 
 	public static void main(String[] args) throws IOException {
 		//the tree map has all the tags as a value linked to an integer key (the index for Viterbi)
-		TreeMap<Integer,String> tagsMap = new TreeMap<Integer,String>();
+		TreeMap<Integer,String> keyTagMap = new TreeMap<Integer,String>();
+
+		//TreeMap<String,Integer> tagKeyMap = new TreeMap<String, Integer>();
+
+		//the word and tag pair obtained after parsing the JSON file
+		TreeMap<String,String> wordAndTagMap = new TreeMap<String,String>();
+
 		JsonArray tagsJsonArray  = JSONMethods.loadJSONFile("tags.json").getJsonArray("Tags");
 		int totalTags = tagsJsonArray.size();
 		//building the map from the JSON file
 		for(int j = 0; j < totalTags; j++){
 			String tag = (String) tagsJsonArray.getJsonObject(j).keySet().toArray()[0];
 			JsonNumber value = (JsonNumber) tagsJsonArray.getJsonObject(j).get(tag);
-			tagsMap.put(value.intValue(),tag);
+			keyTagMap.put(value.intValue(),tag);
 		}
 
 		//the hash map with all the transition probabilities
@@ -46,6 +64,16 @@ public class HMMTagger {
 			B.put(tag,value.doubleValue());
 		}
 
+		//the array of all the word and their corresponding tags
+		JsonArray wordAndTagArray = JSONMethods.loadJSONFile("word-tag.json").getJsonArray("Word And Tag");
+		int size = wordAndTagArray.size();
+
+		for(int j = 0; j < size; j++){
+			String word = (String) wordAndTagArray.getJsonObject(j).keySet().toArray()[0];
+			String tag = ((JsonString) wordAndTagArray.getJsonObject(j).get(word)).toString();
+			wordAndTagMap.put(word.toLowerCase(), tag);
+		}
+
 
 		//PARSING TEST FILE
 		File test = new File("test.txt");
@@ -62,6 +90,8 @@ public class HMMTagger {
 		int totalSentences = sentences.size();
 
 
+		HashMap<String,String> predictedTagsMap = new HashMap<String, String>();
+
 		//go over all the sentences
 		for(int i = 0; i < totalSentences; i++){
 			String[] couples = sentences.get(i).split("\\s+");
@@ -76,11 +106,43 @@ public class HMMTagger {
 				S.add(word);
 			}
 
+			//System.out.println(keyTagMap);
+
 			//System.out.println(S);
 			//call the viterbi algorithm on each sentence
-			Viterbi(S, A, B, tagsMap);
-
+			predictedTagsMap.putAll(Viterbi(S, A, B, keyTagMap, wordAndTagMap));
 		}
+
+		StringWriter sw = new StringWriter();
+
+		Map<String, Object> properties = new HashMap<>(1);
+		properties.put(JsonGenerator.PRETTY_PRINTING, true);
+		JsonWriterFactory writerFactory = Json.createWriterFactory(properties);
+		JsonWriter jsonWriter = writerFactory.createWriter(sw);
+
+		JsonArrayBuilder arrayBuilder = Json.createArrayBuilder();
+		JSONMethods.generateWordTagJsonArray(predictedTagsMap, arrayBuilder);
+		JsonArray predictedTags = arrayBuilder.build();
+
+
+		// THEN PUT IT ALL TOGETHER IN A JsonObject
+		JsonObject dataManagerJSO = Json.createObjectBuilder()
+				.add("Predicted Tags", predictedTags)
+				.build();
+
+
+
+		// AND NOW OUTPUT IT TO A JSON FILE WITH PRETTY PRINTING
+		jsonWriter.writeObject(dataManagerJSO);
+		jsonWriter.close();
+		// INIT THE WRITER
+		OutputStream os = new FileOutputStream("predicted-tags-hmm.json");
+		JsonWriter jsonFileWriter = Json.createWriter(os);
+		jsonFileWriter.writeObject(dataManagerJSO);
+		String prettyPrinted = sw.toString();
+		PrintWriter pw = new PrintWriter("predicted-tags-hmm.json");
+		pw.write(prettyPrinted);
+		pw.close();
 
 	}
 
@@ -89,12 +151,16 @@ public class HMMTagger {
 	 * @param S is the input sentence, stored as an array. S[i] is the i(th) word in the sentence.
 	 * @param A contains transition probabilities
 	 * @param B contains emission probabilities
-	 * @param tagsMap has all the tags in the training set
+	 * @param keyTagMap has all the tags in the training set
+	 * @throws FileNotFoundException 
 	 */
-	public static void Viterbi(ArrayList<String> S, HashMap<String,Double> A, HashMap<String,Double> B, Map<Integer,String> tagsMap){
+	public static HashMap<String, String> Viterbi(ArrayList<String> S, HashMap<String,Double> A, HashMap<String,Double> B, Map<Integer,String> keyTagMap, Map<String,String> wordAndTagMap) throws FileNotFoundException{
 		int n = S.size();
-		int T = tagsMap.size();
+		int T = keyTagMap.size();
 
+		ArrayList<String> predictedTagsList = new ArrayList<String>();
+		HashMap<String, String> predictedTagsMap = new HashMap<String, String>();
+		String predictedTag = "";
 
 		int[] bestTagsIndex = new int[n];
 
@@ -103,7 +169,7 @@ public class HMMTagger {
 
 		//initializing
 		for(int i = 0; i < T; i++){
-			String currentTag = tagsMap.get(i+1);
+			String currentTag = keyTagMap.get(i+1);
 			String firstWord = S.get(1);
 			double emissionProbability = 0;
 
@@ -117,6 +183,8 @@ public class HMMTagger {
 			bestPaths[0][i] = A.get("<s>+"+currentTag)*emissionProbability;
 			backPointers[0][i] = 1; //index of the start tag
 		}
+		predictedTagsList.add("<s>");
+
 
 		//forward pass
 		for(int i = 1; i < n; i++){
@@ -126,21 +194,26 @@ public class HMMTagger {
 			for(int j = 0; j < T; j++){
 				//will sort the values as we the along and link them to the best tag sequence automatically.
 				//double is the probability value and integer is the tag's index
-				TreeMap<Double,Integer> maxValueMap = new TreeMap<Double, Integer>();
-				String tagJ = tagsMap.get(j+1);
+				TreeMap<Double,Integer> maxValueUnknownMap = new TreeMap<Double, Integer>();
+				//the map with the known tag-word pairs
+				TreeMap<Double,Integer> maxValueKnownMap = new TreeMap<Double, Integer>();
+				String tagJ = keyTagMap.get(j+1);
 
 				//go over all the tag sets 
 				for(int k = 0; k < T; k++){
-					double transition = A.get(tagsMap.get(k+1) + "+" + tagJ);
+					double transition = A.get(keyTagMap.get(k+1) + "+" + tagJ);
 					double emission = 0;
+
+					boolean pairExists = false;
 
 					//if the emission exists, get the emission probability value
 					if(B.get(tagJ + "+" + word) != null){
 						emission = B.get(tagJ + "+" + word);
+						pairExists = true;
 					}
 					//if not present, get the UNK probability 
 					else{
-						emission = B.get(tagJ + "+UNK");
+						emission = 0.004;//B.get(tagJ + "+UNK");
 					}
 
 					//get the log sum to prevent underflow
@@ -148,16 +221,32 @@ public class HMMTagger {
 					//get the actual probability value
 					probability = Math.exp(probability);
 
-					//put the probability as the key (faster sorting) and the tag's index as the value
-					maxValueMap.put(probability, k+1);
+					if(pairExists){
+						maxValueKnownMap.put(probability, k+1);
+					}
+					else{
+						maxValueUnknownMap.put(probability, k+1);
+						//System.out.println(maxValueUnknownMap);
+					}
 				}
-				//the highest probability
-				bestPaths[i][j] = maxValueMap.lastKey();
-				//the tag index which is giving the highest probability
-				backPointers[i][j] = maxValueMap.get(maxValueMap.lastKey());
+				if(maxValueUnknownMap.size() > 0){
+					//the highest probability
+					bestPaths[i][j] = maxValueUnknownMap.lastKey();
+					//the tag index which is giving the highest probability
+					backPointers[i][j] = maxValueUnknownMap.get(bestPaths[i][j]);
+				}
+				else{
+					//the highest probability
+					bestPaths[i][j] = maxValueKnownMap.lastKey();
+					//the tag index which is giving the highest probability
+					backPointers[i][j] = maxValueKnownMap.get(bestPaths[i][j]);
+				}
 			}
-
+			predictedTag = TaggerMethods.handleNewWord(word, wordAndTagMap, predictedTagsMap).replace("\"", "");
+			predictedTagsList.add(predictedTag);
+			predictedTagsMap.putIfAbsent(word, predictedTag);
 		}
+
 		//backtrace
 		double highestValue = 0;
 		int bestIndex = 0;
@@ -169,10 +258,6 @@ public class HMMTagger {
 		}
 		bestTagsIndex[n-1] = bestIndex + 1;
 
-		//System.out.println(bestTagsIndex);
-		//printArray(bestTagsIndex);
-		//System.out.println(bestTagsIndex[n-1]);
-
 		for(int k = n-2; k >=0; k--){
 			int firstIndex = k+1;
 			int secondIndex = bestTagsIndex[k+1]-1;
@@ -180,9 +265,10 @@ public class HMMTagger {
 		}
 		String[] bestTags = new String[n];
 		for(int i = 0; i < n; i++){
-			bestTags[i] = tagsMap.get(bestTagsIndex[i]);
+			bestTags[i] = predictedTagsList.get(i);
 		}
-		printArray(bestTags);
+		//System.out.println(predictedTagsMap.size());
+		return predictedTagsMap;
 	}
 
 	public static void printArray(String[] array){
