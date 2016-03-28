@@ -2,6 +2,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
+import java.util.Map;
 
 import javax.json.Json;
 import javax.json.JsonArrayBuilder;
@@ -18,7 +19,6 @@ public class JSONMethods {
 		JsonObject json = jsonReader.readObject();
 		jsonReader.close();
 		is.close();
-		//System.out.println(json);
 		return json;
 	}
 
@@ -34,6 +34,21 @@ public class JSONMethods {
 		JsonObject jso = Json.createObjectBuilder().add(key,map.get(key)).build();
 		return jso;
 	}
+	
+	//make a json array for the HMM tagger output
+	public static void generateHMMArray(Map<String, Double> map, JsonArrayBuilder arrayBuilder){
+		for(String key: map.keySet()){
+			JsonObject toAdd = makeHMMArrayObject(map, key);
+			arrayBuilder.add(toAdd);
+		}
+	}
+
+	public static JsonObject makeHMMArrayObject(Map<String, Double> map, String key){
+		JsonObject jso = Json.createObjectBuilder().add(key,map.get(key)).build();
+		return jso;
+	}
+	
+	
 
 	//make a json array for mle transitions
 	public static void generateTransitionMLEJsonArray(HashMap<String, Double> map, JsonArrayBuilder arrayBuilder, HashMap<String, Double> tagFrequency, HashMap<String, Double> tagCouples){

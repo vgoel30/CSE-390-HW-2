@@ -159,7 +159,12 @@ public class HMMTagger {
 		int T = keyTagMap.size();
 
 		ArrayList<String> predictedTagsList = new ArrayList<String>();
+		ArrayList<Double> predictedTagsProbability = new ArrayList<Double>();
 		HashMap<String, String> predictedTagsMap = new HashMap<String, String>();
+
+		HashMap<String,Double> mapToReturn = new HashMap<String, Double>();
+
+
 		String predictedTag = "";
 
 		int[] bestTagsIndex = new int[n];
@@ -232,12 +237,15 @@ public class HMMTagger {
 				if(maxValueUnknownMap.size() > 0){
 					//the highest probability
 					bestPaths[i][j] = maxValueUnknownMap.lastKey();
+					predictedTagsProbability.add(maxValueUnknownMap.lastKey());
 					//the tag index which is giving the highest probability
 					backPointers[i][j] = maxValueUnknownMap.get(bestPaths[i][j]);
 				}
 				else{
+					//double highestProbability = maxValueKnownMap.lastKey();
 					//the highest probability
 					bestPaths[i][j] = maxValueKnownMap.lastKey();
+					predictedTagsProbability.add(maxValueKnownMap.lastKey());
 					//the tag index which is giving the highest probability
 					backPointers[i][j] = maxValueKnownMap.get(bestPaths[i][j]);
 				}
@@ -263,11 +271,13 @@ public class HMMTagger {
 			int secondIndex = bestTagsIndex[k+1]-1;
 			bestTagsIndex[k] = backPointers[firstIndex][secondIndex];
 		}
-		String[] bestTags = new String[n];
+
 		for(int i = 0; i < n; i++){
-			bestTags[i] = predictedTagsList.get(i);
+			//bestTags[i] = predictedTagsList.get(i);
+			//System.out.println(predictedTagsProbability.get(i));
+			mapToReturn.put(S.get(i) + "/" + predictedTagsList.get(i),  predictedTagsProbability.get(i));
 		}
-		//System.out.println(predictedTagsMap.size());
+		System.out.println(mapToReturn+"\n");
 		return predictedTagsMap;
 	}
 
