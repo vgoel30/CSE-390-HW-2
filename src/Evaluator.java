@@ -158,7 +158,7 @@ public class Evaluator {
 			}
 		}
 		double accuracyPercentage = (correctPredictions/actualWordTagMap.size())*100;
-		System.out.println("ACCURACY: " + accuracyPercentage + "%");
+		System.out.println("ACCURACY: " + accuracyPercentage + "%\n" );
 
 		for(String tag: correctTagPredictionsMap.keySet()){
 			double correctPredictionsForTag = correctTagPredictionsMap.get(tag);
